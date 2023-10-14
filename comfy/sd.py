@@ -191,21 +191,30 @@ class VAE:
         return samples
 
     def decode(self, samples_in):
-        self.first_stage_model = self.first_stage_model.to(self.device)
-        try:
-            memory_used = (2562 * samples_in.shape[2] * samples_in.shape[3] * 64) * 1.7
-            model_management.free_memory(memory_used, self.device)
-            free_memory = model_management.get_free_memory(self.device)
-            batch_number = int(free_memory / memory_used)
-            batch_number = max(1, batch_number)
+        devices = [self.device]
+        if hasattr(self.device, 'type') and (self.device.type != 'cpu' and self.device.type != 'mps'):
+            devices.append(torch.device("cpu"))
 
-            pixel_samples = torch.empty((samples_in.shape[0], 3, round(samples_in.shape[2] * 8), round(samples_in.shape[3] * 8)), device="cpu")
-            for x in range(0, samples_in.shape[0], batch_number):
-                samples = samples_in[x:x+batch_number].to(self.vae_dtype).to(self.device)
-                pixel_samples[x:x+batch_number] = torch.clamp((self.first_stage_model.decode(samples).cpu().float() + 1.0) / 2.0, min=0.0, max=1.0)
-        except model_management.OOM_EXCEPTION as e:
-            print("Warning: Ran out of memory when regular VAE decoding, retrying with tiled VAE decoding.")
-            pixel_samples = self.decode_tiled_(samples_in)
+        for device in devices:
+            self.first_stage_model = self.first_stage_model.to(device)
+            try:
+                memory_used = (2562 * samples_in.shape[2] * samples_in.shape[3] * 64) * 1.7
+                model_management.free_memory(memory_used, device)
+                free_memory = model_management.get_free_memory(device)
+                batch_number = int(free_memory / memory_used)
+                batch_number = max(1, batch_number)
+
+                pixel_samples = torch.empty((samples_in.shape[0], 3, round(samples_in.shape[2] * 8), round(samples_in.shape[3] * 8)), device="cpu")
+                for x in range(0, samples_in.shape[0], batch_number):
+                    samples = samples_in[x:x+batch_number].to(self.vae_dtype).to(device)
+                    pixel_samples[x:x+batch_number] = torch.clamp((self.first_stage_model.decode(samples).cpu().float() + 1.0) / 2.0, min=0.0, max=1.0)
+
+                break;
+            except model_management.OOM_EXCEPTION as e:
+                print("Warning: Ran out of memory when regular VAE decoding, retrying with CPU.")
+                continue
+                # print("Warning: Ran out of memory when regular VAE decoding, retrying with tiled VAE decoding.")
+                # pixel_samples = self.decode_tiled_(samples_in)
 
         self.first_stage_model = self.first_stage_model.to(self.offload_device)
         pixel_samples = pixel_samples.cpu().movedim(1,-1)
@@ -218,22 +227,30 @@ class VAE:
         return output.movedim(1,-1)
 
     def encode(self, pixel_samples):
-        self.first_stage_model = self.first_stage_model.to(self.device)
-        pixel_samples = pixel_samples.movedim(-1,1)
-        try:
-            memory_used = (2078 * pixel_samples.shape[2] * pixel_samples.shape[3]) * 1.7 #NOTE: this constant along with the one in the decode above are estimated from the mem usage for the VAE and could change.
-            model_management.free_memory(memory_used, self.device)
-            free_memory = model_management.get_free_memory(self.device)
-            batch_number = int(free_memory / memory_used)
-            batch_number = max(1, batch_number)
-            samples = torch.empty((pixel_samples.shape[0], 4, round(pixel_samples.shape[2] // 8), round(pixel_samples.shape[3] // 8)), device="cpu")
-            for x in range(0, pixel_samples.shape[0], batch_number):
-                pixels_in = (2. * pixel_samples[x:x+batch_number] - 1.).to(self.vae_dtype).to(self.device)
-                samples[x:x+batch_number] = self.first_stage_model.encode(pixels_in).sample().cpu().float()
+        devices = [self.device]
+        if hasattr(self.device, 'type') and (self.device.type != 'cpu' and self.device.type != 'mps'):
+            devices.append(torch.device("cpu"))
 
-        except model_management.OOM_EXCEPTION as e:
-            print("Warning: Ran out of memory when regular VAE encoding, retrying with tiled VAE encoding.")
-            samples = self.encode_tiled_(pixel_samples)
+        for device in devices:
+            self.first_stage_model = self.first_stage_model.to(device)
+            pixel_samples = pixel_samples.movedim(-1,1)
+            try:
+                memory_used = (2078 * pixel_samples.shape[2] * pixel_samples.shape[3]) * 1.7 #NOTE: this constant along with the one in the decode above are estimated from the mem usage for the VAE and could change.
+                model_management.free_memory(memory_used, device)
+                free_memory = model_management.get_free_memory(device)
+                batch_number = int(free_memory / memory_used)
+                batch_number = max(1, batch_number)
+                samples = torch.empty((pixel_samples.shape[0], 4, round(pixel_samples.shape[2] // 8), round(pixel_samples.shape[3] // 8)), device="cpu")
+                for x in range(0, pixel_samples.shape[0], batch_number):
+                    pixels_in = (2. * pixel_samples[x:x+batch_number] - 1.).to(self.vae_dtype).to(device)
+                    samples[x:x+batch_number] = self.first_stage_model.encode(pixels_in).sample().cpu().float()
+
+                break
+            except model_management.OOM_EXCEPTION as e:
+                print("Warning: Ran out of memory when regular VAE encoding, retrying with CPU.")
+                continue
+                # print("Warning: Ran out of memory when regular VAE encoding, retrying with tiled VAE encoding.")
+                # samples = self.encode_tiled_(pixel_samples)
 
         self.first_stage_model = self.first_stage_model.to(self.offload_device)
         return samples
