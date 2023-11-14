@@ -93,6 +93,11 @@ vram_group.add_argument("--cpu", action="store_true", help="To use the CPU for e
 
 parser.add_argument("--disable-smart-memory", action="store_true", help="Force ComfyUI to agressively offload to regular ram instead of keeping models in vram when it can.")
 
+parser.add_argument("--max-temperature", type=int, default=0, help="Don't execute a node if the temperature is above it, but wait cool down to the safe temperature.")
+parser.add_argument("--safe-temperature", type=int, default=0, help="Safe temperature to wait cool down before executin a node.")
+parser.add_argument("--safe-progress-temperature", type=int, default=0, help="Safe temperature to wait cool down between progress.")
+parser.add_argument("--max-cool-down-seconds", type=int, default=0, help="Max seconds to wait the temperature cool down.")
+parser.add_argument("--each-cool-down-seconds", type=int, default=5, help="Seconds to wait the temperature cool down before each measurement.")
 
 parser.add_argument("--dont-print-server", action="store_true", help="Don't print server output.")
 parser.add_argument("--quick-test-for-ci", action="store_true", help="Quick test for CI.")

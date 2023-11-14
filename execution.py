@@ -13,6 +13,7 @@ import torch
 import nodes
 
 import comfy.model_management
+from comfy.utils import wait_cooldown
 
 def get_input_data(inputs, class_def, unique_id, outputs={}, prompt={}, extra_data={}):
     valid_inputs = class_def.INPUT_TYPES()
@@ -164,6 +165,8 @@ def recursive_execute(server, prompt, outputs, current_item, extra_data, execute
         if server.client_id is not None:
             server.last_node_id = unique_id
             server.send_sync("executing", { "node": unique_id, "prompt_id": prompt_id }, server.client_id)
+
+        wait_cooldown(kind="execution")
 
         obj = object_storage.get((unique_id, class_type), None)
         if obj is None:
