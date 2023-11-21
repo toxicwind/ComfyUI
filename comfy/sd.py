@@ -23,6 +23,7 @@ import comfy.model_patcher
 import comfy.lora
 import comfy.t2i_adapter.adapter
 import comfy.supported_models_base
+import comfy.taesd.taesd
 
 def load_model_weights(model, sd):
     m, u = model.load_state_dict(sd, strict=False)
@@ -154,10 +155,16 @@ class VAE:
         if 'decoder.up_blocks.0.resnets.0.norm1.weight' in sd.keys(): #diffusers format
             sd = diffusers_convert.convert_vae_state_dict(sd)
 
+        self.memory_used_encode = lambda shape: (2078 * shape[2] * shape[3]) * 1.7 #These are for AutoencoderKL and need tweaking
+        self.memory_used_decode = lambda shape: (2562 * shape[2] * shape[3] * 64) * 1.7
+
         if config is None:
-            #default SD1.x/SD2.x VAE parameters
-            ddconfig = {'double_z': True, 'z_channels': 4, 'resolution': 256, 'in_channels': 3, 'out_ch': 3, 'ch': 128, 'ch_mult': [1, 2, 4, 4], 'num_res_blocks': 2, 'attn_resolutions': [], 'dropout': 0.0}
-            self.first_stage_model = AutoencoderKL(ddconfig=ddconfig, embed_dim=4)
+            if "taesd_decoder.1.weight" in sd:
+                self.first_stage_model = comfy.taesd.taesd.TAESD()
+            else:
+                #default SD1.x/SD2.x VAE parameters
+                ddconfig = {'double_z': True, 'z_channels': 4, 'resolution': 256, 'in_channels': 3, 'out_ch': 3, 'ch': 128, 'ch_mult': [1, 2, 4, 4], 'num_res_blocks': 2, 'attn_resolutions': [], 'dropout': 0.0}
+                self.first_stage_model = AutoencoderKL(ddconfig=ddconfig, embed_dim=4)
         else:
             self.first_stage_model = AutoencoderKL(**(config['params']))
         self.first_stage_model = self.first_stage_model.eval()
@@ -204,32 +211,34 @@ class VAE:
         return samples
 
     def decode(self, samples_in):
-        devices = [self.device]
-        if hasattr(self.device, 'type') and (self.device.type != 'cpu' and self.device.type != 'mps'):
-            devices.append(torch.device("cpu"))
+        self.first_stage_model = self.first_stage_model.to(self.device)
+        try:
+            memory_used = self.memory_used_decode(samples_in.shape)
+            model_management.free_memory(memory_used, self.device)
+            free_memory = model_management.get_free_memory(self.device)
+            batch_number = int(free_memory / memory_used)
+            batch_number = max(1, batch_number)
 
-        for device in devices:
-            self.first_stage_model = self.first_stage_model.to(device)
-            try:
-                memory_used = (2562 * samples_in.shape[2] * samples_in.shape[3] * 64) * 1.7
-                model_management.free_memory(memory_used, device)
-                free_memory = model_management.get_free_memory(device)
-                batch_number = int(free_memory / memory_used)
-                batch_number = max(1, batch_number)
+            pixel_samples = torch.empty((samples_in.shape[0], 3, round(samples_in.shape[2] * 8), round(samples_in.shape[3] * 8)), device="cpu")
+            for x in range(0, samples_in.shape[0], batch_number):
+                samples = samples_in[x:x+batch_number].to(self.vae_dtype).to(self.device)
+                pixel_samples[x:x+batch_number] = torch.clamp((self.first_stage_model.decode(samples).cpu().float() + 1.0) / 2.0, min=0.0, max=1.0)
+        except model_management.OOM_EXCEPTION as e:
+            tile_size = 64
+            while tile_size >= 8:
+                overlap = tile_size // 4
+                print(f"Warning: Ran out of memory when regular VAE decoding, retrying with tiled VAE decoding with tile size {tile_size} and overlap {overlap}.")
+                try:
+                    pixel_samples = self.decode_tiled_(samples_in, tile_x=tile_size, tile_y=tile_size, overlap=overlap)
+                    break
+                except model_management.OOM_EXCEPTION as e:
+                    pass
+                tile_size -= 8
 
-                pixel_samples = torch.empty((samples_in.shape[0], 3, round(samples_in.shape[2] * 8), round(samples_in.shape[3] * 8)), device="cpu")
-                for x in range(0, samples_in.shape[0], batch_number):
-                    samples = samples_in[x:x+batch_number].to(self.vae_dtype).to(device)
-                    pixel_samples[x:x+batch_number] = torch.clamp((self.first_stage_model.decode(samples).cpu().float() + 1.0) / 2.0, min=0.0, max=1.0)
-
-                break;
-            except model_management.OOM_EXCEPTION as e:
-                print("Warning: Ran out of memory when regular VAE decoding, retrying with CPU.")
-                continue
-                # print("Warning: Ran out of memory when regular VAE decoding, retrying with tiled VAE decoding.")
-                # pixel_samples = self.decode_tiled_(samples_in)
-
-        self.first_stage_model = self.first_stage_model.to(self.offload_device)
+            if pixel_samples is None:
+                raise e
+        finally:
+            self.first_stage_model = self.first_stage_model.to(self.offload_device)
         pixel_samples = pixel_samples.cpu().movedim(1,-1)
         return pixel_samples
 
@@ -240,33 +249,35 @@ class VAE:
         return output.movedim(1,-1)
 
     def encode(self, pixel_samples):
-        devices = [self.device]
-        if hasattr(self.device, 'type') and (self.device.type != 'cpu' and self.device.type != 'mps'):
-            devices.append(torch.device("cpu"))
+        self.first_stage_model = self.first_stage_model.to(self.device)
+        pixel_samples = pixel_samples.movedim(-1,1)
+        try:
+            memory_used = self.memory_used_encode(pixel_samples.shape) #NOTE: this constant along with the one in the decode above are estimated from the mem usage for the VAE and could change.
+            model_management.free_memory(memory_used, self.device)
+            free_memory = model_management.get_free_memory(self.device)
+            batch_number = int(free_memory / memory_used)
+            batch_number = max(1, batch_number)
+            samples = torch.empty((pixel_samples.shape[0], 4, round(pixel_samples.shape[2] // 8), round(pixel_samples.shape[3] // 8)), device="cpu")
+            for x in range(0, pixel_samples.shape[0], batch_number):
+                pixels_in = (2. * pixel_samples[x:x+batch_number] - 1.).to(self.vae_dtype).to(self.device)
+                samples[x:x+batch_number] = self.first_stage_model.encode(pixels_in).cpu().float()
 
-        pixel_samples = pixel_samples.clone().movedim(-1,1)
+        except model_management.OOM_EXCEPTION as e:
+            tile_size = 512
+            while tile_size >= 64:
+                overlap = tile_size // 8
+                print(f"Warning: Ran out of memory when regular VAE encoding, retrying with tiled VAE encoding with tile size {tile_size} and overlap {overlap}.")
+                try:
+                    samples = self.encode_tiled_(pixel_samples, tile_x=tile_size, tile_y=tile_size, overlap=overlap)
+                    break
+                except model_management.OOM_EXCEPTION as e:
+                    pass
+                tile_size -= 64
 
-        for device in devices:
-            self.first_stage_model = self.first_stage_model.to(device)
-            try:
-                memory_used = (2078 * pixel_samples.shape[2] * pixel_samples.shape[3]) * 1.7 #NOTE: this constant along with the one in the decode above are estimated from the mem usage for the VAE and could change.
-                model_management.free_memory(memory_used, device)
-                free_memory = model_management.get_free_memory(device)
-                batch_number = int(free_memory / memory_used)
-                batch_number = max(1, batch_number)
-                samples = torch.empty((pixel_samples.shape[0], 4, round(pixel_samples.shape[2] // 8), round(pixel_samples.shape[3] // 8)), device="cpu")
-                for x in range(0, pixel_samples.shape[0], batch_number):
-                    pixels_in = (2. * pixel_samples[x:x+batch_number] - 1.).to(self.vae_dtype).to(device)
-                    samples[x:x+batch_number] = self.first_stage_model.encode(pixels_in).cpu().float()
-
-                break
-            except model_management.OOM_EXCEPTION as e:
-                print("Warning: Ran out of memory when regular VAE encoding, retrying with CPU.")
-                continue
-                # print("Warning: Ran out of memory when regular VAE encoding, retrying with tiled VAE encoding.")
-                # samples = self.encode_tiled_(pixel_samples)
-
-        self.first_stage_model = self.first_stage_model.to(self.offload_device)
+            if samples is None:
+                raise e
+        finally:
+            self.first_stage_model = self.first_stage_model.to(self.offload_device)
         return samples
 
     def encode_tiled(self, pixel_samples, tile_x=512, tile_y=512, overlap = 64):
