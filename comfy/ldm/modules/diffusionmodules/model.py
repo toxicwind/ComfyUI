@@ -189,7 +189,7 @@ def slice_attention(q, k, v):
             steps *= 2
             if steps > 128:
                 raise e
-            # print("out of memory error, increasing steps and trying again", steps)
+            print("out of memory error, increasing steps and trying again", steps)
 
     return r1
 
