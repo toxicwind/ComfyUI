@@ -212,6 +212,7 @@ class VAE:
 
     def decode(self, samples_in):
         self.first_stage_model = self.first_stage_model.to(self.device)
+        pixel_samples = None
         try:
             memory_used = self.memory_used_decode(samples_in.shape)
             model_management.free_memory(memory_used, self.device)
@@ -251,6 +252,7 @@ class VAE:
     def encode(self, pixel_samples):
         self.first_stage_model = self.first_stage_model.to(self.device)
         pixel_samples = pixel_samples.movedim(-1,1)
+        samples = None
         try:
             memory_used = self.memory_used_encode(pixel_samples.shape) #NOTE: this constant along with the one in the decode above are estimated from the mem usage for the VAE and could change.
             model_management.free_memory(memory_used, self.device)
