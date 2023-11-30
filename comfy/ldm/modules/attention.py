@@ -264,14 +264,14 @@ def attention_split(q, k, v, heads, mask=None):
                 model_management.soft_empty_cache(True)
                 if cleared_cache == False:
                     cleared_cache = True
-                    print("out of memory error, emptying cache and trying again")
+                    # print("out of memory error, emptying cache and trying again")
                     continue
                 steps += 1
                 while (q.shape[1] % steps) != 0 and steps < max_steps:
                     steps += 1
                 if steps > max_steps:
                     raise e
-                print("out of memory error, increasing steps and trying again", steps)
+                # print("out of memory error, increasing steps and trying again", steps)
             else:
                 raise e
 
