@@ -1393,7 +1393,7 @@ export class ComfyApp {
 				for (const inputName in inputs) {
 					const inputData = inputs[inputName];
 					const type = inputData[0];
-                    const extraInfo = {};
+					const extraInfo = {};
 
 					let widgetCreated = true;
 					const widgetType = getWidgetType(inputData, inputName);
@@ -1405,11 +1405,11 @@ export class ComfyApp {
 						}
 					} else {
 						// Node connection inputs
-                        if (inputData[1]?.multiple) {
-                            extraInfo.multiple = true;
-                            extraInfo.shape = LiteGraph.GRID_SHAPE;
-                        }
-                        this.addInput(inputName, type, extraInfo);
+						if (inputData[1]?.multiple) {
+							extraInfo.multiple = true;
+							extraInfo.shape = LiteGraph.GRID_SHAPE;
+						}
+						this.addInput(inputName, type, extraInfo);
 						widgetCreated = false;
 					}
 
