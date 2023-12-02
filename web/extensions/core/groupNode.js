@@ -1,6 +1,5 @@
 import { app } from "../../scripts/app.js";
 import { api } from "../../scripts/api.js";
-import { getWidgetType } from "../../scripts/widgets.js";
 import { mergeIfValid } from "./widgetInputs.js";
 
 const GROUP = Symbol();
@@ -332,7 +331,7 @@ export class GroupNodeConfig {
 		const converted = new Map();
 		const widgetMap = (this.oldToNewWidgetMap[node.index] = {});
 		for (const inputName of inputNames) {
-			let widgetType = getWidgetType(inputs[inputName], inputName);
+			let widgetType = app.getWidgetType(inputs[inputName], inputName);
 			if (widgetType) {
 				const convertedIndex = node.inputs?.findIndex(
 					(inp) => inp.name === inputName && inp.widget?.name === inputName
@@ -1010,7 +1009,7 @@ function addConvertToGroupOptions() {
 	const getCanvasMenuOptions = LGraphCanvas.prototype.getCanvasMenuOptions;
 	LGraphCanvas.prototype.getCanvasMenuOptions = function () {
 		const options = getCanvasMenuOptions.apply(this, arguments);
-		const index = options.findIndex((o) => o?.content === "Add Group") + 1 || opts.length;
+		const index = options.findIndex((o) => o?.content === "Add Group") + 1 || options.length;
 		addOption(options, index);
 		return options;
 	};
@@ -1020,7 +1019,7 @@ function addConvertToGroupOptions() {
 	LGraphCanvas.prototype.getNodeMenuOptions = function (node) {
 		const options = getNodeMenuOptions.apply(this, arguments);
 		if (!GroupNodeHandler.isGroupNode(node)) {
-			const index = options.findIndex((o) => o?.content === "Outputs") + 1 || opts.length - 1;
+			const index = options.findIndex((o) => o?.content === "Outputs") + 1 || options.length - 1;
 			addOption(options, index);
 		}
 		return options;
