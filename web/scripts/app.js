@@ -415,7 +415,7 @@ export class ComfyApp {
 		node.prototype.setSizeForImage = function (force) {
 			if(!force && this.animatedImages) return;
 
-			if (this.inputHeight) {
+			if (this.inputHeight || this.freeWidgetSpace > 210) {
 				this.setSize(this.size);
 				return;
 			}
@@ -1883,6 +1883,8 @@ export class ComfyApp {
 			if (pngInfo) {
 				if (pngInfo.workflow) {
 					await this.loadGraphData(JSON.parse(pngInfo.workflow));
+				} else if (pngInfo.prompt) {
+					this.loadApiJson(JSON.parse(pngInfo.prompt));
 				} else if (pngInfo.parameters) {
 					importA1111(this.graph, pngInfo.parameters);
 				}
@@ -1894,6 +1896,8 @@ export class ComfyApp {
 					this.loadGraphData(JSON.parse(pngInfo.workflow));
 				} else if (pngInfo.Workflow) {
 					this.loadGraphData(JSON.parse(pngInfo.Workflow)); // Support loading workflows from that webp custom node.
+				} else if (pngInfo.prompt) {
+					this.loadApiJson(JSON.parse(pngInfo.prompt));
 				}
 			}
 		} else if (file.type === "application/json" || file.name?.endsWith(".json")) {
@@ -1913,6 +1917,8 @@ export class ComfyApp {
 			const info = await getLatentMetadata(file);
 			if (info.workflow) {
 				await this.loadGraphData(JSON.parse(info.workflow));
+			} else if (info.prompt) {
+				this.loadApiJson(JSON.parse(info.prompt));
 			}
 		}
 	}
