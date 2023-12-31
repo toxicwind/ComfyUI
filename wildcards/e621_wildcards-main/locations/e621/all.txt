@@ -1,0 +1,207 @@
+airport
+alley
+amusement park
+apartment building
+aquarium
+arena
+attic
+aviary
+backyard
+ballroom
+bar
+barn
+basement
+bathhouse
+bathroom
+bathtub
+beach
+beach shower
+bedroom
+birdhouse
+birthday party
+black sky
+blue sky
+bondage theme park
+brown sky
+building
+cabin
+campus
+candy shop
+casino
+castle
+cathedral
+church
+city
+cityscape
+classroom
+clock tower
+clothing store
+cloudscape
+coffee shop
+college
+colosseum
+communal shower
+control room
+cottage
+courtroom
+dark room
+desolate
+diner
+dining room
+dog park
+doghouse
+dungeon
+eiffel tower
+examination room
+factory
+farm
+fish bowl
+fish pond
+fish tank
+fitting room
+forest
+garage
+garden
+garden of eden
+grain silo
+graveyard
+green room
+green sky
+greenhouse
+grey sky
+grocery store
+gym
+hangar
+haunted house
+herpetarium
+high school
+hill
+hospital
+hotel
+hotel room
+house
+hut
+island
+jungle
+junkyard
+kiddie pool
+kitchen
+koi pond
+lake
+lakeside
+landmark
+landscape
+laundromat
+laundry room
+lava pool
+lava waterfall
+library
+lighthouse
+living room
+locker room
+mall
+market
+market stall
+marketplace
+mars
+messy room
+monument
+mountain
+movie theater
+multicolored sky
+nature
+night sky
+nightclub
+nude beach
+observation tower
+office
+orange sky
+outside
+overcast
+padded room
+pagoda
+park
+parking lot
+party
+penthouse
+pet shop
+petting zoo
+pier
+pink sky
+pond
+pool party
+poolside
+public
+public aquarium
+public pool
+public restroom
+public shower
+purple sky
+pyramid
+rave
+rainforest
+red sky
+restaurant
+restroom stall
+roof
+rooftop
+sand dune
+school
+sea
+seabed
+seascape
+seaside
+sex dungeon
+sex shop
+shack
+shed
+shipwreck
+shore
+shower
+shower room
+shower stall
+skate park
+sky
+skyline
+skyscraper
+slave market
+slumber party
+snowscape
+space
+space needle
+spacescape
+stadium
+starry sky
+starscape
+storage room
+store
+street
+strip club
+supermarket
+swimming pool
+tea party
+temple
+tentacle room
+terrarium
+the white house
+throne room
+tokyo tower
+tower
+town
+town hall
+tree house
+two tone sky
+underwater
+university
+valley
+village
+vivarium
+warehouse
+water park
+water tower
+waterfall
+waterscape
+white sky
+workshop
+yellow sky
+zoological gardens
