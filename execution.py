@@ -7,12 +7,14 @@ import threading
 import heapq
 import traceback
 import gc
+import re
 import inspect
 
 import torch
 import nodes
 
 import comfy.model_management
+from comfy.utils import wait_cooldown
 
 def get_input_data(inputs, class_def, unique_id, outputs={}, prompt={}, extra_data={}):
     valid_inputs = class_def.INPUT_TYPES()
@@ -41,6 +43,25 @@ def get_input_data(inputs, class_def, unique_id, outputs={}, prompt={}, extra_da
                     input_data_all[x] = [extra_data['extra_pnginfo']]
             if h[x] == "UNIQUE_ID":
                 input_data_all[x] = [unique_id]
+
+    input_data_all_remove = []
+    input_data_all_add = {}
+
+    for x in input_data_all:
+        m = re.search("(.+)\[(\d*)\]$", x)
+        if m:
+            input_data_all_remove.append(x)
+            x_multiple = m.group(1)
+            if x_multiple not in input_data_all_add:
+                input_data_all_add[x_multiple] = [[] for v in input_data_all[x]]
+            for k, v in enumerate(input_data_all[x]):
+                input_data_all_add[x_multiple][k].append(v)
+
+    for x in input_data_all_remove:
+        del input_data_all[x]
+
+    input_data_all.update(input_data_all_add)
+
     return input_data_all
 
 def map_node_over_list(obj, input_data_all, func, allow_interrupt=False):
@@ -145,6 +166,8 @@ def recursive_execute(server, prompt, outputs, current_item, extra_data, execute
         if server.client_id is not None:
             server.last_node_id = unique_id
             server.send_sync("executing", { "node": unique_id, "prompt_id": prompt_id }, server.client_id)
+
+        wait_cooldown(kind="execution")
 
         obj = object_storage.get((unique_id, class_type), None)
         if obj is None:
@@ -444,7 +467,7 @@ def validate_inputs(prompt, item, validated):
             o_id = val[0]
             o_class_type = prompt[o_id]['class_type']
             r = nodes.NODE_CLASS_MAPPINGS[o_class_type].RETURN_TYPES
-            if r[val[1]] != type_input:
+            if r[val[1]] != type_input and r[val[1]] != "*" and type_input != "*":
                 received_type = r[val[1]]
                 details = f"{x}, {received_type} != {type_input}"
                 error = {
