@@ -45,6 +45,7 @@ parser.add_argument("--input-directory", type=str, default=None, help="Set the C
 parser.add_argument("--auto-launch", action="store_true", help="Automatically launch ComfyUI in the default browser.")
 parser.add_argument("--disable-auto-launch", action="store_true", help="Disable auto launching the browser.")
 parser.add_argument("--cuda-device", type=int, default=None, metavar="DEVICE_ID", help="Set the id of the cuda device this instance will use.")
+parser.add_argument("--extension-device", type=str, default=None, help="Set the device for extensions in the format 'extension:device;extension:device;...'.")
 cm_group = parser.add_mutually_exclusive_group()
 cm_group.add_argument("--cuda-malloc", action="store_true", help="Enable cudaMallocAsync (enabled by default for torch 2.0 and up).")
 cm_group.add_argument("--disable-cuda-malloc", action="store_true", help="Disable cudaMallocAsync.")
@@ -86,6 +87,7 @@ class LatentPreviewMethod(enum.Enum):
     TAESD = "taesd"
 
 parser.add_argument("--preview-method", type=LatentPreviewMethod, default=LatentPreviewMethod.NoPreviews, help="Default preview method for sampler nodes.", action=EnumAction)
+parser.add_argument("--preview-cpu", action="store_true", help="To use the CPU for preview (slow).")
 
 attn_group = parser.add_mutually_exclusive_group()
 attn_group.add_argument("--use-split-cross-attention", action="store_true", help="Use the split cross attention optimization. Ignored when xformers is used.")
@@ -105,6 +107,14 @@ vram_group.add_argument("--cpu", action="store_true", help="To use the CPU for e
 
 parser.add_argument("--disable-smart-memory", action="store_true", help="Force ComfyUI to agressively offload to regular ram instead of keeping models in vram when it can.")
 parser.add_argument("--deterministic", action="store_true", help="Make pytorch use slower deterministic algorithms when it can. Note that this might not make images deterministic in all cases.")
+
+parser.add_argument("--memory-estimation-multiplier", type=float, default=-1, help="Multiplier for the memory estimation.")
+
+parser.add_argument("--max-temperature", type=int, default=0, help="Don't execute a node if the temperature is above it, but wait cool down to the safe temperature.")
+parser.add_argument("--safe-temperature", type=int, default=0, help="Safe temperature to wait cool down before executin a node.")
+parser.add_argument("--safe-progress-temperature", type=int, default=0, help="Safe temperature to wait cool down between progress.")
+parser.add_argument("--max-cool-down-seconds", type=int, default=0, help="Max seconds to wait the temperature cool down.")
+parser.add_argument("--each-cool-down-seconds", type=int, default=5, help="Seconds to wait the temperature cool down before each measurement.")
 
 parser.add_argument("--dont-print-server", action="store_true", help="Don't print server output.")
 parser.add_argument("--quick-test-for-ci", action="store_true", help="Quick test for CI.")

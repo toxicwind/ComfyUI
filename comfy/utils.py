@@ -4,7 +4,33 @@ import struct
 import comfy.checkpoint_pickle
 import safetensors.torch
 import numpy as np
+import inspect
+import os
+import re
 from PIL import Image
+import time
+import psutil
+import GPUtil
+import platform
+import subprocess
+from comfy.cli_args import args
+
+def get_extension_calling():
+    for frame in inspect.stack():
+        if os.sep + "custom_nodes" + os.sep in frame.filename:
+            stack_module = inspect.getmodule(frame[0])
+            if stack_module:
+                stack = []
+
+                parts = re.sub(r".*\.?custom_nodes\.([^\.]+).*", r"\1", stack_module.__name__.replace(os.sep, ".")).split(".")
+
+                while len(parts) > 0:
+                    stack.append(".".join(parts))
+                    parts.pop()
+
+                return stack
+
+    return None
 
 def load_torch_file(ckpt, safe_load=False, device=None):
     if device is None:
@@ -456,6 +482,119 @@ class ProgressBar:
         self.current = value
         if self.hook is not None:
             self.hook(self.current, self.total, preview)
+        wait_cooldown(kind="progress")
 
     def update(self, value):
         self.update_absolute(self.current + value)
+
+def clear_line(n=1):
+    LINE_UP = '\033[1A'
+    LINE_CLEAR = '\x1b[2K'
+    for i in range(n):
+        print(LINE_UP, end=LINE_CLEAR)
+
+def func_sleep(seconds, pbar=None):
+    while seconds > 0:
+        print(f"Sleeping {seconds} seconds")
+        time.sleep(1)
+        seconds -= 1
+        clear_line()
+        if pbar is not None:
+            pbar.update(1)
+
+def get_processor_name():
+    if platform.system() == "Windows":
+        return platform.processor()
+    elif platform.system() == "Darwin":
+        os.environ['PATH'] = os.environ['PATH'] + os.pathsep + '/usr/sbin'
+        command ="sysctl -n machdep.cpu.brand_string"
+        return subprocess.check_output(command).strip()
+    elif platform.system() == "Linux":
+        command = "cat /proc/cpuinfo"
+        all_info = subprocess.check_output(command, shell=True).decode().strip()
+        for line in all_info.split("\n"):
+            if "model name" in line:
+                return re.sub(".*model name.*:", "", line, 1).strip()
+    return ""
+
+def get_temperatures():
+    temperatures = []
+
+    if platform.system() == "Linux":
+        cpu_max_temp = 0
+
+        for k, v in psutil.sensors_temperatures(fahrenheit=False).items():
+            for t in v:
+                if t.current > cpu_max_temp:
+                    cpu_max_temp = t.current
+
+        temperatures.append({
+            "label": get_processor_name(),
+            "temperature": cpu_max_temp,
+            "kind": "CPU",
+        })
+
+    for gpu in GPUtil.getGPUs():
+        temperatures.append({
+            "label": gpu.name,
+            "temperature": gpu.temperature,
+            "kind": "GPU",
+        })
+
+    return temperatures
+
+waiting_cooldown = False
+
+def _wait_cooldown(max_temperature=70, safe_temperature=60, seconds=2, max_seconds=0):
+    global waiting_cooldown
+
+    if waiting_cooldown:
+        return
+
+    waiting_cooldown = True
+
+    try:
+        max_temperature, safe_temperature = max(max_temperature, safe_temperature), min(max_temperature, safe_temperature)
+
+        if max_temperature <= 0:
+            return
+
+        if safe_temperature <= 0:
+            safe_temperature = max_temperature
+
+        if max_seconds == 0:
+            max_seconds = 0xffffffffffffffff
+
+        seconds = max(1, seconds)
+        max_seconds = max(seconds, max_seconds)
+        times = max_seconds // seconds
+
+        hot = True
+
+        # Start with the max temperature, so if not above it don't cool down.
+        limit_temperature = max_temperature
+
+        while hot and times > 0:
+            temperatures = [f"{t['kind']} {t['label']}: {t['temperature']}" for t in get_temperatures() if t["temperature"] > limit_temperature]
+            hot = len(temperatures) > 0
+
+            if hot:
+                # Switch to safe temperature to cool down to that temperature
+                limit_temperature = safe_temperature
+                print(f"Too hot! Limit temperature: [ {limit_temperature} ] Current temperature: [ " + " | ".join(temperatures) + " ]")
+                pbar = ProgressBar(seconds)
+                func_sleep(seconds, pbar)
+                clear_line()
+                times -= 1
+    finally:
+        waiting_cooldown = False
+
+def wait_cooldown(kind="execution"):
+    safe_temperature = args.safe_progress_temperature if kind == "progress" else args.safe_temperature
+    if safe_temperature > 0:
+        _wait_cooldown(
+            max_temperature=args.max_temperature,
+            safe_temperature=safe_temperature,
+            seconds=args.each_cool_down_seconds,
+            max_seconds=args.max_cool_down_seconds,
+        )

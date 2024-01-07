@@ -8745,8 +8745,8 @@ LGraphNode.prototype.executeAction = function(action)
 
                     //if(slot.links != null && slot.links.length)
                     ctx.fill();
-					if(!low_quality && doStroke)
-	                    ctx.stroke();
+					// if(!low_quality && doStroke)
+	    //                 ctx.stroke();
 
                     //render output name
                     if (render_text) {

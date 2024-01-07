@@ -10,4 +10,5 @@ Pillow
 scipy
 tqdm
 psutil
+gputil
 spandrel==0.1.7
