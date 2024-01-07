@@ -16,37 +16,51 @@ import nodes
 import comfy.model_management
 from comfy.utils import wait_cooldown
 
-def get_input_data(inputs, class_def, unique_id, outputs=None, prompt=None, extra_data=None):
-    outputs = outputs or {}
-    prompt = prompt or {}
-    extra_data = extra_data or {}
-
+def get_input_data(inputs, class_def, unique_id, outputs={}, prompt={}, extra_data={}):
     valid_inputs = class_def.INPUT_TYPES()
     input_data_all = {}
-
-    for key, value in inputs.items():
-        if isinstance(value, list):
-            input_unique_id, output_index = value
-            input_data_all[key] = (outputs.get(input_unique_id, [None])[output_index],)
+    for x in inputs:
+        input_data = inputs[x]
+        if isinstance(input_data, list):
+            input_unique_id = input_data[0]
+            output_index = input_data[1]
+            if input_unique_id not in outputs:
+                input_data_all[x] = (None,)
+                continue
+            obj = outputs[input_unique_id][output_index]
+            input_data_all[x] = obj
         else:
-            if key in valid_inputs.get("required", []) or key in valid_inputs.get("optional", []):
-                input_data_all[key] = [value]
+            if ("required" in valid_inputs and x in valid_inputs["required"]) or ("optional" in valid_inputs and x in valid_inputs["optional"]):
+                input_data_all[x] = [input_data]
 
-    for hidden_key, hidden_value in valid_inputs.get("hidden", {}).items():
-        if hidden_value == "PROMPT":
-            input_data_all[hidden_key] = [prompt]
-        elif hidden_value == "EXTRA_PNGINFO" and "extra_pnginfo" in extra_data:
-            input_data_all[hidden_key] = [extra_data['extra_pnginfo']]
-        elif hidden_value == "UNIQUE_ID":
-            input_data_all[hidden_key] = [unique_id]
+    if "hidden" in valid_inputs:
+        h = valid_inputs["hidden"]
+        for x in h:
+            if h[x] == "PROMPT":
+                input_data_all[x] = [prompt]
+            if h[x] == "EXTRA_PNGINFO":
+                if "extra_pnginfo" in extra_data:
+                    input_data_all[x] = [extra_data['extra_pnginfo']]
+            if h[x] == "UNIQUE_ID":
+                input_data_all[x] = [unique_id]
 
-    for key in list(input_data_all):
-        match = re.search(r"(.+)\[(\d*)\]$", key)
-        if match:
-            x_multiple = match.group(1)
-            input_data_all.setdefault(x_multiple, [[] for _ in input_data_all[key]])
-            for index, value in enumerate(input_data_all.pop(key)):
-                input_data_all[x_multiple][index].append(value)
+    input_data_all_remove = []
+    input_data_all_add = {}
+
+    for x in input_data_all:
+        m = re.search("(.+)\[(\d*)\]$", x)
+        if m:
+            input_data_all_remove.append(x)
+            x_multiple = m.group(1)
+            if x_multiple not in input_data_all_add:
+                input_data_all_add[x_multiple] = [[] for v in input_data_all[x]]
+            for k, v in enumerate(input_data_all[x]):
+                input_data_all_add[x_multiple][k].append(v)
+
+    for x in input_data_all_remove:
+        del input_data_all[x]
+
+    input_data_all.update(input_data_all_add)
 
     return input_data_all
 
