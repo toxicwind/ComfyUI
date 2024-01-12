@@ -22,7 +22,7 @@ leporid
 rabbit
 horse
 pantherine
-avian
+
 bovid
 animal humanoid
 hybrid
@@ -32,7 +32,6 @@ rodent
 unicorn
 marine
 ursid
-bird
 mammal humanoid
 generation 4 pokemon
 caprine
@@ -41,7 +40,6 @@ tiger
 pegasus
 earth pony
 generation 3 pokemon
-fish
 cervid
 alien
 arthropod
@@ -64,7 +62,6 @@ chiropteran
 shark
 eulipotyphlan
 goat
-snake
 felid humanoid
 mouse
 hedgehog
@@ -79,7 +76,6 @@ monster
 hyaenid
 feline humanoid
 dinosaur
-insect
 western dragon
 husky
 were
@@ -88,7 +84,6 @@ pastoral dog
 herding dog
 canid humanoid
 werecanid
-mythological avian
 lutrine
 canine humanoid
 elemental creature
@@ -195,7 +190,6 @@ lopunny
 draconcopode
 sheepdog
 accipitriform
-monkey
 sylveon
 reindeer
 charizard
@@ -203,7 +197,6 @@ vaporeon
 lepidopteran
 zoroark
 ground squirrel
-bird dog
 owl
 antelope
 chipmunk
@@ -230,7 +223,6 @@ badger
 lagomorph humanoid
 chimera
 wingless dragon
-spider
 hymenopteran
 oceanic dolphin
 dalmatian
@@ -296,7 +288,6 @@ leafeon
 fairy
 mastiff
 lombax
-ape
 wolf humanoid
 cattle humanoid
 arthropod humanoid
@@ -309,7 +300,6 @@ angel
 tyrannosaurus
 velociraptor
 bee
-fish humanoid
 merfolk
 argonian
 minotaur
@@ -383,7 +373,6 @@ beaver
 generation 9 pokemon
 mink
 parrot
-avian humanoid
 charr
 living vehicle
 quilava
@@ -405,7 +394,6 @@ gengar
 turian
 mienshao
 dingo
-jay \(bird\)
 xenomorph
 night fury
 new world jay
@@ -448,7 +436,6 @@ spaniel
 scent hound
 caprine demon
 arachnid humanoid
-mythological firebird
 oryctolagus
 jackalope
 cyclops
@@ -457,7 +444,6 @@ domestic rabbit
 ceratopsian
 kirin
 oni
-insect humanoid
 garchomp
 shaymin
 common hippopotamus
@@ -485,7 +471,6 @@ flamedramon
 echinoderm
 hairless cat
 triceratops
-spider humanoid
 houndoom
 hippogriff
 latios
@@ -522,7 +507,6 @@ duel monster
 alolan vulpix
 gnoll
 saluki
-ambient insect
 furret
 columbid
 requiem shark
@@ -563,7 +547,6 @@ dragonair
 alpaca
 asterozoan
 striped skunk
-starfish
 nidoking
 fanged wyvern
 true parrot
@@ -601,7 +584,6 @@ mythological sphinx
 sauropod
 piranha plant
 crab
-cape buffalo
 hydra
 pit bull
 red deer
@@ -614,7 +596,6 @@ eldritch abomination
 canine taur
 owl demon
 foo dog
-ambient bird
 suicune
 vulture
 hirundinid
@@ -631,7 +612,6 @@ nimbat
 armadillo
 vulpera
 emolga
-swallow \(bird\)
 totodile
 felid taur
 sneasel
@@ -698,7 +678,6 @@ exveemon
 asura
 wasp
 meloetta
-snake humanoid
 tiger humanoid
 mega lucario
 worm
@@ -745,7 +724,6 @@ neopet \(species\)
 nidorina
 clydesdale
 swampert
-bird humanoid
 walrus
 animal head
 siberian husky
@@ -767,7 +745,6 @@ snorlax
 breegull
 alolan ninetales
 dark elf
-rattlesnake
 food humanoid
 nekomata
 tyranitar
@@ -787,7 +764,6 @@ machamp
 palico
 sableye
 banette
-infernape
 toad \(mario\)
 ogre
 cockatoo
@@ -835,12 +811,10 @@ whimsicott
 australian cattle dog
 pangoro
 grey fox
-secretary bird
 mega charizard x
 jigglypuff
 anteater
 minccino
-birdo
 medusozoan
 sloth
 meloetta \(aria form\)
@@ -882,12 +856,10 @@ goat humanoid
 cubone
 chihuahua
 witch \(the owl house\)
-jellyfish
 philippine eagle
 angoramon
 raccoon humanoid
 mega gardevoir
-bird wyvern
 euplerid
 wargreymon
 creeper \(minecraft\)
@@ -931,7 +903,6 @@ muk
 platypus
 hydreigon
 piplup
-avian \(starbound\)
 equine taur
 rillaboom
 ursaring
@@ -940,7 +911,6 @@ flower humanoid
 rotom
 rathalos
 prionailurus
-old world monkey
 martian
 snowy owl
 liepard
@@ -952,8 +922,6 @@ cavalier king charles spaniel
 gaomon
 flamingo
 emboar
-boa \(snake\)
-spider taur
 shadow siren
 leopard cat
 phyllostomid
@@ -1026,7 +994,6 @@ sea slug
 tarantula
 mygalomorph
 mizutsune
-monkey humanoid
 scorpion
 pidgeot
 civet
@@ -1075,14 +1042,12 @@ cockroach
 livestock guardian dog
 silvally
 true eagle
-crane \(bird\)
 delcatty
 werefelid
 ratite
 swan
 grookey
 torchic
-ambient fish
 gazimon
 siren
 servine
@@ -1111,7 +1076,6 @@ lion humanoid
 rito humanoid
 aircraft humanoid
 gothitelle
-catfish
 froakie
 alcid
 maractus
@@ -1163,17 +1127,14 @@ faraden
 heteromyid
 colubrid
 moth humanoid
-cardinal \(bird\)
 dullahan
 ventrexian
 breloom
 omnic
 diglett
 barn owl
-ladybug
 marshtomp
 scyther
-robin \(bird\)
 girafarig
 dwarf rabbit
 lampropeltini
@@ -1189,7 +1150,6 @@ bee humanoid
 purugly
 xerneas
 blue yoshi
-new world monkey
 smilodon
 zonkey
 rathian
@@ -1213,7 +1173,6 @@ stand \(jjba\)
 koraidon
 gremlin \(spiral knights\)
 frog humanoid
-thrush \(bird\)
 finch
 ekans
 virizion
@@ -1252,7 +1211,6 @@ least weasel
 pooka
 ctarl-ctarl
 roswell grey
-rat snake
 pteranodontid
 dodo
 water creature
@@ -1280,7 +1238,6 @@ ruuhtian \(kig-yar\)
 new world ground cuckoo
 blackwargreymon
 slugcat \(rain world\)
-corn snake
 cockatiel
 ambient bat
 pteranodon
@@ -1302,14 +1259,12 @@ palamute
 bamfear
 serrasalmid
 faunus
-piranha \(fish\)
 haxorus
 heliolisk
 crowned sword zacian
 iradeon
 patchwork creature
 ground shark
-goldfish
 stegosaurus
 orthopterid
 afghan hound
@@ -1333,7 +1288,6 @@ azumarill
 primatius
 brown hyena
 spiral-horned antelope
-bluebird
 misdreavus
 manaphy
 empoleon
@@ -1358,7 +1312,6 @@ nu mou
 monodontid
 nanger
 elkhound
-feathered snake
 blue macaw
 spotted skunk
 dratini
@@ -1408,7 +1361,6 @@ togekiss
 zapdos
 assaultron \(fallout\)
 catfolk
-hummingbird
 grants gazelle
 sun bear
 machop
@@ -1421,7 +1373,6 @@ acrador
 leviathan
 betelgammamon
 litwick
-elapid \(snake\)
 kadabra
 dilophosaurus
 lizardman \(overlord\)
@@ -1461,7 +1412,6 @@ ara \(genus\)
 yeti
 pug
 ronso
-salmonid \(fish\)
 aurorus
 pantherine taur
 screen head
@@ -1496,7 +1446,6 @@ cresselia
 pure faraden
 centipede
 goomy
-delibird
 margay
 stoat humanoid
 living cloud
@@ -1527,7 +1476,6 @@ dutch rabbit
 shrew
 nidorino
 muppet
-anglerfish
 electrike
 yamper
 baron of hell
@@ -1573,7 +1521,6 @@ hakamo-o
 air humanoid
 gogoat
 oozaru
-fish-men \(one piece\)
 rat humanoid
 setter
 wailord
@@ -1674,7 +1621,6 @@ new faraden
 bovine taur
 plant monster
 gieeg
-ambient starfish
 dragon \(dnd\)
 honchkrow
 carnotaurus
@@ -1760,7 +1706,6 @@ ankylosaurian
 red arremer
 mexican wolf
 medusozoan humanoid
-jellyfish humanoid
 monferno
 bat-eared fox
 chameleon humanoid
@@ -1899,7 +1844,6 @@ flora
 hitmonlee
 gemsbok
 karelian bear dog
-avian taur
 skunk taur
 moomin
 shar pei
@@ -1910,7 +1854,6 @@ couatl
 lich
 mephitid taur
 orange yoshi
-spider monkey
 divenka
 xatu
 winter sawsbuck
@@ -1942,7 +1885,6 @@ hereford cattle
 snow creature
 alolan sandslash
 tentacool
-nezumi \(magic  the gathering\)
 animal mammal
 canine canid
 domestic dog canine
@@ -1967,15 +1909,12 @@ rabbit leporid
 lagomorph rabbit
 equine horse
 feline pantherine
-bird avian
 goat bovid
 humanoid animal humanoid
 mixed hybrid
 pokemon generation 1 pokemon
 murid rodent
 equine pony
-fish marine
-avian bird
 equine unicorn
 ursine bear
 humanoid mammal humanoid
@@ -1986,10 +1925,8 @@ pantherine tiger
 pokemon generation 3 pokemon
 equine pegasus
 equine earth pony
-marine fish
 cervine deer
 extraterrestrial alien
-insect arthropod
 rodent murid
 rodent murine
 pokemon generation 2 pokemon
@@ -2007,10 +1944,8 @@ reptile lizard
 canine spitz
 pegasus winged unicorn
 selachian shark
-insectivore eulipotyphlan
 caprine goat
 vulpine red fox
-serpent snake
 erinaceinae hedgehog
 murine mouse
 pouched marsupial
@@ -2021,19 +1956,15 @@ pokemon generation7 generation 7 pokemon
 creature monster
 hyaenidae hyena
 procyonid raccoon
-insect insect
 squirrel sciurid
 husky nordic sled dog
 herding pastoral dog
 catfolk feline humanoid
 herding herding dog
-shapeshifter were
 dragon western dragon
 nordic sled dog husky
 catfolk cat humanoid
-shapeshifter werecanid
 dogfolk canid humanoid
-legendary bird mythological avian
 lutrine otter
 mustelid musteline
 dogfolk canine humanoid
@@ -2048,13 +1979,10 @@ mephitid skunk
 digimon renamon
 bear ursine
 pokemon generation8 generation 8 pokemon
-shapeshifter werecanine
 fox fennec
 pig suina
 red panda ailurid
-shapeshifter werewolf
 ailurid red panda
-monkey primate
 robotic animatronic
 pig suid
 mythical gryphon
@@ -2075,7 +2003,6 @@ dinosaur theropod
 feline lynx
 humanoid elf
 feline snow leopard
-shellfish mollusk
 feline cheetah
 mythical horned humanoid
 supernatural spirit
@@ -2096,8 +2023,6 @@ anthropomorphic animate inanimate
 hybrid taur
 deer capreoline
 fox fox humanoid
-bird passerine
-bird oscine
 primate haplorhine
 macropod kangaroo
 merfolk marine humanoid
@@ -2110,7 +2035,6 @@ mollusk cephalopod
 pokemon eevee
 supernatural undead
 dog toy dog
-shapeshifter changeling
 crocodile crocodylid
 crocodylid crocodile
 aquatic cetacean
@@ -2130,25 +2054,18 @@ dog pinscher
 dog dobermann
 alligatorid alligator
 cetacean dolphin
-bird corvid
-dog bird dog
 pokemon braixen
 deer reindeer
 pokemon vaporeon
-bird owl
 dog sheepdog
 cetacean oceanic dolphin
 pig domestic pig
-spider arachnid
 mythical yordle
 variation regional form \(pokemon\)
 pokemon generation9 generation 9 pokemon
 dog shih tzu
 mythical draconcopode
-primate monkey
 pig wild boar
-bird accipitriform
-insect lepidopteran
 alien experiment \(lilo and stitch\)
 pokemon zoroark
 dragon wingless dragon
@@ -2169,17 +2086,14 @@ mythical bovid humanoid
 asinus donkey
 dog molosser
 mythical mollusk humanoid
-insect hymenopteran
 amphibian frog
 mythical lagomorph humanoid
-bird accipitrid
 mythical demon humanoid
 mythical cephalopod humanoid
 dog dalmatian
 mythical anubian jackal
 sheep domestic sheep
 mythical chimera
-arachnid spider
 mustelid badger
 dog retriever
 unknown ambiguous
@@ -2187,8 +2101,6 @@ dog collie
 fox arctic fox
 deer cervine
 pokemon arcanine
-bird anseriform
-bird anatid
 mythical bat pony
 feline cougar
 dolphin orca
@@ -2208,8 +2120,6 @@ pokemon lugia
 mythical worgen
 humanoid orc
 humanoid hylian
-bird corvus \(genus\)
-bird duck
 pokemon zangoose
 reptile turtle
 mythical wyvern
@@ -2222,7 +2132,6 @@ mythical bovine humanoid
 ferret domestic ferret
 elephant elephantid
 mammal giraffe
-snake cobra
 pokemon goodra
 mythical inkling
 mythical naga
@@ -2232,16 +2141,13 @@ pokemon raichu
 mammal elephant
 unknown food creature
 pokemon leafeon
-insect bee
 dinosaur velociraptor
 pokemon typhlosion
 pokemon variation alolan form
 dinosaur tyrannosaurid
 mythical arthropod humanoid
-bird eagle
 mythical angel
 pokemon jolteon
-primate ape
 dinosaur tyrannosaurus
 mythical yoshi
 dog mastiff
@@ -2268,9 +2174,7 @@ mythical winged humanoid
 ungulate gazelle
 robotic living machine
 pokemon mewtwo
-mythical fish humanoid
 pokemon riolu
-bird crow
 pokemon delphox
 mythical khajiit
 mollusk coleoid
@@ -2278,8 +2182,6 @@ mythical keidran
 pokemon incineroar
 hybrid humanoid taur
 mythical feathered dragon
-insect butterfly
-insect moth
 amphibian salamander
 mythical plant humanoid
 cat calico cat
@@ -2321,22 +2223,17 @@ mythical tentacle monster
 pokemon latias
 mammal hare
 cat siamese
-bird penguin
 mythical centaur
 pokemon luxray
 dog labrador
 pokemon greninja
 mythical aquatic dragon
-bird parrot
 marsupial virginia opossum
 pokemon variation hisuian form
 mythical living vehicle
 mammal mink
 rodent beaver
 pokemon ninetales
-bird jay \(bird\)
-mythical avian humanoid
-bird new world jay
 primate gorilla
 mammal xenarthran
 rodent cricetid
@@ -2349,7 +2246,6 @@ bear grizzly bear
 mythical charr
 pokemon snivy
 pokemon gengar
-bird blue jay
 mythical octopodiform
 pokemon kirlia
 pokemon zorua
@@ -2388,7 +2284,6 @@ dog scent hound
 dog mountain dog
 pokemon charmeleon
 mythical jackalope
-insect beetle
 deer red deer
 mythical oni
 dog terrier
@@ -2399,7 +2294,6 @@ reptile gecko
 mythical satyr
 mythical darkner
 pokemon mightyena
-mythical insect humanoid
 mythical owl demon
 mammal marten
 mythical sprigatito
@@ -2410,7 +2304,6 @@ mythical goat demon
 mythical green yoshi
 mythical living plushie
 mythical cyclops
-mythical mythological firebird
 mythical elder dragon
 mythical avali
 pokemon dragonite
@@ -2431,16 +2324,13 @@ cat hairless cat
 hippopotamus common hippopotamus
 mythical lizardman
 cat tabby cat
-mythical ambient insect
 pokemon primarina
 pokemon fossil pokemon
-bird falconid
 mythical night elf
 mammal serval
 mythical harpy
 mammal dasyuromorph
 mythical hippogriff
-bird falcon
 mythical malo
 pokemon nidoqueen
 mythical pantherine humanoid
@@ -2451,17 +2341,14 @@ pokemon meowstic
 pokemon houndoom
 mythical sphynx \(cat\)
 mollusk slug
-bird sea eagle
 pokemon audino
 dog saluki
 mythical goo humanoid
 crustacean malacostracan
-mythical spider humanoid
 mythical caprine humanoid
 dinosaur pterosaur
 pokemon mawile
 pokemon feraligatr
-bird bald eagle
 mythical phoenix
 pokemon meowth
 pokemon latios
@@ -2469,7 +2356,6 @@ mythical veemon
 mythical flamedramon
 shark requiem shark
 mythical burmecian
-bird raven
 dog australian shepherd
 dinosaur feathered dinosaur
 mammal mongoose
@@ -2480,7 +2366,6 @@ mythical gnoll
 mythical object head
 reptile monitor lizard
 pokemon samurott
-bird peafowl
 mythical zora
 pokemon machoke
 mythical ultra beast
@@ -2496,14 +2381,12 @@ mammal meerkat
 mammal vombatiform
 mythical blood elf
 mythical duel monster
-bird columbid
 mythical sciurid humanoid
 pokemon furret
 crustacean decapoda
 mammal moose
 mythical pilosan
 mythical basitin
-mammal cape buffalo
 amphibian mole salamander
 wolf arctic wolf
 cat tuxedo cat
@@ -2513,7 +2396,6 @@ mythical caracal
 mythical chinchillid
 mythical leopardus
 pokemon bulbasaur
-bird true parrot
 pokemon scolipede
 aquatic decapodiform
 dog great dane
@@ -2521,10 +2403,8 @@ mythical vulpera
 amphibian axolotl
 mythical murid humanoid
 mythical murine humanoid
-mythical ambient bird
 dog akita
 pokemon dewott
-aquatic starfish
 dog cattledog
 dog pomeranian
 mammal ring-tailed lemur
@@ -2540,12 +2420,10 @@ bear black bear
 pokemon noivern
 pokemon dragonair
 pokemon mega lopunny
-snake viper
 mythical eldritch abomination
 digital digital creature
 mythical felkin
 aquatic seal
-bird lari
 pokemon nidoking
 dog beagle
 mythical narehate
@@ -2571,14 +2449,12 @@ deer white-tailed deer
 hybrid canid taur
 mythical hydra
 mammal striped skunk
-bird hirundinid
 unknown inanimate object
 mythical boo \(mario\)
 pokemon suicune
 mythical nimbat
 pokemon yveltal
 hybrid canine taur
-bird swallow \(bird\)
 mythical mythological sphinx
 pokemon litten
 pokemon milotic
@@ -2588,13 +2464,11 @@ mythical koopa troopa
 mythical moogle
 pokemon lapras
 mammal dwarf rabbit
-insect dipteran
 pokemon variation galarian form
 pokemon totodile
 mammal llama
 bat pteropodid
 mythical living fruit
-bird vulture
 mammal silver fox
 dog swiss mountain dog
 mammal armadillo
@@ -2631,7 +2505,6 @@ cat clouded leopard
 pokemon decidueye
 mythical worm
 pokemon hatterene
-insect mantis
 pokemon zebstrika
 aquatic octopus
 mythical wereeulipotyphlan
@@ -2652,7 +2525,6 @@ mammal pine marten
 pokemon chespin
 mythical tiger humanoid
 mythical leomon
-insect ant
 wolf red wolf
 pokemon nidorina
 mythical vessel \(species\)
@@ -2660,41 +2532,29 @@ dog borzoi
 pokemon giratina
 pokemon pheromosa
 pokemon miltank
-insect elateroid
 mammal thylacine
 mythical chocobo
-insect firefly
 mythical krogan
 rodent dipodid
-bird true owl
-insect wasp
 pokemon sandslash
-snake python
 pokemon pachirisu
 mammal jerboa
 mythical au ra
-fish cypriniform
 mythical food humanoid
 mythical gerudo
 mythical fire creature
 mythical yinglet
 mythical mummy
-bird larid
-fish cyprinid
 pokemon gallade
 mythical rath wyvern
 mammal wallaby
-snake pit viper
 dog siberian husky
-bird turkey
 mammal river otter
 pokemon ancient pokemon
-bird gull
 pokemon rockruff
 pokemon squirtle
 dinosaur thyreophoran
 pokemon arbok
-bird pigeon
 mythical ambient butterfly
 mythical gammamon
 pokemon snorlax
@@ -2705,9 +2565,7 @@ pokemon meloetta
 mythical neopet \(species\)
 mythical exveemon
 mythical leviathan \(mh\)
-bird anserinae
 mythical red pandaren
-mythical snake humanoid
 mythical troll \(homestuck\)
 mythical palico
 pokemon obstagoon
@@ -2716,14 +2574,11 @@ mythical yautja
 pokemon swampert
 pokemon aggron
 mythical asura
-insect myriapod
 mythical angel humanoid
-bird bubo \(genus\)
 pokemon sceptile
 mythical komainu
 mollusk snail
 mythical dragonborn \(dnd\)
-mythical bird humanoid
 pokemon alolan ninetales
 mythical animal head
 mythical pokemon humanoid
@@ -2734,7 +2589,6 @@ pokemon zekrom
 mammal oryx
 pokemon mismagius
 mythical dark elf
-snake rattlesnake
 mammal walrus
 amphibian newt
 pokemon luxio
@@ -2750,7 +2604,6 @@ mythical nekomata
 rodent caviid
 pokemon toxtricity
 pokemon hisuian zoroark
-bird cockatoo
 mythical urocyon
 robotic cybertronian
 mythical shark humanoid
@@ -2782,14 +2635,11 @@ mythical kong
 hybrid deer taur
 mythical viera
 pokemon wooloo
-pokemon infernape
 mythical medusozoan
 mythical mimiga
-bird secretary bird
 mythical goomba
 pokemon seviper
 mythical shadow pokemon
-bird toucan
 mythical gomamon
 pokemon victini
 mythical hrothgar
@@ -2803,8 +2653,6 @@ bear american black bear
 mammal grey fox
 pokemon wartortle
 mammal microbat
-bird old world vulture
-mythical birdo
 mammal anteater
 mythical toad \(mario\)
 mythical witch \(the owl house\)
@@ -2825,13 +2673,11 @@ pokemon rapidash
 pokemon brionne
 pokemon whimsicott
 mythical yangochiropteran
-bird neotropical parrot
 pokemon celebi
 mythical majin
 aquatic lamnid
 mythical agumon
 hybrid arachnid taur
-aquatic jellyfish
 dog basset hound
 mythical penis creature
 mythical light fury
@@ -2839,27 +2685,22 @@ mythical alpha pokemon
 aquatic anthozoan
 pokemon treecko
 mammal true antelope
-mythical bird wyvern
 mythical goat humanoid
 mythical zinogre
 mammal aardwolf
 pokemon meloetta \(aria form\)
 pokemon ralts
-bird parakeet
 aquatic sea sponge
-fish carp
 mythical flesh creature
 mythical koraidon
 mythical chakat
 pokemon sobble
-bird philippine eagle
 mythical diamond dog \(mlp\)
 pokemon kecleon
 pokemon alolan meowth
 pokemon mega gardevoir
 pokemon mudsdale
 mammal phyllostomid
-bird macaw
 mythical procyonid humanoid
 pokemon cubone
 pokemon popplio
@@ -2881,15 +2722,11 @@ pokemon alolan raichu
 mammal yak
 mythical slugcat \(rain world\)
 aquatic eel
-bird flamingo
 mythical felineko
-mammal old world monkey
-bird thrush \(bird\)
 mythical primate humanoid
 mythical annelid
 mythical lizard humanoid
 mythical cell \(organism\)
-bird snowy owl
 mythical enderman
 pokemon piplup
 mythical shadow creature
@@ -2904,17 +2741,11 @@ dinosaur diplodocid
 dog rough collie
 mythical ecaflip
 pokemon rillaboom
-bird pelecaniform
-fish typical carp
-fish amur carp
 pokemon ursaring
-fish koi
-hybrid spider taur
 pokemon buneary
 mythical dorumon
 hybrid equine taur
 mythical caninu
-bird magpie \(corvid\)
 mammal genet
 dog cavalier king charles spaniel
 mythical irken
@@ -2947,25 +2778,18 @@ mythical lizardman \(overlord\)
 mythical nergigante
 mythical creeper \(minecraft\)
 mythical lepidopteran humanoid
-bird swan
 mythical living sex doll
-fish syngnathiform
-insect dragonfly
-fish syngnathid
 mythical flemish giant
 mythical ottsel
 mythical mizutsune
 mammal elk
-bird bluebird
 mammal bison
-bird cardinal \(bird\)
 mammal platypus
 mythical mimic
 mythical tanuki humanoid
 mythical angel dragon
 mythical mygalomorph
 mythical tarantula
-reptile boa \(snake\)
 mythical martian
 mythical puwa
 mythical pan \(genus\)
@@ -2973,24 +2797,19 @@ mythical faun
 mammal chimpanzee
 mythical ursid humanoid
 mythical gorgon
-fish seahorse
 mythical shadow siren
 mammal pangolin
 mammal prionailurus
 mythical togruta
 mythical amphibian humanoid
-mythical apex build koraidon
 mammal fossa
 mythical dwarf
-mythical avian \(starbound\)
 mythical tailed beast
-mythical monkey humanoid
 mythical gem \(species\)
 mythical flower humanoid
 dog saint bernard
 mammal black-backed jackal
 mammal tasmanian devil
-insect blattodea
 mythical rexouium
 mythical sneasler
 mythical rabbid
@@ -3013,7 +2832,6 @@ mythical ambient firefly
 mythical ender dragon
 dinosaur allosaurid
 mythical twilek
-mythical ambient fish
 mythical bow experiment \(resident evil\)
 mammal king cheetah
 mythical vampire bat
@@ -3022,30 +2840,20 @@ mythical fungi humanoid
 mythical lalafell
 mythical furred kobold
 reptile skink
-fish catfish
-fish great white shark
-bird tytonid
-bird masked owl
 mythical lion humanoid
 mythical blue yoshi
-bird ratite
 mythical chain chomp
 mythical floragato
 mythical scorpion
-bird gruiform
 mythical rathian
 mythical demigod
 mythical betelgeusian
 mythical sphere creature
-insect cockroach
 mythical werefelid
-bird barn owl
 mythical miraidon
-bird crane \(bird\)
 mythical cockapoo
 mythical mythological carbuncle
 mythical cryptid
-bird true eagle
 mythical cocotama
 mythical wickerbeast
 mythical aircraft humanoid
@@ -3057,17 +2865,14 @@ mythical rubber creature
 mammal moon bear
 mythical mineral humanoid
 mythical prime \(las lindas\)
-insect ladybug
 mythical mustelid humanoid
 mythical dullahan
 mammal warthog
 mythical zeti
 mythical dire machine
 dog jack russell terrier
-bird golden eagle
 mythical pink yoshi
 dinosaur spinosaurid
-bird bearded vulture
 mythical bat humanoid
 mammal bighorn sheep
 aquatic manta ray
@@ -3080,13 +2885,11 @@ mammal cacomistle
 mythical bee humanoid
 mythical rito humanoid
 mythical ventrexian
-mammal new world monkey
 mythical water creature
 mythical iradeon
 mythical saiyan
 mythical laquine
 mythical hoopa
-bird alcid
 mythical air creature
 mammal camel
 mythical dire vehicle
@@ -3121,7 +2924,6 @@ mythical tarunah
 mythical crux
 dog dachshund
 mythical faraden
-bird puffin
 mammal heteromyid
 mammal dipodomyine
 mythical cyan yoshi
@@ -3129,7 +2931,6 @@ mythical patchwork creature
 reptile tortoise
 mammal ring-tailed cat
 mythical bangaa
-bird goose
 mythical gremlin \(spiral knights\)
 mythical quaquaval
 mythical palamute
@@ -3140,7 +2941,6 @@ mammal lontra
 mythical mythological canine
 mythical seedrian
 mythical ambient bat
-bird cuculiform
 mythical gnome
 aquatic stingray
 mythical tinkaton
@@ -3150,7 +2950,6 @@ mythical fruit humanoid
 mythical zonkey
 floran mythical
 shrimp aquatic
-finch bird
 stand \(jjba\) mythical
 jakkai mythical
 metroid \(species\) mythical
@@ -3165,10 +2964,7 @@ nardoragon mythical
 afghan hound mammal
 bovid taur mythical
 ground shark aquatic
-serrasalmid fish
-rat snake reptile
 nihallaks \(species\) mythical
-piranha \(fish\) aquatic
 draph mythical
 corsac fox mammal
 longma mythical
@@ -3179,30 +2975,21 @@ mimic chest mythical
 pteranodontid dinosaur
 common ferret mammal
 ambient crustacean mythical
-eastern bluebird bird
 cherub mythical
-blue macaw bird
 spinosaurus dinosaur
 cecaelia mythical
 octopus humanoid mythical
-corn snake reptile
 dall sheep mammal
-dodo bird
-picid bird
 hobkin mythical
 lamarian mythical
 mule mammal
-roadrunner bird
 tigrex mythical
 nevrean mythical
-new world ground cuckoo bird
-osprey bird
 sugar glider mammal
 orthopterid mythical
 tibetan mountain dog mammal
 eggerlander mythical
 anaconda reptile
-cockatiel bird
 musteline humanoid mythical
 primatius mythical
 pteranodon dinosaur
@@ -3210,13 +2997,9 @@ squid humanoid mythical
 monodontid aquatic
 weredog mythical
 ctarl-ctarl mythical
-goldfish aquatic
-dove bird
 sunflower \(pvz\) mythical
-salmonid \(fish\) aquatic
 wingless bat mythical
 eublepharid mythical
-woodpecker bird
 lizardman \(warhammer\) mythical
 brown hyena mammal
 animate inanimate fire creature
@@ -3255,73 +3038,13 @@ anthro amphibian frog
 anthro amphibian mole salamander
 anthro amphibian newt
 anthro amphibian salamander
-anthro avian mythological avian
-anthro avian mythological firebird
-anthro avian phoenix
-anthro avian bird
-anthro avian bird accipitrid accipitrid
-anthro avian bird accipitrid old world vulture
-anthro avian bird accipitrid philippine eagle
-anthro avian bird accipitriform accipitriform
-anthro avian bird accipitriform bald eagle
-anthro avian bird accipitriform eagle
-anthro avian bird accipitriform sea eagle
-anthro avian bird accipitriform vulture
-anthro avian bird anatidae anserinae
-anthro avian bird anseriform anatid
-anthro avian bird anseriform anseriform
-anthro avian bird anseriform duck
-anthro avian bird avian avian
-anthro avian bird cacatuidae cockatoo
-anthro avian bird charadriiform lari
-anthro avian bird columbiform columbid
-anthro avian bird columbiform pigeon
-anthro avian bird corvid blue jay
-anthro avian bird corvid corvid
-anthro avian bird corvid corvus \(genus\)
-anthro avian bird corvid crow
-anthro avian bird corvid jay \(bird\)
-anthro avian bird corvid new world jay
-anthro avian bird corvidae magpie \(corvid\)
-anthro avian bird falconiform falcon
-anthro avian bird falconiform falconid
-anthro avian bird galliform galliform
-anthro avian bird laridae gull
-anthro avian bird laridae larid
-anthro avian bird oscine oscine
-anthro avian bird passerine hirundinid
-anthro avian bird passerine passerine
-anthro avian bird passerine raven
-anthro avian bird passerine swallow \(bird\)
-anthro avian bird pelecaniformes pelecaniform
-anthro avian bird phasianid chicken
-anthro avian bird phasianid gallus \(genus\)
-anthro avian bird phasianid peafowl
-anthro avian bird phasianid phasianid
-anthro avian bird phasianid turkey
-anthro avian bird phoenicopteridae flamingo
-anthro avian bird psittacidae macaw
-anthro avian bird psittacidae neotropical parrot
-anthro avian bird psittacidae parakeet
-anthro avian bird psittaciform parrot
-anthro avian bird psittaciform true parrot
-anthro avian bird ramphastidae toucan
-anthro avian bird sagittariidae secretary bird
-anthro avian bird spheniscidae penguin
-anthro avian bird strigidae bubo \(genus\)
-anthro avian bird strigidae snowy owl
-anthro avian bird strigidae true owl
-anthro avian bird strigiform owl
-anthro avian bird turdidae thrush \(bird\)
 anthro canid wendigo
 anthro equine winged winged unicorn
 anthro hybrid
 anthro hybrid chimera
 anthro hybrid mythological sphinx
-anthro hybrid avian mammal gryphon
 anthro hybrid canid demonic canid demon
 anthro hybrid demonic canine hellhound
-anthro hybrid equine avian hippogriff
 anthro hybrid feline nekomata
 anthro hybrid goat demonic caprine demon
 anthro hybrid goat demonic goat demon
@@ -3332,7 +3055,6 @@ anthro mammal ailuridae ailurid
 anthro mammal ailuridae giant panda
 anthro mammal ailuridae red panda
 anthro mammal bovid antelope
-anthro mammal bovid cape buffalo
 anthro mammal bovid gazelle
 anthro mammal bovid grazing antelope
 anthro mammal bovid holstein friesian cattle
@@ -3373,7 +3095,6 @@ anthro mammal canine australian shepherd
 anthro mammal canine basset hound
 anthro mammal canine beagle
 anthro mammal canine bernese mountain dog
-anthro mammal canine bird dog
 anthro mammal canine border collie
 anthro mammal canine borzoi
 anthro mammal canine bull terrier
@@ -3421,7 +3142,6 @@ anthro mammal canine welsh corgi
 anthro mammal caprine caprine
 anthro mammal caprine goat
 anthro mammal caviidae capybara
-anthro mammal cercopithecidae old world monkey
 anthro mammal cervid capreoline
 anthro mammal cervid cervine
 anthro mammal cervid deer
@@ -3551,11 +3271,9 @@ anthro mammal pinniped seal
 anthro mammal pinniped walrus
 anthro mammal pinnipedia pinniped
 anthro mammal primate kong
-anthro mammal primate ape
 anthro mammal primate gorilla
 anthro mammal primate haplorhine
 anthro mammal primate lemur
-anthro mammal primate monkey
 anthro mammal primate primate
 anthro mammal primate ring-tailed lemur
 anthro mammal primate strepsirrhine
@@ -3607,7 +3325,6 @@ anthro mammal vulpine grey fox
 anthro mammal vulpine red fox
 anthro mammal vulpine silver fox
 anthro mammal xenarthra xenarthran
-anthro marine creatures fish
 anthro marine mammal cetacean cetacean
 anthro marine mammal cetacean dolphin
 anthro marine mammal cetacean oceanic dolphin
@@ -3619,23 +3336,8 @@ anthro marine arthropod crustacean crustacean
 anthro marine arthropod crustacean decapoda
 anthro marine arthropod crustacean malacostracan
 anthro marine cnidarian cnidarian
-anthro marine cnidarian jellyfish
 anthro marine cnidarian medusozoan
 anthro marine echinoderm echinoderm
-anthro marine echinoderm starfish
-anthro marine fish actinopterygii eel
-anthro marine fish cyprinid amur carp
-anthro marine fish cyprinid carp
-anthro marine fish cyprinid koi
-anthro marine fish cyprinid typical carp
-anthro marine fish cypriniformes cyprinid
-anthro marine fish cypriniformes cypriniform
-anthro marine fish elasmobranchii lamniform
-anthro marine fish elasmobranchii requiem shark
-anthro marine fish elasmobranchii tiger shark
-anthro marine fish lamniformes lamnid
-anthro marine fish rajiformes batoid
-anthro marine fish selachimorpha shark
 anthro marine gastropod aquatic gastropod
 anthro marine invertebrate mollusk gastropod
 anthro marine invertebrate mollusk mollusk
@@ -3656,7 +3358,6 @@ anthro reptile crocodylid alligator
 anthro reptile crocodylid alligatorid
 anthro reptile crocodylid crocodile
 anthro reptile crocodylid crocodylid
-anthro reptile dinosaur avian feathered dinosaur
 anthro reptile dinosaur ceratopsian
 anthro reptile dinosaur dinosaur
 anthro reptile dinosaur diplodocid
@@ -3681,18 +3382,11 @@ anthro reptile draconic hydra
 anthro reptile draconic kobold
 anthro reptile draconic western dragon
 anthro reptile draconic wingless dragon
-anthro reptile draconic avian feathered dragon
 anthro reptile draconic multi-legged draconcopode
 anthro reptile draconic winged flying wyvern
 anthro reptile draconic winged wyvern
 anthro reptile mammal draconic eastern dragon
 anthro reptile mammal furry furred reptilian
-anthro reptile snake cobra
-anthro reptile snake pit viper
-anthro reptile snake python
-anthro reptile snake rattlesnake
-anthro reptile snake snake
-anthro reptile snake viper
 anthro reptile squamate agamid
 anthro reptile squamate chameleon
 anthro reptile squamate gecko
@@ -3714,30 +3408,10 @@ humanoid hybrid demon succubus
 humanoid hybrid demon yokai
 humanoid hybrid small demon imp
 humanoid hybrid spirit ghost
-humanoid shape shifter changeling
-humanoid shape shifter were
-humanoid shape shifter canine werecanid
-humanoid shape shifter canine werecanine
-humanoid shape shifter canine werewolf
-humanoid shape shifter eulipotyphlan wereeulipotyphlan
 humanoid spirit guardian spirit
 humanoid spiritual entity spirit
 humanoid undead animated skeleton
 humanoid undead mummy
-insect arthropod arachnid arachnid
-insect arthropod arachnid spider
-insect arthropod coleoptera elateroid
-insect arthropod coleoptera firefly
-insect arthropod coleopteran beetle
-insect arthropod dipteran dipteran
-insect arthropod hymenopteran ant
-insect arthropod hymenopteran bee
-insect arthropod hymenopteran hymenopteran
-insect arthropod hymenopteran wasp
-insect arthropod lepidopteran butterfly
-insect arthropod lepidopteran lepidopteran
-insect arthropod lepidopteran moth
-insect arthropod mantodea mantis
 machine robot android
 machine robot animatronic
 machine robot cyborg
@@ -3749,7 +3423,6 @@ serpentine gastropod slug
 serpentine gastropod snail
 serpentine hybrid marine merfolk
 serpentine hybrid serpent naga
-serpentine hybrid snake lamia
 serpentine invertebrate annelid worm
 small humanoid fairy
 taur hybrid mammal taur
@@ -3764,82 +3437,12 @@ animate inanimate machine living aircraft
 animate inanimate machine living machine
 animate inanimate machine living vehicle
 arthropod myriapod myriapod
-avian mythological avian
-avian mythological firebird
-avian phoenix
-bird accipitrid accipitrid
-bird accipitrid old world vulture
-bird accipitrid philippine eagle
-bird accipitriform accipitriform
-bird accipitriform bald eagle
-bird accipitriform eagle
-bird accipitriform sea eagle
-bird accipitriform vulture
-bird anatidae anserinae
-bird anseriform anatid
-bird anseriform anseriform
-bird anseriform duck
-bird avian avian
-bird cacatuidae cockatoo
-bird charadriiform lari
-bird columbiform columbid
-bird columbiform pigeon
-bird corvid blue jay
-bird corvid corvid
-bird corvid corvus \(genus\)
-bird corvid crow
-bird corvid jay \(bird\)
-bird corvid new world jay
-bird corvidae magpie \(corvid\)
-bird falconiform falcon
-bird falconiform falconid
-bird galliform galliform
-bird laridae gull
-bird laridae larid
-bird oscine oscine
-bird passerine hirundinid
-bird passerine passerine
-bird passerine raven
-bird passerine swallow \(bird\)
-bird pelecaniformes pelecaniform
-bird phasianid chicken
-bird phasianid gallus \(genus\)
-bird phasianid peafowl
-bird phasianid phasianid
-bird phasianid turkey
-bird phoenicopteridae flamingo
-bird psittacidae macaw
-bird psittacidae neotropical parrot
-bird psittacidae parakeet
-bird psittaciform parrot
-bird psittaciform true parrot
-bird ramphastidae toucan
-bird sagittariidae secretary bird
-bird spheniscidae penguin
-bird strigidae bubo \(genus\)
-bird strigidae snowy owl
-bird strigidae true owl
-bird strigiform owl
-bird turdidae thrush \(bird\)
 canid wendigo
 celestial being humanoid angel
 deity deity
 deity humanoid asura
 equine winged winged unicorn
 fire-associated fire creature
-fish actinopterygii eel
-fish cyprinid amur carp
-fish cyprinid carp
-fish cyprinid koi
-fish cyprinid typical carp
-fish cypriniformes cyprinid
-fish cypriniformes cypriniform
-fish elasmobranchii lamniform
-fish elasmobranchii requiem shark
-fish elasmobranchii tiger shark
-fish lamniformes lamnid
-fish rajiformes batoid
-fish selachimorpha shark
 food-based food creature
 fungus animal hybrid fungi fauna
 gelatinous goo creature
@@ -3853,9 +3456,6 @@ humanoid arachnid humanoid
 humanoid arachnid taur
 humanoid arthropod humanoid
 humanoid arthropod taur
-humanoid avian humanoid
-humanoid avian harpy
-humanoid bird humanoid
 humanoid bovid humanoid
 humanoid bovine humanoid
 humanoid bovine minotaur
@@ -3883,7 +3483,6 @@ humanoid felid taur
 humanoid feline humanoid
 humanoid felineko
 humanoid felkin
-humanoid fish humanoid
 humanoid food humanoid
 humanoid fox humanoid
 humanoid fox taur
@@ -3898,7 +3497,6 @@ humanoid horse humanoid
 humanoid humanoid taur
 humanoid hyena-like gnoll
 humanoid hymenopteran humanoid
-humanoid insect humanoid
 humanoid lagomorph humanoid
 humanoid leporid humanoid
 humanoid lizard humanoid
@@ -3924,9 +3522,6 @@ humanoid scalie humanoid
 humanoid sciurid humanoid
 humanoid shark humanoid
 humanoid sheep humanoid
-humanoid snake humanoid
-humanoid spider humanoid
-humanoid spider taur
 humanoid tailed humanoid
 humanoid tiger humanoid
 humanoid tree squirrel humanoid
@@ -3936,13 +3531,11 @@ humanoid wolf humanoid
 humanoid yinglet
 hybrid chimera
 hybrid mythological sphinx
-hybrid avian mammal gryphon
 hybrid canid demonic canid demon
 hybrid demon demon
 hybrid demon succubus
 hybrid demon yokai
 hybrid demonic canine hellhound
-hybrid equine avian hippogriff
 hybrid feline nekomata
 hybrid goat demonic caprine demon
 hybrid goat demonic goat demon
@@ -3951,28 +3544,13 @@ hybrid owl demonic owl demon
 hybrid plant animal flora fauna
 hybrid serpent naga
 hybrid small demon imp
-hybrid snake lamia
 hybrid spirit ghost
-insect coleoptera elateroid
-insect coleoptera firefly
-insect coleopteran beetle
-insect dipteran dipteran
-insect hymenopteran ant
-insect hymenopteran bee
-insect hymenopteran hymenopteran
-insect hymenopteran wasp
-insect lepidopteran butterfly
-insect lepidopteran lepidopteran
-insect lepidopteran moth
-insect mantodea mantis
 invertebrate annelid worm
 invertebrate annelida annelid
 invertebrate arachnid arachnid
-invertebrate arachnid spider
 invertebrate arthropod arthropod
 invertebrate gastropod slug
 invertebrate gastropod snail
-invertebrate insect insect
 invertebrate mollusk gastropod
 invertebrate mollusk mollusk
 invertebrate star asterozoan
@@ -3986,7 +3564,6 @@ mammal ailuridae ailurid
 mammal ailuridae giant panda
 mammal ailuridae red panda
 mammal bovid antelope
-mammal bovid cape buffalo
 mammal bovid gazelle
 mammal bovid grazing antelope
 mammal bovid holstein friesian cattle
@@ -4027,7 +3604,6 @@ mammal canine australian shepherd
 mammal canine basset hound
 mammal canine beagle
 mammal canine bernese mountain dog
-mammal canine bird dog
 mammal canine border collie
 mammal canine borzoi
 mammal canine bull terrier
@@ -4075,7 +3651,6 @@ mammal canine welsh corgi
 mammal caprine caprine
 mammal caprine goat
 mammal caviidae capybara
-mammal cercopithecidae old world monkey
 mammal cervid capreoline
 mammal cervid cervine
 mammal cervid deer
@@ -4205,11 +3780,9 @@ mammal pinniped seal
 mammal pinniped walrus
 mammal pinnipedia pinniped
 mammal primate kong
-mammal primate ape
 mammal primate gorilla
 mammal primate haplorhine
 mammal primate lemur
-mammal primate monkey
 mammal primate primate
 mammal primate ring-tailed lemur
 mammal primate strepsirrhine
@@ -4260,7 +3833,6 @@ mammal vulpine grey fox
 mammal vulpine red fox
 mammal vulpine silver fox
 mammal xenarthra xenarthran
-marine creatures fish
 marine invertebrate cephalopod cephalopod
 marine invertebrate cephalopod coleoid
 marine invertebrate cephalopod decapodiform
@@ -4268,14 +3840,12 @@ marine invertebrate cephalopod octopodiform
 marine invertebrate cephalopod octopus
 marine invertebrate cnidarian anthozoan
 marine invertebrate cnidarian cnidarian
-marine invertebrate cnidarian jellyfish
 marine invertebrate cnidarian medusozoan
 marine invertebrate crustacean crab
 marine invertebrate crustacean crustacean
 marine invertebrate crustacean decapoda
 marine invertebrate crustacean malacostracan
 marine invertebrate echinoderm echinoderm
-marine invertebrate echinoderm starfish
 marine invertebrate gastropod aquatic gastropod
 marine invertebrate nudibranch sea slug
 marine invertebrate porifera sea sponge
@@ -4295,7 +3865,6 @@ reptile crocodylid alligator
 reptile crocodylid alligatorid
 reptile crocodylid crocodile
 reptile crocodylid crocodylid
-reptile dinosaur avian feathered dinosaur
 reptile dinosaur ceratopsian
 reptile dinosaur dinosaur
 reptile dinosaur diplodocid
@@ -4320,18 +3889,11 @@ reptile draconic hydra
 reptile draconic kobold
 reptile draconic western dragon
 reptile draconic wingless dragon
-reptile draconic avian feathered dragon
 reptile draconic multi-legged draconcopode
 reptile draconic winged flying wyvern
 reptile draconic winged wyvern
 reptile mammal draconic eastern dragon
 reptile mammal furry furred reptilian
-reptile snake cobra
-reptile snake pit viper
-reptile snake python
-reptile snake rattlesnake
-reptile snake snake
-reptile snake viper
 reptile squamate agamid
 reptile squamate chameleon
 reptile squamate gecko
@@ -4339,12 +3901,6 @@ reptile squamate iguanid
 reptile squamate komodo dragon
 reptile squamate lizard
 reptile squamate monitor lizard
-shape shifter changeling
-shape shifter were
-shape shifter canine werecanid
-shape shifter canine werecanine
-shape shifter canine werewolf
-shape shifter eulipotyphlan wereeulipotyphlan
 spirit guardian spirit
 spiritual entity spirit
 undead vampire
@@ -4381,7 +3937,6 @@ living pinata
 zonai
 flemish giant
 pan \(genus\)
-apex build koraidon
 floragato
 bat humanoid
 mobian hedgehog
@@ -4393,7 +3948,6 @@ lontra
 tinkaton
 marble fox
 longma
-eastern bluebird
 wingless bat
 lizardman \(warhammer\)
 will-o-the-wisp
@@ -4406,7 +3960,6 @@ altaria
 mamagen
 weasel humanoid
 raikou
-avian demon
 candy people \(at\)
 hammer bro
 farigiraf
@@ -4542,7 +4095,6 @@ chupacabra
 norwegian forest cat
 mega rayquaza
 saber-toothed squirrel
-clownfish
 swanna
 jaggi
 gore magala
@@ -4596,7 +4148,6 @@ magearna
 licker \(resident evil\)
 drauk
 biyemorph
-diaper creature
 saurian \(mortal kombat\)
 dracozolt
 cat-sith
@@ -4700,7 +4251,6 @@ draco shokan
 water humanoid
 bori \(neopets\)
 electivire
-primeape
 star dragon
 cosmog
 scorpion humanoid
@@ -4725,7 +4275,6 @@ monarch butterfly
 common collared lizard
 dactyloid
 raharr
-bugbear
 manx
 boobipede
 katta
@@ -4740,7 +4289,6 @@ firebunny
 wereequine
 anubian
 golisopod
-furred snake
 helodermatid
 rock humanoid
 calyrex
@@ -4834,7 +4382,6 @@ magmar
 bouffalant
 manatee
 maximal
-kiwi \(bird\)
 muntjac
 caprine taur
 spixs macaw
@@ -4855,7 +4402,6 @@ horsea
 koopa paratroopa
 starman
 sheikah
-pufferfish
 leopard shark
 candy orca dragon
 nightborne
@@ -4930,7 +4476,6 @@ metagross
 alatreon
 novakid
 fletchling
-tit \(bird\)
 darkin
 bazelgeuse
 troodontid
@@ -4945,7 +4490,6 @@ tyrogue
 combee
 remoraid
 teostra
-capuchin monkey
 xoloitzcuintli
 normal rotom
 pumapard
@@ -5022,7 +4566,6 @@ luna moth
 tortavi
 louie \(bomberman\)
 bongo \(antelope\)
-shorebird
 falcon humanoid
 rythulian
 lutrai
@@ -5037,23 +4580,23 @@ hero chao
 kulu-ya-ku
 flute dragon
 nidoran?
-gloom \(pok�mon\)
-persian \(pok�mon\)
+gloom \(pokemon\)
+persian \(pokemon\)
 mankey
-golem \(pok�mon\)
+golem \(pokemon\)
 seel
-hypno \(pok�mon\)
+hypno \(pokemon\)
 kingler
-electrode \(pok�mon\)
+electrode \(pokemon\)
 exeggcute
 seadra
 seaking
 pinsir
-ditto \(pok�mon\)
+ditto \(pokemon\)
 omanyte
 omastar
 kabuto
-mew \(pok�mon\)
+mew \(pokemon\)
 ledyba
 chinchou
 cleffa
@@ -5062,12 +4605,11 @@ sudowoodo
 skiploom
 sunkern
 yanma
-unown \(pok�mon\)
+unown \(pokemon\)
 pineco
 forretress
 gligar
 snubbull
-qwilfish
 magcargo
 swinub
 piloswine
@@ -5264,9 +4806,8 @@ tornadus
 thundurus
 landorus
 fletchinder
-scatterbug
 spewpa
-flab�b�
+flab b 
 floette
 skiddo
 honedge
@@ -5295,13 +4836,11 @@ toucannon
 yungoos
 gumshoos
 grubbin
-charjabug
 vikavolt
 crabrawler
 crabominable
 cutiefly
 wishiwashi
-toxapex
 mudbray
 dewpider
 araquanid
@@ -5339,7 +4878,6 @@ thwackey
 skwovet
 rookidee
 corvisquire
-blipbug
 dottler
 orbeetle
 eldegoss
@@ -5439,7 +4977,6 @@ tinkatink
 tinkatuff
 wiglett
 wugtrio
-bombirdier
 finizen
 palafin
 varoom
@@ -5456,7 +4993,6 @@ cetitan
 veluza
 dondozo
 tatsugiri
-annihilape
 clodsire
 dudunsparce
 kingambit
@@ -5581,7 +5117,6 @@ galarian stunfisk
 hisuian arcanine
 hisuian voltorb
 hisuian electrode
-hisuian qwilfish
 hisuian braviary
 hisuian sliggoo
 hisuian avalugg
@@ -5597,31 +5132,6 @@ pikachu ph. d
 pikachu libre
 shadow mewtwo
 spiky-eared pichu
-unown b
-unown c
-unown d
-unown f
-unown g
-unown h
-unown j
-unown k
-unown l
-unown m
-unown n
-unown o
-unown p
-unown q
-unown r
-unown s
-unown t
-unown u
-unown v
-unown w
-unown x
-unown y
-unown z
-unown !
-unown ?
 normal castform
 rainy castform
 snowy castform
@@ -5645,7 +5155,7 @@ frost rotom
 heat rotom
 mow rotom
 wash rotom
-rotom pok�dex
+rotom pok dex
 rotom phone
 rotom information
 origin forme dialga
@@ -5690,7 +5200,7 @@ sandstorm vivillon
 savanna vivillon
 sun vivillon
 tundra vivillon
-pok� ball vivillon
+pok ball vivillon
 fancy vivillon
 eternal floette
 dandy trim furfrou
@@ -5787,9 +5297,7 @@ harvin humanoid
 kor \(magic: the gathering\) humanoid
 orc humanoid
 fungus/animal hybrid fungi fauna
-hybrid avian/mammal gryphon
 hybrid canid/demonic canid demon
-hybrid equine/avian hippogriff
 hybrid goat/demonic caprine demon
 hybrid goat/demonic goat demon
 hybrid owl/demonic owl demon
@@ -5797,9 +5305,7 @@ hybrid plant/animal flora fauna
 mammal equine/humanoid centaur
 mineral/animal hybrid mineral fauna
 rabbit/antelope hybrid jackalope
-anthro hybrid avian/mammal gryphon
 anthro hybrid canid/demonic canid demon
-anthro hybrid equine/avian hippogriff
 anthro hybrid goat/demonic caprine demon
 anthro hybrid goat/demonic goat demon
 anthro hybrid owl/demonic owl demon
@@ -5809,7 +5315,6 @@ anthro mammal rabbit/antelope hybrid jackalope
 fauna flora fungus/animal hybrid fungi fauna
 floran: mythical
 shrimp: aquatic
-finch: bird
 stand \(jjba\): mythical
 jakkai: mythical
 metroid \(species\): mythical
@@ -5824,10 +5329,7 @@ nardoragon: mythical
 afghan hound: mammal
 bovid taur: mythical
 ground shark: aquatic
-serrasalmid: fish
-rat snake: reptile
 nihallaks \(species\): mythical
-piranha \(fish\): aquatic
 draph: mythical
 corsac fox: mammal
 longma: mythical
@@ -5838,30 +5340,21 @@ mimic chest: mythical
 pteranodontid: dinosaur
 common ferret: mammal
 ambient crustacean: mythical
-eastern bluebird: bird
 cherub: mythical
-blue macaw: bird
 spinosaurus: dinosaur
 cecaelia: mythical
 octopus humanoid: mythical
-corn snake: reptile
 dall sheep: mammal
-dodo: bird
-picid: bird
 hobkin: mythical
 lamarian: mythical
 mule: mammal
-roadrunner: bird
 tigrex: mythical
 nevrean: mythical
-new world ground cuckoo: bird
-osprey: bird
 sugar glider: mammal
 orthopterid: mythical
 tibetan mountain dog: mammal
 eggerlander: mythical
 anaconda: reptile
-cockatiel: bird
 musteline humanoid: mythical
 primatius: mythical
 pteranodon: dinosaur
@@ -5869,13 +5362,9 @@ squid humanoid: mythical
 monodontid: aquatic
 weredog: mythical
 ctarl-ctarl: mythical
-goldfish: aquatic
-dove: bird
 sunflower \(pvz\): mythical
-salmonid \(fish\): aquatic
 wingless bat: mythical
 eublepharid: mythical
-woodpecker: bird
 lizardman \(warhammer\): mythical
 brown hyena: mammal
 humanoid half-elf
@@ -5883,7 +5372,6 @@ humanoid half-orc
 humanoid gnome \(short:1.2\)
 humanoid halfing hobbit \(short:1.2\)
 humanoid dwarf \(short:1.2\)
-humanoid changeling shapeshifter
 humanoid vampire dhampir
 humanoid elf drow
 humanoid dwarf duergar
@@ -5900,19 +5388,16 @@ humanoid elemental air creature sylph
 anthro reptilian draconic kobold
 anthro reptilian draconic dragonborn
 anthro reptilian lizard lizardfolk
-anthro reptilian snake yuan-ti vishkanya
 anthro mammal hyena gnoll
 anthro mammal vulpine kitsune
 anthro mammal feline catfolk
 anthro mammal rodent ratfolk
 anthro amphibian frog grippli
-anthro avian bird tengu aarakocra
 anthro mammal simian vanara
 humanoid gnome \(short:1.3\)
 humanoid halfing hobbit \(short:1.4\)
 serpentine humanoid marine triton
 serpentine humanoid marine mermaid
-serpentine humanoid snake naga
 machine robot humanoid golem
 anthro humanoid mammal werewolf
 humanoid giant
@@ -5923,5 +5408,4 @@ humanoid elemental fire elemental ifrit
 humanoid elemental water elemental undine
 humanoid elemental rock elemental oread
 humanoid elemental air elemental sylph
-anthro reptilian snake (yuan-ti|vishkanya)
 anthro avian raven tengu
