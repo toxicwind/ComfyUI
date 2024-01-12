@@ -58,53 +58,26 @@ Chris Moore
 Jack Gaughan
 Alex Schomburg
 Roman Muradov
-Alex Schomburg
-Bruce Pennington
-Chris Foss
-Chris Moore
-Dane Madgwick
-Darrell K. Sweet
-Frank Frazetta
-J. C. Leyendecker
-Jack Gaughan
-Jim Burns
-Paul Lehr
-Robert McCall
-Roman Muradov
 Simon Stalenhag
 Syd Mead
-acidapluvia
 adios
 angiewolf
 caraid
 danza
 darkgem
 difetra
-dimwitdog
-dragonfu
 ewgengster \(artist\)
 fossa666
-james howard
 justmegabenewell
-kami-chan
-keadonger
 killioma
 klongi
 miles df
-munkeesgomu
 narse
-nextel
 nomax
-patto
 personalami
 rajii
-redraptor16
-rick griffin
 ruaidri
-scafen \(artist\)
 slimefur
-snowskau
-sonsasu
 strange-fox
 taran fiddler
 tartii
@@ -120,29 +93,18 @@ chunie
 0r0ch1
 dacad
 daftpatriot
-fluff-kevlar
 haaru
 hladilnik
 kapri
-keadonger
 locitony
 mucknagabe
 prsmrti
-redrusker
-ruaidri
-s2-freak
-scafen \(artist\)
-sethpup
 stalvelle
-tom fischbach
 tzarvolver
-zaush
 tatujapa
-0r0ch1
 MikroGoat
 anti dev
 bigdad
-braeburned
 captainzepto
 catsnbriefs, by cedamuc1, by oiruse
 crownedvictory
@@ -151,70 +113,51 @@ doginacafe
 don bluth
 dracovar valeford
 dragondrawer
-dramamine
 duly noted
 eric schwartz
-funkybun
-haaru
 hammytoy
 hanna-barbera
 happyroadkill
 jackaloo
-jay naylor
 jerseydevil
 jishinu
 jonas
 jrjresq
 k0bit0wani
-kapri
 katie tiedrich
-keadonger
 kihu
 looney tunes
 malerouille
 mcfan
 meraence
-muzz
 nanoff
 nargleflex
-nextel
 nikraccoom
 orf
 poppin
 raccoondouglas
 rcc2002
-rick griffin
 rotten robbie
-seth-iova
 shyguy9
 skunkjunkie
 sorc
 spiritd
 tani da real
-teaselbone
 the-alfie-incorporated
 turk128
 tush
 tvma
-tyroo
 walliscolours
 zackary911
 blotch
-difetra
-ewgengster \(artist\)
 kenket
-personalami
-ruaidri
 sicklyhypnos
-thebigslick
 \(\(crosshatching\)\)
 \(\(pointillism\)\)
 \(woodcut print\)
 \(\)
-\(\)
 \(stamp\)
 \(sticker\)
-190s comic style, line art, vintage screen print
 190s comic style, line art, vintage screen print
 \(CRT Monitor\)
 \(LaserDisc\)
@@ -231,7 +174,6 @@ artstation
 black and white brushwork
 blueprint
 \(cartoon network\)
-\(\)
 chalk and brush
 colored chalk drawing
 colored pencils sketch
@@ -274,14 +216,10 @@ watercolor painting
  background
 pen and ink
 
-
-
 folk art
 statue
-
  color screen print
 \(\(looney tunes\)\)
-\(19 poster\)
 \(19 poster\)
 double exposure
 overexposed
@@ -339,11 +277,11 @@ Play-Doh
 Botanical Drawing
 Technical drawing
 Optical Illusion
-by manmosu_marimo
+by manmosu marimo
 by bbmbbf
 by sssonic2
 by marsminer
-by tom_fischbach
+by tom fischbach
 by lonbluewolf
 by aogami
 by dimwitdog
@@ -360,7 +298,7 @@ by chalo
 by kloudmutt
 by daigaijin
 by avante92
-by freckles_\(artist\)
+by freckles \(artist\)
 by furball
 by doneru
 by winick-lim
@@ -372,14 +310,14 @@ by sindoll
 by jrvanesbroek
 by mastergodai
 by cryptid-creations
-by smudge_proof
-by aaron_\(artist\)
-by argon_vile
+by smudge proof
+by aaron \(artist\)
+by argon vile
 by sugarlesspaints
 by inkyfrog
 by meesh
 by somescrub
-by kitsune_youkai
+by kitsune youkai
 by atryl
 by fluff-kevlar
 by blitzdrachin
@@ -390,14 +328,14 @@ by jaeh
 by tokifuji
 by seraphictiger
 by slugbox
-by jay_naylor
+by jay naylor
 by ebonychimera
 by zourik
 by twinkle-sez
-by max_blackrabbit
+by max blackrabbit
 by kadath
 by angstrom
-by trout_\(artist\)
+by trout \(artist\)
 by mleonheart
 by flinters
 by lavenderpandy
@@ -405,24 +343,24 @@ by glacierclear
 by gideon
 by lizardlars
 by insomniacovrlrd
-by replica_\(artist\)
+by replica \(artist\)
 by ber00
 by lustylamb
 by jailbird
-by sparrow_\(artist\)
+by sparrow \(artist\)
 by bigdad
 by theboogie
 by justmegabenewell
 by geeflakes
 by feretta
-by james_howard
+by james howard
 by f-r95
 by imperatorcaesar
 by tailzkim
 by jerseydevil
 by oselotti
-by miso_souperstar
-by the_weaver
+by miso souperstar
+by the weaver
 by crystal-for-ever
 by redishdragie
 by anibaruthecat
@@ -438,35 +376,16 @@ by marjani
 by soulcentinel
 by flashw
 by sefeiren
-by john_joseco
-by twinkle-sez
-by dimwitdog
-by sssonic2
-by fluff-kevlar
-by redishdragie
-by f-r95
-by miso souperstar
-by justmegabenewell
-by tokifuji
-by mleonheart
-by lizardlars
-by zourik
+by john joseco
 by inu-sama
-by avante92
-by limebreaker
-by meesh
 by drako1997
-by lonbluewolf
 by frumples
-by dagasi
 by chunie
 by personalami
 by r-mk
 by truegrave9
-by saltyxodium
 by kihu
 by patto
-by jailbird
 by rajii
 by freckles
 by anchee
@@ -480,37 +399,27 @@ by xenoforge
 by roly
 by dreiker
 by sepiruth
-by kittydee
 by xnirox
 by zackary911
 by totesfleisch8
 by tsampikos
-by hioshiru
 by cooliehigh
 by zeiro
 by syuro
-by zp92
 by scappo
 by whisperfoot
 by dacad
 by seraziel
 by lysergide
-by jay naylor
 by nurinaki
-by furball
-by kadath
 by daftpatriot
 by quotefox
 by redrusker
 by nikkibunn
 by marblesoda
-by hladilnik
 by lunalei
 by valkoinen
 by ashraely
-by winick-lim
-by tailzkim
-by feretta
 by tojo the thief
 by thousandfoldfeathers
 by burgerkiss
@@ -518,33 +427,27 @@ by ldr
 by stargazer
 by miles df
 by zaush
-by chromapan
 by nawka
 by ruaidri
 by negger
-by felino
 by enigi09
 by trinity-fate62
 by jrjresq
-by nightfaux
 by danza
 by keadonger
 by iwbitu
-by marjani
 by darkgem
 by foxovh
 by nuzzo
 by kammi-lu
 by aaron
 by narse
-by erobos
 by berseepon09
 by doomthewolf
 by gorsha pendragon
 by wolfy-nail
 by youjomodoki
 by kilinah
-by joaoppereiraus
 by vader-san
 by hyattlen
 by mystikfox61
@@ -553,7 +456,6 @@ by the-minuscule-task
 by omari
 by pata
 by sparrow
-by lustylamb
 by dragonfu
 by carrot
 by sususuigi
@@ -568,7 +470,6 @@ by glopossum
 by wyntersun
 by vallhund
 by cyancapsule
-by lavenderpandy
 by backlash91
 by dangpa
 by securipun
@@ -585,7 +486,6 @@ by furryratchet
 by the xing1
 by siroc
 by rakisha
-by quin-nsfw
 by chewycuticle
 by kekitopu
 by scruffythedeer
@@ -594,7 +494,6 @@ by fasttrack37d
 by anonymous artist
 by inkplasm
 by sligarthetiger
-by slugbox
 by w4g4
 by oro97
 by lockworkorange
@@ -607,22 +506,17 @@ by virtyalfobo
 by mcfan
 by javkiller
 by merunyaa
-by somescrub
-by sindoll
 by nnecgrau
 by snowskau
 by lazysnout
 by frenky hw
-by fuf
 by darkmirage
 by sigma x
 by bna v5
 by ark warrior
-by insomniacovrlrd
 by thefuckingdevil
 by rick griffin
 by zerolativity
-by manmosu marimo
 by captainzepto
 by galacticmichi
 by lyme-slyme
@@ -656,7 +550,6 @@ by shiuk
 by satsukii
 by sukebepanda
 by digitoxici
-by glacierclear
 by fumiko
 by furlana
 by halbean
@@ -669,7 +562,6 @@ by twistedscarlett60
 by demicoeur
 by letodoesart
 by punkypanda
-by jerseydevil
 by phosaggro
 by adios
 by wolflong
@@ -720,7 +612,6 @@ by aomori
 by isolatedartest
 by niis
 by asaneman
-by matemi
 by pochincoff
 by smileeeeeee
 by twang
@@ -735,8 +626,6 @@ by claweddrip
 by zeta-haru
 by skully
 by argento
-by bigdad
-by oselotti
 by edjit
 by krokobyaka
 by hinar miler
@@ -761,7 +650,6 @@ by tricksta
 by sabuky
 by tsaiwolf
 by stoopix
-by atryl
 by hyenaface
 by el-loko
 by gewitter
@@ -770,7 +658,6 @@ by v-tal
 by nextel
 by capaoculta
 by kuroodod
-by angstrom
 by ratatooey
 by minedoo
 by scafen
@@ -831,7 +718,6 @@ by amberpendant
 by ultrabondagefairy
 by spirale
 by azura inalis
-by soulcentinel
 by vksuika
 by atrolux
 by skipsy
@@ -840,18 +726,15 @@ by marshmallow-ears
 by thericegoat
 by yaroul
 by fivel
-by aogami
 by kaynine
 by null-ghost
 by zhanbow
 by furdo
 by lynncore
-by theboogie
 by nozomyarts
 by ventkazemaru
 by crazydrak
 by qualzar
-by modeseven
 by blotch
 by domasarts
 by luccatoasty
@@ -896,7 +779,6 @@ by incorgnito
 by spinal22
 by sabrotiger
 by kakhao
-by marsminer
 by nexcoyotlgt
 by tfzn
 by bonnie bovine
@@ -914,10 +796,8 @@ by mickey the retriever
 by tenebscuro
 by pururing
 by buxbi
-by sugarlesspaints
 by yuio
 by bleats
-by argon vile
 by ungulatr
 by mewgle
 by hoodie
@@ -930,7 +810,6 @@ by mr-shin
 by chloe-dog
 by sunibee
 by hyucaze
-by suirano
 by korichi
 by delirost
 by fakeryway
@@ -947,10 +826,8 @@ by lost-paw
 by harnny
 by prsmrti
 by antiroo
-by ber00
 by spikedmauler
 by kingofacesx
-by bgn
 by keffotin
 by maxydont
 by shakotanbunny
@@ -959,7 +836,6 @@ by neelix
 by senimasan
 by discordthege
 by sarox
-by sefeiren
 by link2004
 by himeragoldtail
 by roy arashi
@@ -1041,7 +917,6 @@ by kawfee
 by meatshaq
 by karukuji
 by teranen
-by thecon
 by shadman
 by kinkymation
 by conrie
@@ -1162,7 +1037,6 @@ by snowfoxatheart
 by neash
 by angellsview3
 by schmutzo
-by kevinsano
 by zorro re
 by spicedpopsicle
 by picturd
@@ -1172,7 +1046,6 @@ by yildunstar
 by mumu202
 by tofu froth
 by tentabat
-by joelasko
 by sagaris uwu
 by belsnep
 by whooo-ya
@@ -1289,10 +1162,8 @@ by chazcatrix
 by pkaocko
 by qrichy
 by plantpenetrator
-by daigaijin
 by ittybittykittytittys
 by trixythespiderfox
-by yawg
 by shnider
 by furryrevolution
 by milachu92
@@ -1381,7 +1252,6 @@ by patacon
 by bowserboy101
 by nommz
 by notglacier
-zackary911
 butterchalk
 vksuika
 loimu
@@ -1391,8 +1261,6 @@ yourdigimongirl
 sagaris uwu
 wobblelava
 coffeesoda
-braeburned
-jishinu
 xeono
 pixelsketcher
 jumpy jackal
@@ -1407,7 +1275,6 @@ einshelm
 etheross
 ssssnowy
 xennos
-oro97
 riska \(artist\)
 chelodoy
 kakhao
@@ -1425,20 +1292,15 @@ modca
 oxfort2199
 bonnie bovine
 jotun22
-desertkaiju
 syuro
 raaz
-chunie
 r-mk
 paloma-paloma
 nuzzo
-rajii
 kluclew
 whygena
 sigma x
-prsmrti
 twang
-personalami
 dagasi
 kyurisawa
 pikajota
@@ -1460,14 +1322,11 @@ yuio
 naive tabby
 canaryprimary
 nsfw def
-snowskau
 thousandfoldfeathers
 neelix
 nepentz
 securipun
-totesfleisch8
 eternity-zinogre
-zaush
 con5710
 flong
 inu-sama
@@ -1479,108 +1338,63 @@ waspsalad
 jinxit
 sijimmy456
 romarom
-fluff-kevlar
 barggmel
-zackary911
-dagasi
-fluff-kevlar
-dimwitdog
-whisperfoot
-braeburned
-r-mk
 manmosu marimo
 sssonic2
 miso souperstar
 saltyxodium
-desertkaiju
 zourik
-meesh
 atrolux
-personalami
-syuro
-zaush
 drako1997
-tokifuji
 f-r95
-inu-sama
 ashraely
 hioshiru
 lonbluewolf
 avante92
-chunie
-rajii
 feretta
 fuf
 soulcentinel
 sicmop
-twinkle-sez
 twistedscarlett60
-kuroodod
 aogami
 burgerkiss
-tom fischbach
 mleonheart
 roly
 lizardlars
 redishdragie
-totesfleisch8
-thousandfoldfeathers
 matemi
 freckles \(artist\)
 iskra
-oro97
 truegrave9
 cooliehigh
 scappo
 frumples
 the-minuscule-task
 black-kitten
-dacad
-ruaidri
 backlash91
 enigi09
-claweddrip
-wizzikt
 zp92
-jay naylor
-funkybun
 stargazer
 harmarist
 siroc
-justmegabenewell
-hladilnik
 thesecretcave
-sigma x
-james howard
-keadonger
 seraziel
 joaoppereiraus
-nuzzo
-kittydee
 sugarlesspaints
 nikkibunn
 backsash
 limebreaker
-smitty g
 winick-lim
 insomniacovrlrd
 tsampikos
-seibear
 youjomodoki
 kadath
-pikajota
 marsminer
 chromapan
-loimu
 foxovh
-codyblue-731
 aoizuri
 xnirox
-photonoko
-daftpatriot
-youwannaslap
 ketzio
-redrusker
 flat colors, outline, naive art, by [billy childish|frederick cayley robinson]
 shaded,  \(by kenket:1.1\), by ross tran, by michael & inessa garmash, by pino daeni, by kiguri, by alena aenami, by ruan jiam
 shaded,  \(by taran fiddler:1.1\), by snowskau, by michael & inessa garmash, by pino daeni, by kiguri, by alena aenami, by ruan jia
@@ -1608,7 +1422,6 @@ shaded,  by thebigslick, by snowskau, by kuroodod
 shaded,  by tohfu, by negger, by [frans van mieris|hans makart|leonid afremov], by [jeannette guichard-bunel|jillian tamaki|amy sillman]
 shaded,  outline, by [frans van mieris|hans makart|leonid afremov], by [jeannette guichard-bunel|jillian tamaki|amy sillman]
 , outline, by tohfu, by negger, by [frans van mieris|hans makart|leonid afremov], by [jeannette guichard-bunel|jillian tamaki|amy sillman]
-
  \(by fluff-kevlar:1.1\), by greg rutkowski, by chunie, by foxovh
  [\(by fluff-kevlar:1.1\)|by greg rutkowski|by chunie|by foxovh]
  by [haps|carrot]
@@ -1616,8 +1429,6 @@ shaded,  outline, by [frans van mieris|hans makart|leonid afremov], by [jeannett
  by haps, by carrot
  by haps, by carrot, by braeburned, by sssnowy
 , by [frans van mieris|hans makart|leonid afremov], by [jeannette guichard-bunel|jillian tamaki|amy sillman]
-
-
 Art et Liberte
 Aase Berg
 Yutaka Bito
@@ -1694,7 +1505,6 @@ Aaron Jasinski
 Aaron Siskind
 Abbott Fuller Graves
 Abbott Handerson Thayer
-Abdel Hadi Al Gazzar
 Abed Abdi
 Abigail Larson
 Abraham Mintchine
@@ -1766,7 +1576,6 @@ Albert Tucker
 Albert Watson
 Alberto Biasi
 Alberto Burri
-Alberto Giacometti
 Alberto Magnelli
 Alberto Seveso
 Alberto Sughi
@@ -1799,7 +1608,6 @@ Alex Petruk
 Alex Prager
 Alex Ross
 Alex Russell Flint
-Alex Schomburg
 Alex Timmermans
 Alex Toth
 Alexander Archipenko
@@ -1849,7 +1657,6 @@ Alma Thomas
 Alois Arnegger
 Alphonse Mucha
 Alphonse Osbert
-Alpo Jaakola
 Alson Skinner Clark
 Alvar Aalto
 Alvaro Siza
@@ -1866,7 +1673,6 @@ Amédée Guillemin
 Amedee Ozenfant
 Amedeo Modigliani
 Amiet Cuno
-Aminollah Rezaei
 Amir Zand
 Amy Earles
 Amy Judd
@@ -1980,7 +1786,6 @@ Arnold Böcklin
 Arnold Schoenberg
 Aron Demetz
 Aron Wiesenfeld
-Arshile Gorky
 Art Fitzpatrick
 Art Frahm
 Art Spiegelman
@@ -2141,7 +1946,6 @@ Brothers Hildebrandt
 Bruce Coville
 Bruce Munro
 Bruce Nauman
-Bruce Pennington
 Bruce Timm
 Bruno Catalano
 Bruno Munari
@@ -2259,12 +2063,10 @@ Chris Claremont
 Chris Cold
 Chris Cunningham
 Chris Dyer
-Chris Foss
 Chris Friel
 Chris LaBrooy
 Chris Leib
 Chris Mars
-Chris Moore
 Chris Ofili
 Chris Riddell
 Chris Samnee
@@ -2502,7 +2304,6 @@ Dora Maar
 Dorina Costras
 Dorothea Lange
 Dorothea Sharp
-Dorothea Tanning
 Dorothy Johnstone
 Dorothy Lathrop
 Doug Aitken
@@ -2595,7 +2396,6 @@ El Anatsui
 El Greco
 El Lissitzky
 Elaine de Kooning
-Elba Damast
 Eleanor Fortescue-Brickdale
 Eleanor Vere Boyle
 Elena Paraskeva
@@ -2643,12 +2443,10 @@ Emilio Giuseppe Dossena
 Emily Balivet
 Emily Carr
 Emily Kame Kngwarreye
-Emma Geary
 Emma Ríos
 Emmanuel de Critz
 Emmanuel Shiu
 Emmanuelle Moureaux
-Emmy Bridgwater
 Emory Douglas
 Enki Bilal
 Enoch Bolles
@@ -2666,7 +2464,6 @@ Erich Heckel
 Erik Johansson
 Erik Jones
 Erin Hanson
-Erna Rosenstein
 Ernest Crichlow
 Ernest Lawson
 Ernest Meissonier
@@ -2805,7 +2602,6 @@ Frank Auerbach
 Frank Bramley
 Frank Cadogan Cowper
 Frank Cho
-Frank Frazetta
 Frank Gehry
 Frank Holl
 Frank Lloyd Wright
@@ -2849,7 +2645,6 @@ Frederick Judd Waugh
 Frederick Lord Leighton
 Frederick McCubbin
 Frederick Sandys
-Frida Kahlo
 Friedensreich Hundertwasser
 Frieke Janssens
 Frits Thaulow
@@ -2979,7 +2774,6 @@ Henri Fantin Latour
 Henri Matisse
 Henri Rousseau
 Henri-Edmond Cross
-Henriette Grindat
 Henry Asencio
 Henry Fuseli
 Henry Moore
@@ -3044,7 +2838,6 @@ J.M.W. Turner
 Jacek Yerka
 Jack Butler Yeats
 Jack Davis
-Jack Gaughan
 Jack Kirby
 Jackson Pollock
 Jacob Hashimoto
@@ -3077,7 +2870,6 @@ Jan Luyken
 Jan Pietersz Saenredam
 Jan Van Eyck
 Jan van Kessel the Elder
-Jane Graverol
 Jane Newland
 Janek Sedlar
 Jasmine Becket-Griffith
@@ -3138,7 +2930,6 @@ Jessica Woulfe
 Jessie Willcox Smith
 Jhonen Vasquez
 Jillian Tamaki
-Jim Burns
 Jim Davis
 Jim Lee
 Jim Mahfood
@@ -3244,7 +3035,6 @@ Kate Beaton
 Kate Greenaway
 Käthe Kollwitz
 Kathryn Morris Trotter
-Kati Horna
 Katsuhiro Otomo
 Katsushika Hokusai
 Kawanabe Kyōsai
@@ -3412,7 +3202,6 @@ Matti Suuronen
 Maurice Sendak
 Max Beckmann
 Max Dupain
-Max Ernst
 Max Pechstein
 Max Weber
 Maxfield Parrish
@@ -3468,7 +3257,6 @@ Nathan Wirth
 NC Wyeth
 Neil Boyle
 Neil Welliver
-Nele Zirnite
 NHK Animation
 Ni Chuanjing
 Nicholas Roerich
@@ -3528,13 +3316,11 @@ Paul Barson
 Paul Cézanne
 Paul Chadeisson
 Paul Corfield
-Paul Delvaux
 Paul Gauguin
 Paul Gustav Fischer
 Paul Henry
 Paul Klee
 Paul Laffoley
-Paul Lehr
 Paul Ranson
 Paul Strand
 Paul Wonner
@@ -3614,7 +3400,6 @@ Rembrandt Van Rijn
 Remedios Varo
 René Lalique
 Rene Laloux
-Rene Magritte
 RETNA \(Marquis Lewis\)
 Reylia Slaby
 RHADS
@@ -3646,7 +3431,6 @@ Robert Hagan
 Robert Irwin
 Robert M Cunningham
 Robert Maguire
-Robert McCall
 Robert Mcginnis
 Robert Motherwell
 Robert Neubecker
@@ -3657,7 +3441,6 @@ Robert Vonnoh
 Robert William Hume
 Robert Williams
 Roberto Ferri
-Roberto Matta
 Roberto Parada
 Rockwell Kent
 Rodney Matthews
@@ -3739,7 +3522,6 @@ Silvestro Lega
 Simeon Solomon
 Simon Birch
 Simon Bisley
-Simon Stalenhag
 Simone Martini
 Sir James Guthrie
 Siya Oum
@@ -3776,7 +3558,6 @@ Sue Bryce
 Susan Luo
 Susan Seddon Boulet
 Sven Nordqvist
-Syd Mead
 Sydney Edmunds
 Sydney Prior Hall
 Tadao Ando
@@ -3861,7 +3642,6 @@ Valerie Hegarty
 Vhils
 Victo Ngai
 Victor Adame Minguez
-Victor Brauner
 Victor Medina
 Victor Moscoso
 Victor Nizovtsev
@@ -3976,7 +3756,6 @@ Street Art/Graffiti Style:  Spray paint, stencils.  Urban murals, political mess
 Trompe-l'oeil Style:  Oil paint, precise technique.  Realistic illusion of three-dimensionality.  Accurate representation, depth and shadow.
 Neo-Impressionism Style:  Pointillism, oil paint.  Optically blended colors, divisionism.  Harmonious hues, optical effects.
 Hard-edge Painting Style:  Acrylic paint, tape or stencils.  Defined geometric shapes, sharp lines.  Bold and flat, clear color separation.
-Abstract Expressionism Style:  Acrylics, large canvases.  Gestural brushwork, spontaneous creation.  Bold, expressive colors, emotional intensity.
 Neo-expressionism Style:  Oil paint, mixed media.  Intense brushstrokes, raw emotions.  Bright and bold, expressive contrasts.
 Conceptual Art Style:  Diverse, idea-based focus.  Emphasis on the concept rather than aesthetics.  Varied, depending on the underlying idea.
 Installation Art Style:  Mixed media, site-specific installations.  3D works that interact with the space.  Diverse, often immersive experiences.
