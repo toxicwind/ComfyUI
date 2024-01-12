@@ -415,7 +415,7 @@ zorua
 labrador
 serperior
 buizel
-miqo'te
+miqote
 zeraora
 blue jay
 floatzel
@@ -473,7 +473,7 @@ falcon
 harpy
 elder dragon
 primarina
-fossil pokémon
+fossil pokemon
 meowstic
 shinx
 ampharos
@@ -657,11 +657,11 @@ bernese mountain dog
 salandit
 faun \(spyro\)
 kremling
-ditto \(pokémon\)
+ditto \(pokemon\)
 bull terrier
 chao \(sonic\)
 iguanid
-hypno \(pokémon\)
+hypno \(pokemon\)
 smeargle
 lamniform
 samoyed
@@ -812,7 +812,7 @@ american black bear
 goomba
 dusk lycanroc
 raboot
-shadow pokémon
+shadow pokemon
 victini
 toucan
 old world vulture
@@ -970,7 +970,7 @@ articuno
 living candy
 syngnathiform
 koopa humanoid
-persian \(pokémon\)
+persian \(pokemon\)
 werefox
 syngnathid
 linoone
@@ -993,7 +993,7 @@ venusaur
 pelecaniform
 zebroid
 caninu
-alpha pokémon
+alpha pokemon
 aquatic gastropod
 angel dragon
 tanuki humanoid
@@ -1004,7 +1004,7 @@ thyreophoran
 froslass
 puwa
 felineko
-twi'lek
+twilek
 caitian
 palkia
 ottsel
@@ -1179,7 +1179,7 @@ dwarf rabbit
 lampropeltini
 magikarp
 furred kobold
-beta pokémon \(species\)
+beta pokemon \(species\)
 chiropteran humanoid
 marowak
 true buffalo
@@ -1409,7 +1409,7 @@ zapdos
 assaultron \(fallout\)
 catfolk
 hummingbird
-grant's gazelle
+grants gazelle
 sun bear
 machop
 hylotl
@@ -1456,7 +1456,7 @@ mushroom humanoid
 entei
 gem creature
 dracony
-t'vaoan
+tvaoan
 ara \(genus\)
 yeti
 pug
@@ -1505,7 +1505,7 @@ dabbling duck
 deoxys
 facehugger
 exceed
-unown \(pokémon\)
+unown \(pokemon\)
 sand cat
 marshadow
 leopard gecko
@@ -1663,10 +1663,10 @@ cherrim
 reploid
 wickerbeast
 dustox
-na'vi
+navi
 tangrowth
 amoeba \(organism\)
-farfetch'd
+farfetchd
 japanese kobold
 gyroid
 maggot
@@ -1689,7 +1689,7 @@ gypsy vanner
 fairy dragon
 chaos daemon
 ice dragon
-bowman's wolf
+bowmans wolf
 enfield
 sparrow
 scarlet macaw
@@ -1755,7 +1755,7 @@ keeper of the moon
 croagunk
 vastaya
 murasadramon
-jackson's chameleon
+jacksons chameleon
 ankylosaurian
 red arremer
 mexican wolf
@@ -1776,7 +1776,7 @@ fallow deer
 lemurian
 living car
 celestial being
-meller's chameleon
+mellers chameleon
 onix
 meles
 nudibranch
@@ -1864,7 +1864,7 @@ saturniid
 feline taur
 vileplume
 thorny devil
-nezumi \(magic, the gathering\)
+nezumi \(magic the gathering\)
 sasquatch
 hornbill
 togepi
@@ -1874,7 +1874,7 @@ lyrian
 cetacean humanoid
 hitmontop
 gastrodon
-rinrin \(pokémon gold beta\)
+rinrin \(pokemon gold beta\)
 sunshine form cherrim
 grasshopper
 ibex
@@ -1891,7 +1891,7 @@ staryu
 spring salamander
 cacodemon
 dugtrio
-dra'essa
+draessa
 tojol
 brachiosaurid
 blackgatomon
@@ -1942,3295 +1942,2498 @@ hereford cattle
 snow creature
 alolan sandslash
 tentacool
-pokemon_\(species\)
-domestic_dog
-domestic_cat
-animal_humanoid
-generation_1_pokemon
-mammal_humanoid
-generation_4_pokemon
-earth_pony
-generation_3_pokemon
-generation_2_pokemon
-generation_5_pokemon
-digimon_\(species\)
-generation_6_pokemon
-winged_unicorn
-legendary_pokemon
-felid_humanoid
-nordic_sled_dog
-generation_7_pokemon
-feline_humanoid
-western_dragon
-cat_humanoid
-pastoral_dog
-herding_dog
-canid_humanoid
-mythological_avian
-canine_humanoid
-elemental_creature
-furred_dragon
-red_panda
-flora_fauna
-generation_8_pokemon
-sus_\(pig\)
-boss_monster
-raccoon_dog
-spotted_hyena
-tree_squirrel
-unknown_species
-giant_panda
-red_fox
-hunting_dog
-snow_leopard
-true_musteline
-horned_humanoid
-goo_creature
-shiny_pokemon
-fox_humanoid
-marine_humanoid
-german_shepherd
-animate_inanimate
-toy_dog
-polar_bear
-canid_demon
-gallus_\(genus\)
-alien_humanoid
-toothed_whale
-eastern_dragon
-shih_tzu
-domestic_pig
-experiment_\(lilo_and_stitch\)
-wild_boar
-ground_squirrel
-bird_dog
-mega_evolution
-mammal_taur
-regional_form_\(pokemon\)
-mollusk_humanoid
-domestic_sheep
-bovid_humanoid
-cephalopod_humanoid
-anubian_jackal
-lagomorph_humanoid
-wingless_dragon
-oceanic_dolphin
-bat_pony
-arctic_fox
-ambiguous_species
-shiba_inu
-leporid_humanoid
-rabbit_humanoid
-demon_humanoid
-dragon_humanoid
-bovine_humanoid
-domestic_ferret
-corvus_\(genus\)
-elemental_humanoid
-robot_humanoid
-animated_skeleton
-food_creature
-border_collie
-wolf_humanoid
-cattle_humanoid
-arthropod_humanoid
-scalie_humanoid
-fish_humanoid
-alolan_form
-winged_humanoid
-midnight_lycanroc
-tyrannosaurus_rex
-feathered_dragon
-living_machine
-humanoid_taur
-waddling_head
-brown_bear
-plant_humanoid
-equid_taur
-welsh_corgi
-striped_hyena
-african_wild_dog
-dog_humanoid
-salamander_\(amphibian\)
-maned_wolf
-rodent_humanoid
-golden_retriever
-flying_wyvern
-tentacle_monster
-calico_cat
-aquatic_dragon
-living_inflatable
-generation_9_pokemon
-avian_humanoid
-living_vehicle
-monstrous_humanoid
-virginia_opossum
-jay_\(bird\)
-night_fury
-new_world_jay
-blue_jay
-living_aircraft
-grizzly_bear
-hisuian_form
-equid_humanoid
-reptile_humanoid
-mountain_dog
-mineral_fauna
-scent_hound
-caprine_demon
-arachnid_humanoid
-mythological_firebird
-night_elf
-domestic_rabbit
-insect_humanoid
-common_hippopotamus
-ambient_arthropod
-equine_humanoid
-living_plushie
-draft_horse
-elder_dragon
-fossil_pokémon
-alaskan_malamute
-hairless_cat
-spider_humanoid
-sea_eagle
-pantherine_humanoid
-green_yoshi
-goat_demon
-caprine_humanoid
-object_head
-bald_eagle
-blood_elf
-sphynx_\(cat\)
-flower_creature
-duel_monster
-alolan_vulpix
-ambient_insect
-requiem_shark
-goo_humanoid
-australian_shepherd
-feathered_dinosaur
-sky_forme_shaymin
-ultra_beast
-ring-tailed_lemur
-great_dane
-sciurid_humanoid
-murid_humanoid
-murine_humanoid
-digital_creature
-caracal_\(genus\)
-arctic_wolf
-striped_skunk
-fanged_wyvern
-true_parrot
-midday_lycanroc
-squirrel_humanoid
-holstein_friesian_cattle
-black_bear
-mega_lopunny
-ambient_sealife
-mole_salamander
-tiger_shark
-canid_taur
-tabby_cat
-mythological_sphinx
-piranha_plant
-cape_buffalo
-pit_bull
-red_deer
-mouse_humanoid
-kaka_\(blazblue\)
-boo_\(mario\)
-eldritch_abomination
-canine_taur
-owl_demon
-foo_dog
-ambient_bird
-white-tailed_deer
-monitor_lizard
-species_request
-swallow_\(bird\)
-felid_taur
-living_fruit
-swiss_mountain_dog
-fungi_fauna
-clouded_leopard
-koopa_troopa
-cocker_spaniel
-mega_charizard
-bernese_mountain_dog
-faun_\(spyro\)
-ditto_\(pokémon\)
-bull_terrier
-chao_\(sonic\)
-hypno_\(pokémon\)
-eurasian_red_squirrel
-galarian_form
-living_clothing
-red_wolf
-synth_\(vader-san\)
-tree_squirrel_humanoid
-guardian_spirit
-snake_humanoid
-tiger_humanoid
-mega_lucario
-true_owl
-au_ra
-inanimate_object
-grazing_antelope
-pit_viper
-komodo_dragon
-red_pandaren
-mixed_breed
-troll_\(homestuck\)
-fire_creature
-rath_wyvern
-angel_humanoid
-minkmen_\(one_piece\)
-neopet_\(species\)
-bird_humanoid
-animal_head
-siberian_husky
-leviathan_\(mh\)
-pokemon_humanoid
-dragonborn_\(dnd\)
-mega_absol
-viper_\(x-com\)
-bubo_\(genus\)
-vessel_\(species\)
-alolan_ninetales
-dark_elf
-food_humanoid
-lop_rabbit
-mole_\(animal\)
-toad_\(mario\)
-arthropod_taur
-fox_taur
-sheep_humanoid
-american_black_bear
-dusk_lycanroc
-shadow_pokémon
-old_world_vulture
-cervid_taur
-shark_humanoid
-living_doll
-australian_cattle_dog
-grey_fox
-secretary_bird
-mega_charizard_x
-meloetta_\(aria_form\)
-gem_\(species\)
-basset_hound
-micro_organism_\(organism\)
-flesh_creature
-pine_marten
-true_antelope
-hisuian_typhlosion
-diamond_dog_\(mlp\)
-hisuian_zoroark
-light_fury
-penis_creature
-cell_\(organism\)
-shadow_lugia
-toad_\(frog\)
-arachnid_taur
-procyonid_humanoid
-goat_humanoid
-witch_\(the_owl_house\)
-philippine_eagle
-raccoon_humanoid
-mega_gardevoir
-bird_wyvern
-creeper_\(minecraft\)
-cervid_humanoid
-lizard_humanoid
-river_otter
-rough_collie
-rock_creature
-alolan_meowth
-maine_coon
-primate_humanoid
-neotropical_parrot
-honey_badger
-alolan_raichu
-avian_\(starbound\)
-equine_taur
-flower_humanoid
-old_world_monkey
-snowy_owl
-ambient_butterfly
-cavalier_king_charles_spaniel
-boa_\(snake\)
-spider_taur
-shadow_siren
-leopard_cat
-typical_carp
-amur_carp
-living_candy
-koopa_humanoid
-persian_\(pokémon\)
-dire_wolf
-mega_charizard_y
-hymenopteran_humanoid
-magpie_\(corvid\)
-tailed_beast
-alpha_pokémon
-aquatic_gastropod
-angel_dragon
-tanuki_humanoid
-bow_experiment_\(resident_evil\)
-living_piñata
-lepidopteran_humanoid
-tasmanian_devil
-small_molosser
-saint_bernard
-amphibian_humanoid
-amped_toxtricity
-brute_wyvern
-sea_slug
-monkey_humanoid
-ursid_humanoid
-fungi_humanoid
-blin_\(tloz\)
-carpet_shark
-ambient_firefly
-domestic_goat
-king_cheetah
-chain_chomp
-black-backed_jackal
-horse_humanoid
-jackal_humanoid
-great_white_shark
-prime_\(las_lindas\)
-livestock_guardian_dog
-true_eagle
-crane_\(bird\)
-ambient_fish
-vampire_bat
-altered_forme_giratina
-land_forme_shaymin
-golden_eagle
-bearded_vulture
-lion_humanoid
-rito_humanoid
-aircraft_humanoid
-bighorn_sheep
-mythological_carbuncle
-mustelid_humanoid
-mineral_humanoid
-masked_owl
-abyssal_wolf
-moon_bear
-ender_dragon
-indominus_rex
-low_key_toxtricity
-shadow_creature
-space_dragon_\(metroid\)
-mythological_golem
-sphere_creature
-hisuian_zorua
-whale_shark
-gigantamax_pokemon
-moth_humanoid
-cardinal_\(bird\)
-barn_owl
-robin_\(bird\)
-dwarf_rabbit
-furred_kobold
-beta_pokémon_\(species\)
-chiropteran_humanoid
-true_buffalo
-bee_humanoid
-blue_yoshi
-new_world_monkey
-hairless_dog
-dragon_taur
-mythological_canine
-dire_machine
-galarian_ponyta
-mule_deer
-mythological_fox
-fruit_humanoid
-nihallaks_\(species\)
-stand_\(jjba\)
-gremlin_\(spiral_knights\)
-frog_humanoid
-thrush_\(bird\)
-behemoth_\(ff\)
-common_ferret
-mega_ampharos
-mega_mewtwo
-red_kangaroo
-water_buffalo
-kulve_taroth
-dire_vehicle
-canadian_lynx
-origin_forme_giratina
-tailed_humanoid
-jack_russell_terrier
-least_weasel
-roswell_grey
-rat_snake
-water_creature
-mega_banette
-night_stalker_\(fallout\)
-bovid_taur
-rubber_creature
-beast_\(bloodborne\)
-pink_yoshi
-water_deer
-ambient_crustacean
-manta_ray
-ruuhtian_\(kig-yar\)
-new_world_ground_cuckoo
-slugcat_\(rain_world\)
-corn_snake
-ambient_bat
-air_creature
-ring-tailed_cat
-mega_mewtwo_y
-piranha_\(fish\)
-crowned_sword_zacian
-patchwork_creature
-ground_shark
-afghan_hound
-corsac_fox
-musteline_humanoid
-peregrine_falcon
-flying_squirrel
-sugar_glider
-tailclops_\(species\)
-highland_cattle
-kangaroo_rat
-brown_hyena
-spiral-horned_antelope
-tuxedo_cat
-metroid_\(species\)
-keldeo_\(ordinary_form\)
-cervine_taur
-nu_mou
-feathered_snake
-blue_macaw
-spotted_skunk
-imp_\(doom\)
-sea_serpent
-timberwolf_\(mlp\)
-spectacled_bear
-tibetan_mountain_dog
-sea_lion
-highmountain_tauren
-dire_aircraft
-frilled_lizard
-mega_mawile
-t-virus_mutant_\(resident_evil\)
-single_strike_style_urshifu
-sunflower_\(pvz\)
-mimic_chest
-sea_monster
-orc_\(dragon_quest\)
-assaultron_\(fallout\)
-grant's_gazelle
-sun_bear
-elapid_\(snake\)
-lizardman_\(overlord\)
-russian_blue
-nightwing_\(wof\)
-hisuian_growlithe
-living_sex_doll
-sumatran_rhinoceros
-cnidarian_humanoid
-crystal_pony_\(mlp\)
-octopus_humanoid
-mustela_humanoid
-mushroom_humanoid
-gem_creature
-ara_\(genus\)
-salmonid_\(fish\)
-pantherine_taur
-screen_head
-chinese_crested_dog
-golden_jackal
-living_weapon
-serval_humanoid
-ragdoll_cat
-chow_chow
-squid_humanoid
-elemental_dragon
-silver_dragon
-cyan_yoshi
-xenomorph_queen
-mega_blaziken
-deku_\(tloz\)
-pure_faraden
-stoat_humanoid
-living_cloud
-dabbling_duck
-unown_\(pokémon\)
-sand_cat
-leopard_gecko
-boston_terrier
-sea_otter
-reformed_changeling
-kermode_bear
-lizardman_\(warhammer_fantasy\)
-three-toed_sloth
-frieza_race
-dutch_rabbit
-baron_of_hell
-egyptian_vulture
-dragon_pony
-holarctic_magpie
-displacer_beast
-pikmin_\(species\)
-lightforged_draenei
-mega_swampert
-hammerhead_shark
-sea_sponge
-glaive_wyvern
-lizard_\(divinity\)
-guinea_pig
-dall_sheep
-siberian_tiger
-natural_furfrou
-air_humanoid
-fish-men_\(one_piece\)
-rat_humanoid
-flap-necked_chameleon
-poison_dart_frog
-wolf_taur
-loch_ness_monster
-rainwing_\(wof\)
-xerneas_\(active_mode\)
-bacteria_\(organism\)
-living_toy
-sperm_whale
-salmonid_\(splatoon\)
-hybrid_pokemon
-waddle_dee
-thresher_shark
-hammer_brothers
-peashooter_\(pvz\)
-fallen_angel
-deku_scrub
-sable_\(marten\)
-hoopa_\(confined\)
-ursine_humanoid
-seawing_\(wof\)
-icewing_\(wof\)
-skywing_\(wof\)
-mind_flayer
-incubator_\(puella_magi\)
-amoeba_\(organism\)
-japanese_kobold
-new_faraden
-bovine_taur
-plant_monster
-ambient_starfish
-dragon_\(dnd\)
-cloud_humanoid
-sandwing_\(wof\)
-gypsy_vanner
-fairy_dragon
-chaos_daemon
-ice_dragon
-bowman's_wolf
-scarlet_macaw
-kishū_inu
-spiral_knight
-hell_knight
-grey_squirrel
-living_gasm_drive
-irish_setter
-goo_dragon
-bullet_bill
-spring_deerling
-bengal_tiger
-red-tailed_hawk
-mythological_chimera
-akita_inu
-red_yoshi
-baby_kangaskhan
-bobtail_cat
-galarian_zigzagoon
-atlantic_puffin
-persian_cat
-faceless_\(species\)
-american_paint_horse
-mega_audino
-ice_creature
-tapu_lele
-roe_deer
-dutch_angel_dragon
-unicellular_organism_\(organism\)
-purple_yoshi
-slime_\(blob\)
-cadou_host_\(resident_evil\)
-high_elf
-keeper_of_the_moon
-jackson's_chameleon
-red_arremer
-mexican_wolf
-medusozoan_humanoid
-jellyfish_humanoid
-bat-eared_fox
-chameleon_humanoid
-living_melee_weapon
-suina_humanoid
-fallow_deer
-living_car
-celestial_being
-meller's_chameleon
-galarian_rapidash
-cyber_dragon
-set_\(species\)
-unicorn_humanoid
-skulldog_\(species\)
-long-tailed_weasel
-cervine_humanoid
-appmon_\(species\)
-rapid_strike_style_urshifu
-grimm_\(rwby\)
-emoji_\(race\)
-crowned_shield_zamazenta
-naked_mole-rat
-living_sword
-meloetta_\(pirouette_form\)
-chimera_ant
-reef_shark
-mythological_salamander
-blade_\(xenoblade\)
-fire_salamander_\(salamander\)
-yellow_yoshi
-black_yoshi
-primal_reversion
-eulipotyphlan_humanoid
-lungless_salamander
-egyptian_mau
-feline_taur
-thorny_devil
-nezumi_\(magic,_the_gathering\)
-computer_virus_\(species\)
-cetacean_humanoid
-rinrin_\(pokémon_gold_beta\)
-sunshine_form_cherrim
-eurasian_lynx
-suid_humanoid
-dragonoid_\(dark_souls\)
-spring_salamander
-karelian_bear_dog
-avian_taur
-skunk_taur
-shar_pei
-mephitid_taur
-orange_yoshi
-spider_monkey
-winter_sawsbuck
-imaginary_friend
-candy_humanoid
-common_pigeon
-parasprite_\(mlp\)
-alolan_marowak
-tailclops_\(race\)
-alolan_exeggutor
-cheetah_humanoid
-hereford_cattle
-snow_creature
-alolan_sandslash
-animal, mammal
-canine, canid
-domestic dog, canine
-feline, felid
-wolf, canis
-generation 1, pokemon \(species\)
-horse, equid
-humanoid, humanoid
-reptile, scalie
-horse, equine
-domestic cat, feline
-humanoid, human
-vulpine, fox
-dragon, dragon
-canine, domestic dog
-lupine, wolf
-domestic cat, felis
-feline, domestic cat
-rabbit, lagomorph
-scaly, reptile
-rabbit, leporid
-lagomorph, rabbit
-equine, horse
-feline, pantherine
-bird, avian
-goat, bovid
-humanoid, animal humanoid
-mixed, hybrid
-pokemon, generation 1 pokemon
-murid, rodent
-equine, pony
-fish, marine
-avian, bird
-equine, unicorn
-ursine, bear
-humanoid, mammal humanoid
-pokemon, generation 4 pokemon
-goat, caprine
-demonic, demon
-pantherine, tiger
-pokemon, generation 3 pokemon
-equine, pegasus
-equine, earth pony
-marine, fish
-cervine, deer
-extraterrestrial, alien
-insect, arthropod
-rodent, murid
-rodent, murine
-pokemon, generation 2 pokemon
-cattle, bovine
-weasel, mustelid
-machine, robot
-feline, lion
-eevee, eeveelution
-pokemon generation6, generation 6 pokemon
-pokemon generation5, generation 5 pokemon
-digital, digimon \(species\)
-legendary, legendary pokemon
-chiropteran, bat
-reptile, lizard
-canine, spitz
-pegasus, winged unicorn
-selachian, shark
-insectivore, eulipotyphlan
-caprine, goat
-vulpine, red fox
-serpent, snake
-Erinaceinae, hedgehog
-murine, mouse
-pouched, marsupial
-catfolk, felid humanoid
-raccoon, procyonid
-prehistoric, dinosaur
-pokemon generation7, generation 7 pokemon
-creature, monster
-Hyaenidae, hyena
-procyonid, raccoon
-insect, insect
-squirrel, sciurid
-husky, nordic sled dog
-herding, pastoral dog
-catfolk, feline humanoid
-herding, herding dog
-shapeshifter, were
-dragon, western dragon
-nordic sled dog, husky
-catfolk, cat humanoid
-shapeshifter, werecanid
-dogfolk, canid humanoid
-legendary bird, mythological avian
-lutrine, otter
-mustelid, musteline
-dogfolk, canine humanoid
-elemental, elemental creature
-crocodile, crocodilian
-Pokémon, lucario
-dragon, furred dragon
-ovine, sheep
-skunk, mephitid
-murine, rat
-mephitid, skunk
-digimon, renamon
-bear, ursine
-pokemon generation8, generation 8 pokemon
-shapeshifter, werecanine
-fox, fennec
-pig, suina
-red panda, ailurid
-shapeshifter, werewolf
-ailurid, red panda
-monkey, primate
-robotic, animatronic
-pig, suid
-mythical, gryphon
-natural, flora fauna
-hunter, hunting dog
-pig, sus \(pig\)
-squirrel, tree squirrel
-canid, raccoon dog
-hyena, spotted hyena
-mythical, kobold
-mythical, tanuki
-unidentified, unknown
-formidable, boss monster
-canid, jackal
-bear, giant panda
-aquatic, amphibian
-dinosaur, theropod
-feline, lynx
-humanoid, elf
-feline, snow leopard
-shellfish, mollusk
-feline, cheetah
-mythical, horned humanoid
-supernatural, spirit
-Pokémon, gardevoir
-demonic, canid demon
-rare, shiny pokemon
-amorphous, goo creature
-kangaroo, macropod
-fowl, galliform
-demonic, hellhound
-fowl, phasianid
-mythical, koopa
-dog, german shepherd
-Pokémon, pikachu
-mustelid, true musteline
-feline, leopard
-anthropomorphic, animate inanimate
-hybrid, taur
-deer, capreoline
-fox, fox humanoid
-bird, passerine
-bird, oscine
-primate, haplorhine
-macropod, kangaroo
-merfolk, marine humanoid
-mythical, imp
-equine, zebra
-Pokémon, umbreon
-supernatural, ghost
-bear, polar bear
-mollusk, cephalopod
-Pokémon, eevee
-supernatural, undead
-dog, toy dog
-shapeshifter, changeling
-crocodile, crocodylid
-crocodylid, crocodile
-aquatic, cetacean
-chicken, gallus \(genus\)
-gallus, chicken
-mustelid, weasel
-extraterrestrial, alien humanoid
-mythical, sergal
-canid, coyote
-dragon, eastern dragon
-Pokémon, lopunny
-alligator, alligatorid
-cetacean, toothed whale
-Pokémon, sylveon
-divine, deity
-dog, pinscher
-dog, dobermann
-alligatorid, alligator
-cetacean, dolphin
-bird, corvid
-dog, bird dog
-Pokémon, braixen
-deer, reindeer
-Pokémon, vaporeon
-bird, owl
-dog, sheepdog
-cetacean, oceanic dolphin
-pig, domestic pig
-spider, arachnid
-mythical, yordle
-variation, regional form \(pokemon\)
-pokemon generation9, generation 9 pokemon
-dog, shih tzu
-mythical, draconcopode
-primate, monkey
-pig, wild boar
-bird, accipitriform
-insect, lepidopteran
-alien, experiment \(Lilo and Stitch\)
-Pokémon, zoroark
-dragon, wingless dragon
-Pokémon, charizard
-dinosaur, dromaeosaurid
-Pokémon, glaceon
-squirrel, ground squirrel
-robotic, android
-robotic, cyborg
-ungulate, antelope
-evolution, mega evolution
-hybrid, mammal taur
-squirrel, chipmunk
-mythical, goblin
-donkey, asinus
-marsupial, bandicoot
-mythical, bovid humanoid
-asinus, donkey
-dog, molosser
-mythical, mollusk humanoid
-insect, hymenopteran
-amphibian, frog
-mythical, lagomorph humanoid
-bird, accipitrid
-mythical, demon humanoid
-mythical, cephalopod humanoid
-dog, dalmatian
-mythical, anubian jackal
-sheep, domestic sheep
-mythical, chimera
-arachnid, spider
-mustelid, badger
-dog, retriever
-unknown, ambiguous
-dog, collie
-fox, arctic fox
-deer, cervine
-Pokémon, arcanine
-bird, anseriform
-bird, anatid
-mythical, bat pony
-feline, cougar
-dolphin, orca
-giraffe, giraffid
-mythical, leporid humanoid
-mythical, rabbit humanoid
-dog, shiba inu
-Pokémon, lycanroc
-Pokémon, blaziken
-mythical, machairodontine
-mythical, dragon humanoid
-mythical, yokai
-mammal, monotreme
-marsupial, didelphid
-Pokémon, espeon
-Pokémon, lugia
-mythical, worgen
-humanoid, orc
-humanoid, hylian
-bird, corvus \(genus\)
-bird, duck
-Pokémon, zangoose
-reptile, turtle
-mythical, wyvern
-elephant, proboscidean
-robotic, robot humanoid
-mythical, elemental humanoid
-mammal, echidna
-Pokémon, cinderace
-mythical, bovine humanoid
-ferret, domestic ferret
-elephant, elephantid
-mammal, giraffe
-snake, cobra
-Pokémon, goodra
-mythical, inkling
-mythical, naga
-mythical, vampire
-dog, border collie
-Pokémon, raichu
-mammal, elephant
-unknown, food creature
-Pokémon, leafeon
-insect, bee
-dinosaur, velociraptor
-Pokémon, typhlosion
-Pokémon variation, alolan form
-dinosaur, tyrannosaurid
-mythical, arthropod humanoid
-bird, eagle
-mythical, angel
-Pokémon, jolteon
-primate, ape
-dinosaur, tyrannosaurus
-mythical, yoshi
-dog, mastiff
-bear, brown bear
-Pokémon, flareon
-Pokémon, absol
-mythical, wolf humanoid
-mythical, twili
-ungulate, rhinoceros
-undead, animated skeleton
-mythical, fairy
-mythical, lombax
-mammal, pinniped
-dinosaur, tyrannosaurus rex
-mythical, cattle humanoid
-mythical, scalie humanoid
-mythical, protogen
-mythical, merfolk
-mythical, minotaur
-mythical, argonian
-Pokémon, midnight lycanroc
-dinosaur, ornithischian
-mythical, winged humanoid
-ungulate, gazelle
-robotic, living machine
-Pokémon, mewtwo
-mythical, fish humanoid
-Pokémon, riolu
-bird, crow
-Pokémon, delphox
-mythical, khajiit
-mollusk, coleoid
-mythical, keidran
-Pokémon, incineroar
-hybrid, humanoid taur
-mythical, feathered dragon
-insect, butterfly
-insect, moth
-amphibian, salamander
-mythical, plant humanoid
-cat, calico cat
-mammal, maned wolf
-mythical, pandaren
-mythical, waddling head
-mythical, guilmon
-dog, welsh corgi
-hybrid, equid taur
-mythical, rito
-dog, golden retriever
-mythical, dog humanoid
-dog, african wild dog
-mythical, lamia
-mollusk, gastropod
-rabbit, oryctolagus
-rabbit, domestic rabbit
-mammal, herpestid
-dog, sighthound
-mammal, gulonine
-reptile, chameleon
-primate, strepsirrhine
-hyena, striped hyena
-primate, lemur
-mythical, draconequus
-mythical, tauren
-Pokémon, vulpix
-Pokémon, mew \(pokemon\)
-mythical, living inflatable
-mammal, camelid
-mythical, rodent humanoid
-mythical, sangheili
-Pokémon, salazzle
-dog, poodle
-feline, jaguar
-mythical, flying wyvern
-mythical, draenei
-mythical, tentacle monster
-Pokémon, latias
-mammal, hare
-cat, siamese
-bird, penguin
-mythical, centaur
-Pokémon, luxray
-dog, labrador
-Pokémon, greninja
-mythical, aquatic dragon
-bird, parrot
-marsupial, virginia opossum
-Pokémon variation, hisuian form
-mythical, living vehicle
-mammal, mink
-rodent, beaver
-Pokémon, ninetales
-bird, jay \(bird\)
-mythical, avian humanoid
-bird, new world jay
-primate, gorilla
-mammal, xenarthran
-rodent, cricetid
-mythical, octarian
-Pokémon, quilava
-mythical, octoling
-Pokémon, zeraora
-mythical, monstrous humanoid
-bear, grizzly bear
-mythical, charr
-Pokémon, snivy
-Pokémon, gengar
-bird, blue jay
-mythical, octopodiform
-Pokémon, kirlia
-Pokémon, zorua
-Pokémon, buizel
-mythical, kaiju
-undead, zombie
-mythical, turian
-mythical, genie
-mythical, gatomon
-mythical, miqo'te
-dog, dingo
-Pokémon, mienshao
-rodent, hamster
-mythical, caprine demon
-mythical, xenomorph
-mythical, meowscarada
-aquatic, crustacean
-Pokémon, weavile
-Pokémon, serperior
-Pokémon, floatzel
-mythical, tem
-dog, rottweiler
-mythical, night fury
-Pokémon, charmander
-mythical, living aircraft
-Pokémon, reshiram
-mythical, succubus
-mythical, equid humanoid
-mythical, ambient arthropod
-dog, spaniel
-Pokémon, scorbunny
-mythical, gargoyle
-dinosaur, ceratopsian
-unknown, request
-dog, scent hound
-dog, mountain dog
-Pokémon, charmeleon
-mythical, jackalope
-insect, beetle
-deer, red deer
-mythical, oni
-dog, terrier
-hippopotamus, hippopotamid
-Pokémon, shinx
-mythical, reptile humanoid
-reptile, gecko
-mythical, satyr
-mythical, darkner
-Pokémon, mightyena
-mythical, insect humanoid
-mythical, owl demon
-mammal, marten
-mythical, sprigatito
-mythical, ambient flier
-hybrid, wolfdog
-Pokémon, fennekin
-mythical, goat demon
-mythical, green yoshi
-mythical, living plushie
-mythical, cyclops
-mythical, mythological firebird
-mythical, elder dragon
-mythical, avali
-Pokémon, dragonite
-mythical, mineral fauna
-mythical, kirin
-Pokémon, garchomp
-mythical, arachnid humanoid
-dinosaur, triceratops
-Pokémon, shaymin
-mythical, impmon
-hybrid, mixed breed
-dog, alaskan malamute
-mythical, equine humanoid
-Pokémon, ampharos
-Pokémon, alolan vulpix
-horse, draft horse
-cat, hairless cat
-hippopotamus, common hippopotamus
-mythical, lizardman
-cat, tabby cat
-mythical, ambient insect
-Pokémon, primarina
-Pokémon, fossil pokemon
-bird, falconid
-mythical, night elf
-mammal, serval
-mythical, harpy
-mammal, dasyuromorph
-mythical, hippogriff
-bird, falcon
-mythical, malo
-Pokémon, nidoqueen
-mythical, pantherine humanoid
-mythical, deathclaw
-Pokémon, flygon
-aquatic, echinoderm
-Pokémon, meowstic
-Pokémon, houndoom
-mythical, sphynx \(cat\)
-mollusk, slug
-bird, sea eagle
-Pokémon, audino
-dog, saluki
-mythical, goo humanoid
-crustacean, malacostracan
-mythical, spider humanoid
-mythical, caprine humanoid
-dinosaur, pterosaur
-Pokémon, mawile
-Pokémon, feraligatr
-bird, bald eagle
-mythical, phoenix
-Pokémon, meowth
-Pokémon, latios
-mythical, veemon
-mythical, flamedramon
-shark, requiem shark
-mythical, burmecian
-bird, raven
-dog, australian shepherd
-dinosaur, feathered dinosaur
-mammal, mongoose
-mammal, stoat
-Pokémon, inteleon
-Pokémon, pichu
-mythical, gnoll
-mythical, object head
-reptile, monitor lizard
-Pokémon, samurott
-bird, peafowl
-mythical, zora
-Pokémon, machoke
-mythical, ultra beast
-mammal, alpaca
-Pokémon, sky forme shaymin
-mythical, lynian
-mythical, caracal \(genus\)
-mythical, symbiote
-mythical, felyne
-aquatic, cnidarian
-mythical, flower creature
-mammal, meerkat
-mammal, vombatiform
-mythical, blood elf
-mythical, duel monster
-bird, columbid
-mythical, sciurid humanoid
-Pokémon, furret
-crustacean, decapoda
-mammal, moose
-mythical, pilosan
-mythical, basitin
-mammal, cape buffalo
-amphibian, mole salamander
-wolf, arctic wolf
-cat, tuxedo cat
-mythical, fanged wyvern
-aquatic, asterozoan
-mythical, caracal
-mythical, chinchillid
-mythical, leopardus
-Pokémon, bulbasaur
-bird, true parrot
-Pokémon, scolipede
-aquatic, decapodiform
-dog, great dane
-mythical, vulpera
-amphibian, axolotl
-mythical, murid humanoid
-mythical, murine humanoid
-mythical, ambient bird
-dog, akita
-Pokémon, dewott
-aquatic, starfish
-dog, cattledog
-dog, pomeranian
-mammal, ring-tailed lemur
-mammal, chinchilla
-mythical, skaven
-mythical, viverrid
-dog, australian cattle dog
-mammal, possum
-reptile, komodo dragon
-mythical, paradox pokemon
-mythical, tree squirrel humanoid
-bear, black bear
-Pokémon, noivern
-Pokémon, dragonair
-Pokémon, mega lopunny
-snake, viper
-mythical, eldritch abomination
-digital, digital creature
-mythical, felkin
-aquatic, seal
-bird, lari
-Pokémon, nidoking
-dog, beagle
-mythical, narehate
-mammal, koala
-mythical, piranha plant
-mythical, troll
-mythical, nargacuga
-Pokémon, scrafty
-crustacean, crab
-Pokémon, midday lycanroc
-dog, pit bull
-aquatic, ambient sealife
-mammal, wolverine
-mammal, porcupine
-dog, cocker spaniel
-dinosaur, sauropod
-mammal, holstein friesian cattle
-mythical, furred reptilian
-robotic, synth \(vader-san\)
-aquatic, tiger shark
-cat, ocelot
-deer, white-tailed deer
-hybrid, canid taur
-mythical, hydra
-mammal, striped skunk
-bird, hirundinid
-unknown, inanimate object
-mythical, boo \(mario\)
-Pokémon, suicune
-mythical, nimbat
-Pokémon, yveltal
-hybrid, canine taur
-bird, swallow \(bird\)
-mythical, mythological sphinx
-Pokémon, litten
-Pokémon, milotic
-dinosaur, pterodactylus
-mythical, mouse humanoid
-mythical, koopa troopa
-mythical, moogle
-Pokémon, lapras
-mammal, dwarf rabbit
-insect, dipteran
-Pokémon variation, galarian form
-Pokémon, totodile
-mammal, llama
-bat, pteropodid
-mythical, living fruit
-bird, vulture
-mammal, silver fox
-dog, swiss mountain dog
-mammal, armadillo
-Pokémon, jirachi
-mythical, foo dog
-Pokémon, emolga
-hybrid, felid taur
-mythical, chao \(sonic\)
-dog, bernese mountain dog
-Pokémon, sneasel
-Pokémon, grovyle
-Pokémon, poochyena
-mythical, gabumon
-mythical, cerberus
-Pokémon, salandit
-Pokémon, ditto \(pokemon\)
-mammal, lop rabbit
-mythical, kaka \(blazblue\)
-Pokémon, hypno \(pokemon\)
-mythical, tenno
-mythical, living clothing
-dog, samoyed
-Pokémon, smeargle
-mythical, kig-yar
-mythical, faun \(spyro\)
-aquatic, lamniform
-mythical, fungi fauna
-reptile, iguanid
-mythical, inkblot
-mythical, guardian spirit
-Pokémon, growlithe
-mythical, minkmen \(one piece\)
-cat, clouded leopard
-Pokémon, decidueye
-mythical, worm
-Pokémon, hatterene
-insect, mantis
-Pokémon, zebstrika
-aquatic, octopus
-mythical, wereeulipotyphlan
-mythical, werehog
-Pokémon, mega charizard
-mythical, sharpclaw \(star fox\)
-Pokémon, mudkip
-mammal, eurasian red squirrel
-mammal, afrosoricid
-mythical, kremling
-hybrid, liger
-mythical, asari
-dinosaur, hadrosaurid
-dog, bull terrier
-mammal, tenrec
-Pokémon, rattata
-mammal, pine marten
-Pokémon, chespin
-mythical, tiger humanoid
-mythical, leomon
-insect, ant
-wolf, red wolf
-Pokémon, nidorina
-mythical, vessel \(species\)
-dog, borzoi
-Pokémon, giratina
-Pokémon, pheromosa
-Pokémon, miltank
-insect, elateroid
-mammal, thylacine
-mythical, chocobo
-insect, firefly
-mythical, krogan
-rodent, dipodid
-bird, true owl
-insect, wasp
-Pokémon, sandslash
-snake, python
-Pokémon, pachirisu
-mammal, jerboa
-mythical, au ra
-fish, cypriniform
-mythical, food humanoid
-mythical, gerudo
-mythical, fire creature
-mythical, yinglet
-mythical, mummy
-bird, larid
-fish, cyprinid
-Pokémon, gallade
-mythical, rath wyvern
-mammal, wallaby
-snake, pit viper
-dog, siberian husky
-bird, turkey
-mammal, river otter
-Pokémon, ancient pokemon
-bird, gull
-Pokémon, rockruff
-Pokémon, squirtle
-dinosaur, thyreophoran
-Pokémon, arbok
-bird, pigeon
-mythical, ambient butterfly
-mythical, gammamon
-Pokémon, snorlax
-Pokémon, raboot
-Pokémon, hisuian typhlosion
-mammal, grazing antelope
-Pokémon, meloetta
-mythical, neopet \(species\)
-mythical, exveemon
-mythical, leviathan \(mh\)
-bird, anserinae
-mythical, red pandaren
-mythical, snake humanoid
-mythical, troll \(homestuck\)
-mythical, palico
-Pokémon, obstagoon
-Pokémon, mega lucario
-mythical, yautja
-Pokémon, swampert
-Pokémon, aggron
-mythical, asura
-insect, myriapod
-mythical, angel humanoid
-bird, bubo \(genus\)
-Pokémon, sceptile
-mythical, komainu
-mollusk, snail
-mythical, dragonborn \(dnd\)
-mythical, bird humanoid
-Pokémon, alolan ninetales
-mythical, animal head
-mythical, pokemon humanoid
-Pokémon, mega absol
-mythical, wendigo
-dinosaur, parasaurolophus
-Pokémon, zekrom
-mammal, oryx
-Pokémon, mismagius
-mythical, dark elf
-snake, rattlesnake
-mammal, walrus
-amphibian, newt
-Pokémon, luxio
-tiger, bengal tiger
-Pokémon, blastoise
-horse, clydesdale
-mythical, shyguy
-mythical, patamon
-mythical, space dragon \(metroid\)
-Pokémon, minun
-mythical, breegull
-mythical, nekomata
-rodent, caviid
-Pokémon, toxtricity
-Pokémon, hisuian zoroark
-bird, cockatoo
-mythical, urocyon
-robotic, cybertronian
-mythical, shark humanoid
-Pokémon, plusle
-Pokémon, arceus
-hybrid, arthropod taur
-mythical, sheep humanoid
-mammal, mole \(animal\)
-Pokémon, tyranitar
-Pokémon, oshawott
-mythical, viper \(x-com\)
-Pokémon, torracat
-Pokémon, haunter
-Pokémon, dusk lycanroc
-Pokémon, banette
-mammal, netherland dwarf rabbit
-cat, bobcat
-Pokémon, machamp
-mythical, quarian
-dog, chihuahua
-mythical, ogre
-mythical, weregarurumon
-hybrid, fox taur
-mythical, angoramon
-Pokémon, bayleef
-Pokémon, sableye
-mammal, dasyurid
-mythical, kong
-hybrid, deer taur
-mythical, viera
-Pokémon, wooloo
-Pokémon, infernape
-mythical, medusozoan
-mythical, mimiga
-bird, secretary bird
-mythical, goomba
-Pokémon, seviper
-mythical, shadow pokemon
-bird, toucan
-mythical, gomamon
-Pokémon, victini
-mythical, hrothgar
-cat, maine coon
-Pokémon, flaaffy
-mammal, sloth
-mythical, x-digimon
-bear, sloth bear
-Pokémon, skitty
-bear, american black bear
-mammal, grey fox
-Pokémon, wartortle
-mammal, microbat
-bird, old world vulture
-mythical, birdo
-mammal, anteater
-mythical, toad \(mario\)
-mythical, witch \(the owl house\)
-mythical, sparkledog
-Pokémon, roserade
-deer, mule deer
-amphibian, toad \(frog\)
-Pokémon, jigglypuff
-cat, wildcat
-Pokémon, minccino
-Pokémon, ivysaur
-mythical, living doll
-Pokémon, mimikyu
-Pokémon, pangoro
-mammal, cross fox
-Pokémon, mega charizard x
-Pokémon, rapidash
-Pokémon, brionne
-Pokémon, whimsicott
-mythical, yangochiropteran
-bird, neotropical parrot
-Pokémon, celebi
-mythical, majin
-aquatic, lamnid
-mythical, agumon
-hybrid, arachnid taur
-aquatic, jellyfish
-dog, basset hound
-mythical, penis creature
-mythical, light fury
-mythical, alpha pokemon
-aquatic, anthozoan
-Pokémon, treecko
-mammal, true antelope
-mythical, bird wyvern
-mythical, goat humanoid
-mythical, zinogre
-mammal, aardwolf
-Pokémon, meloetta \(aria form\)
-Pokémon, ralts
-bird, parakeet
-aquatic, sea sponge
-fish, carp
-mythical, flesh creature
-mythical, koraidon
-mythical, chakat
-Pokémon, sobble
-bird, philippine eagle
-mythical, diamond dog \(mlp\)
-Pokémon, kecleon
-Pokémon, alolan meowth
-Pokémon, mega gardevoir
-Pokémon, mudsdale
-mammal, phyllostomid
-bird, macaw
-mythical, procyonid humanoid
-Pokémon, cubone
-Pokémon, popplio
-mythical, wargreymon
-mythical, shadow lugia
-mythical, raccoon humanoid
-mythical, terriermon
-Pokémon, furfrou
-Pokémon, tsareena
-dinosaur, stegosaurian
-mythical, chua
-mammal, euplerid
-mythical, future pokemon
-mythical, micro organism \(organism\)
-Pokémon, rayquaza
-reptile, agamid
-mythical, blin \(tloz\)
-Pokémon, alolan raichu
-mammal, yak
-mythical, slugcat \(rain world\)
-aquatic, eel
-bird, flamingo
-mythical, felineko
-mammal, old world monkey
-bird, thrush \(bird\)
-mythical, primate humanoid
-mythical, annelid
-mythical, lizard humanoid
-mythical, cell \(organism\)
-bird, snowy owl
-mythical, enderman
-Pokémon, piplup
-mythical, shadow creature
-Pokémon, nickit
-mammal, aardvark
-Pokémon, cyndaquil
-Pokémon, chesnaught
-aquatic, aquatic gastropod
-mythical, rock creature
-Pokémon, chikorita
-dinosaur, diplodocid
-dog, rough collie
-mythical, ecaflip
-Pokémon, rillaboom
-bird, pelecaniform
-fish, typical carp
-fish, amur carp
-Pokémon, ursaring
-fish, koi
-hybrid, spider taur
-Pokémon, buneary
-mythical, dorumon
-hybrid, equine taur
-mythical, caninu
-bird, magpie \(corvid\)
-mammal, genet
-dog, cavalier king charles spaniel
-mythical, irken
-mythical, t'vaoan
-mythical, koopa humanoid
-mythical, rotom
-mythical, werefox
-aquatic, sea slug
-mythical, small molosser
-mythical, gaomon
-mammal, capybara
-dinosaur, stegosaurus
-mythical, rainicorn
-aquatic, batoid
-mammal, honey badger
-mythical, pomsky
-mythical, horse humanoid
-Pokémon, larvitar
-mythical, hymenopteran humanoid
-mythical, rathalos
-mythical, tailed humanoid
-Pokémon, darkrai
-mythical, living candy
-mythical, living pinata
-mythical, dire wolf
-mythical, zonai
-mammal, okapi
-dinosaur, utahraptor
-mythical, lizardman \(overlord\)
-mythical, nergigante
-mythical, creeper \(minecraft\)
-mythical, lepidopteran humanoid
-bird, swan
-mythical, living sex doll
-fish, syngnathiform
-insect, dragonfly
-fish, syngnathid
-mythical, flemish giant
-mythical, ottsel
-mythical, mizutsune
-mammal, elk
-bird, bluebird
-mammal, bison
-bird, cardinal \(bird\)
-mammal, platypus
-mythical, mimic
-mythical, tanuki humanoid
-mythical, angel dragon
-mythical, mygalomorph
-mythical, tarantula
-reptile, boa \(snake\)
-mythical, martian
-mythical, puwa
-mythical, pan \(genus\)
-mythical, faun
-mammal, chimpanzee
-mythical, ursid humanoid
-mythical, gorgon
-fish, seahorse
-mythical, shadow siren
-mammal, pangolin
-mammal, prionailurus
-mythical, togruta
-mythical, amphibian humanoid
-mythical, apex build koraidon
-mammal, fossa
-mythical, dwarf
-mythical, avian \(starbound\)
-mythical, tailed beast
-mythical, monkey humanoid
-mythical, gem \(species\)
-mythical, flower humanoid
-dog, saint bernard
-mammal, black-backed jackal
-mammal, tasmanian devil
-insect, blattodea
-mythical, rexouium
-mythical, sneasler
-mythical, rabbid
-mythical, brute wyvern
-mythical, caitian
-mammal, leopard cat
-mythical, tiefling
-dog, livestock guardian dog
-mammal, domestic goat
-mythical, tabaxi
-mythical, bamfear
-dog, bulldog
-mythical, zebroid
-mythical, jackal humanoid
-mammal, civet
-aquatic, carpet shark
-mythical, boinae
-aquatic, coral
-mythical, ambient firefly
-mythical, ender dragon
-dinosaur, allosaurid
-mythical, twi'lek
-mythical, ambient fish
-mythical, bow experiment \(resident evil\)
-mammal, king cheetah
-mythical, vampire bat
-mythical, omnic
-mythical, fungi humanoid
-mythical, lalafell
-mythical, furred kobold
-reptile, skink
-fish, catfish
-fish, great white shark
-bird, tytonid
-bird, masked owl
-mythical, lion humanoid
-mythical, blue yoshi
-bird, ratite
-mythical, chain chomp
-mythical, floragato
-mythical, scorpion
-bird, gruiform
-mythical, rathian
-mythical, demigod
-mythical, betelgeusian
-mythical, sphere creature
-insect, cockroach
-mythical, werefelid
-bird, barn owl
-mythical, miraidon
-bird, crane \(bird\)
-mythical, cockapoo
-mythical, mythological carbuncle
-mythical, cryptid
-bird, true eagle
-mythical, cocotama
-mythical, wickerbeast
-mythical, aircraft humanoid
-dinosaur, allosaurus
-mythical, cucujoid
-mythical, siren
-mythical, moth humanoid
-mythical, rubber creature
-mammal, moon bear
-mythical, mineral humanoid
-mythical, prime \(las lindas\)
-insect, ladybug
-mythical, mustelid humanoid
-mythical, dullahan
-mammal, warthog
-mythical, zeti
-mythical, dire machine
-dog, jack russell terrier
-bird, golden eagle
-mythical, pink yoshi
-dinosaur, spinosaurid
-bird, bearded vulture
-mythical, bat humanoid
-mammal, bighorn sheep
-aquatic, manta ray
-mythical, lepi
-mythical, manticore
-mythical, ruuhtian \(kig-yar\)
-mythical, tobi-kadachi
-mythical, behemoth \(ff\)
-mammal, cacomistle
-mythical, bee humanoid
-mythical, rito humanoid
-mythical, ventrexian
-mammal, new world monkey
-mythical, water creature
-mythical, iradeon
-mythical, saiyan
-mythical, laquine
-mythical, hoopa
-bird, alcid
-mythical, air creature
-mammal, camel
-mythical, dire vehicle
-aquatic, whale shark
-mammal, canadian lynx
-mythical, salmonid \(splatoon\)
-mythical, indominus rex
-mythical, mobian hedgehog
-mammal, hereford cattle
-mythical, mobian bat
-mythical, abyssal wolf
-mammal, flying squirrel
-mythical, roswell grey
-mythical, dragon taur
-mythical, mythological golem
-mythical, frog humanoid
-mythical, colubrid
-mammal, hairless dog
-mythical, ultimate mode miraidon
-mythical, smilodon
-mythical, magikoopa
-mythical, dryad
-mythical, bokoblin
-mythical, zerg
-mythical, kulve taroth
-mythical, lampropeltini
-mythical, night stalker \(fallout\)
-mythical, tatzlpony
-mammal, highland cattle
-mammal, spiral-horned antelope
-mythical, tarunah
-mythical, crux
-dog, dachshund
-mythical, faraden
-bird, puffin
-mammal, heteromyid
-mammal, dipodomyine
-mythical, cyan yoshi
-mythical, patchwork creature
-reptile, tortoise
-mammal, ring-tailed cat
-mythical, bangaa
-bird, goose
-mythical, gremlin \(spiral knights\)
-mythical, quaquaval
-mythical, palamute
-mythical, canyne
-mythical, na'vi
-mammal, north american river otter
-mammal, lontra
-mythical, mythological canine
-mythical, seedrian
-mythical, ambient bat
-bird, cuculiform
-mythical, gnome
-aquatic, stingray
-mythical, tinkaton
-mythical, mythological fox
-mammal, red kangaroo
-mythical, fruit humanoid
-mythical, zonkey
-floran, mythical
-shrimp, aquatic
-finch, bird
-stand \(jjba\), mythical
-jakkai, mythical
-metroid \(species\), mythical
-nightwing \(wof\), mythical
-kweltikwan, mythical
-pooka, mythical
-deinonychus, dinosaur
-marble fox, mammal
-dhole, mammal
-swatchling, mythical
-nardoragon, mythical
-afghan hound, mammal
-bovid taur, mythical
-ground shark, aquatic
-serrasalmid, fish
-rat snake, reptile
-nihallaks \(species\), mythical
-piranha \(fish\), aquatic
-draph, mythical
-corsac fox, mammal
-longma, mythical
-beast \(bloodborne\), mythical
-petaurid, mammal
-origin forme giratina, mythical
-mimic chest, mythical
-pteranodontid, dinosaur
-common ferret, mammal
-ambient crustacean, mythical
-eastern bluebird, bird
-cherub, mythical
-blue macaw, bird
-spinosaurus, dinosaur
-cecaelia, mythical
-octopus humanoid, mythical
-corn snake, reptile
-dall sheep, mammal
-dodo, bird
-picid, bird
-hobkin, mythical
-lamarian, mythical
-mule, mammal
-roadrunner, bird
-tigrex, mythical
-nevrean, mythical
-new world ground cuckoo, bird
-osprey, bird
-sugar glider, mammal
-orthopterid, mythical
-tibetan mountain dog, mammal
-eggerlander, mythical
-anaconda, reptile
-cockatiel, bird
-musteline humanoid, mythical
-primatius, mythical
-pteranodon, dinosaur
-squid humanoid, mythical
-monodontid, aquatic
-weredog, mythical
-ctarl-ctarl, mythical
-goldfish, aquatic
-dove, bird
-sunflower \(pvz\), mythical
-salmonid \(fish\), aquatic
-wingless bat, mythical
-eublepharid, mythical
-woodpecker, bird
-lizardman \(warhammer\), mythical
-brown hyena, mammal
-animate inanimate, Fire Creature
-animate inanimate, Inanimate Object
-animate inanimate, Inkblot
-animate inanimate, Living Clothing
-animate inanimate, Living Doll
-animate inanimate, Living Fruit
-animate inanimate, Living Inflatable
-animate inanimate, Living Plushie
-animate inanimate, Mineral Fauna
-animate inanimate, Penis Creature
-animate inanimate, Shadow Creature
-animate inanimate, cell \(organism\)
-animate inanimate, chua
-animate inanimate, draconic, Gargoyle
-animate inanimate, eldritch horror, Tentacle Monster
-animate inanimate, eldritch horror, flesh creature
-animate inanimate, food-based, Food Creature
-animate inanimate, gelatinous, Goo Creature
-animate inanimate, koraidon
-animate inanimate, living candy
-animate inanimate, living piñata
-animate inanimate, machine, robot, Digital Creature
-animate inanimate, machine, robot, Living Aircraft
-animate inanimate, machine, robot, Living Machine
-animate inanimate, machine, robot, Living Vehicle
-animate inanimate, microorganism \(organism\)
-animate inanimate, mineral fauna, Elemental Creature
-animate inanimate, mineral fauna, Rock Creature
-anthro, ambiguous species
-anthro, amphibian, amphibian
-anthro, amphibian, anura, toad frog
-anthro, amphibian, axolotl
-anthro, amphibian, frog
-anthro, amphibian, mole salamander
-anthro, amphibian, newt
-anthro, amphibian, salamander
-anthro, avian, Mythological Avian
-anthro, avian, Mythological Firebird
-anthro, avian, Phoenix
-anthro, avian, bird
-anthro, avian, bird, accipitrid, accipitrid
-anthro, avian, bird, accipitrid, old world vulture
-anthro, avian, bird, accipitrid, philippine eagle
-anthro, avian, bird, accipitriform, accipitriform
-anthro, avian, bird, accipitriform, bald eagle
-anthro, avian, bird, accipitriform, eagle
-anthro, avian, bird, accipitriform, sea eagle
-anthro, avian, bird, accipitriform, vulture
-anthro, avian, bird, anatidae, anserinae
-anthro, avian, bird, anseriform, anatid
-anthro, avian, bird, anseriform, anseriform
-anthro, avian, bird, anseriform, duck
-anthro, avian, bird, avian, avian
-anthro, avian, bird, cacatuidae, cockatoo
-anthro, avian, bird, charadriiform, lari
-anthro, avian, bird, columbiform, columbid
-anthro, avian, bird, columbiform, pigeon
-anthro, avian, bird, corvid, blue jay
-anthro, avian, bird, corvid, corvid
-anthro, avian, bird, corvid, corvus \(genus\)
-anthro, avian, bird, corvid, crow
-anthro, avian, bird, corvid, jay \(bird\)
-anthro, avian, bird, corvid, new world jay
-anthro, avian, bird, corvidae, magpie \(corvid\)
-anthro, avian, bird, falconiform, falcon
-anthro, avian, bird, falconiform, falconid
-anthro, avian, bird, galliform, galliform
-anthro, avian, bird, laridae, gull
-anthro, avian, bird, laridae, larid
-anthro, avian, bird, oscine, oscine
-anthro, avian, bird, passerine, hirundinid
-anthro, avian, bird, passerine, passerine
-anthro, avian, bird, passerine, raven
-anthro, avian, bird, passerine, swallow \(bird\)
-anthro, avian, bird, pelecaniformes, pelecaniform
-anthro, avian, bird, phasianid, chicken
-anthro, avian, bird, phasianid, gallus \(genus\)
-anthro, avian, bird, phasianid, peafowl
-anthro, avian, bird, phasianid, phasianid
-anthro, avian, bird, phasianid, turkey
-anthro, avian, bird, phoenicopteridae, flamingo
-anthro, avian, bird, psittacidae, macaw
-anthro, avian, bird, psittacidae, neotropical parrot
-anthro, avian, bird, psittacidae, parakeet
-anthro, avian, bird, psittaciform, parrot
-anthro, avian, bird, psittaciform, true parrot
-anthro, avian, bird, ramphastidae, toucan
-anthro, avian, bird, sagittariidae, secretary bird
-anthro, avian, bird, spheniscidae, penguin
-anthro, avian, bird, strigidae, bubo \(genus\)
-anthro, avian, bird, strigidae, snowy owl
-anthro, avian, bird, strigidae, true owl
-anthro, avian, bird, strigiform, owl
-anthro, avian, bird, turdidae, thrush \(bird\)
-anthro, canid, Wendigo
-anthro, equine, winged, Winged Unicorn
-anthro, hybrid
-anthro, hybrid, Chimera
-anthro, hybrid, Mythological Sphinx
-anthro, hybrid, avian, mammal, Gryphon
-anthro, hybrid, canid, demonic, Canid Demon
-anthro, hybrid, demonic canine, Hellhound
-anthro, hybrid, equine, avian, Hippogriff
-anthro, hybrid, feline, Nekomata
-anthro, hybrid, goat, demonic, Caprine Demon
-anthro, hybrid, goat, demonic, Goat Demon
-anthro, hybrid, owl, demonic, Owl Demon
-anthro, hybrid, plant, animal, Flora Fauna
-anthro, mammal, afrosoricida, afrosoricid
-anthro, mammal, ailuridae, ailurid
-anthro, mammal, ailuridae, giant panda
-anthro, mammal, ailuridae, red panda
-anthro, mammal, bovid, antelope
-anthro, mammal, bovid, cape buffalo
-anthro, mammal, bovid, gazelle
-anthro, mammal, bovid, grazing antelope
-anthro, mammal, bovid, holstein friesian cattle
-anthro, mammal, bovid, miltank
-anthro, mammal, bovid, oryx
-anthro, mammal, bovid, true antelope
-anthro, mammal, bovid, yak
-anthro, mammal, bovine, bovid
-anthro, mammal, bovine, bovine
-anthro, mammal, bovine, cattle
-anthro, mammal, camelid, alpaca
-anthro, mammal, camelid, camelid
-anthro, mammal, camelid, llama
-anthro, mammal, canid, Cerberus
-anthro, mammal, canid, Dire Wolf
-anthro, mammal, canid, Sparkledog
-anthro, mammal, canid, african wild dog
-anthro, mammal, canid, anubian jackal
-anthro, mammal, canid, arctic wolf
-anthro, mammal, canid, coyote
-anthro, mammal, canid, domestic dog
-anthro, mammal, canid, jackal
-anthro, mammal, canid, maned wolf
-anthro, mammal, canid, raccoon dog
-anthro, mammal, canid, red wolf
-anthro, mammal, canid, sergal
-anthro, mammal, canid, small molosser
-anthro, mammal, canid, spitz
-anthro, mammal, canid, tanuki
-anthro, mammal, canid, urocyon
-anthro, mammal, canid, wolf
-anthro, mammal, canid, wolfdog
-anthro, mammal, canine, Foo Dog
-anthro, mammal, canine, akita
-anthro, mammal, canine, alaskan malamute
-anthro, mammal, canine, australian cattle dog
-anthro, mammal, canine, australian shepherd
-anthro, mammal, canine, basset hound
-anthro, mammal, canine, beagle
-anthro, mammal, canine, bernese mountain dog
-anthro, mammal, canine, bird dog
-anthro, mammal, canine, border collie
-anthro, mammal, canine, borzoi
-anthro, mammal, canine, bull terrier
-anthro, mammal, canine, cattledog
-anthro, mammal, canine, cavalier king charles spaniel
-anthro, mammal, canine, chihuahua
-anthro, mammal, canine, cocker spaniel
-anthro, mammal, canine, collie
-anthro, mammal, canine, dalmatian
-anthro, mammal, canine, dingo
-anthro, mammal, canine, dobermann
-anthro, mammal, canine, german shepherd
-anthro, mammal, canine, golden retriever
-anthro, mammal, canine, great dane
-anthro, mammal, canine, herding dog
-anthro, mammal, canine, hunting dog
-anthro, mammal, canine, husky
-anthro, mammal, canine, labrador
-anthro, mammal, canine, mastiff
-anthro, mammal, canine, molosser
-anthro, mammal, canine, mountain dog
-anthro, mammal, canine, nordic sled dog
-anthro, mammal, canine, pastoral dog
-anthro, mammal, canine, pinscher
-anthro, mammal, canine, pit bull
-anthro, mammal, canine, pomeranian
-anthro, mammal, canine, pomsky
-anthro, mammal, canine, poodle
-anthro, mammal, canine, retriever
-anthro, mammal, canine, rottweiler
-anthro, mammal, canine, rough collie
-anthro, mammal, canine, saluki
-anthro, mammal, canine, samoyed
-anthro, mammal, canine, scent hound
-anthro, mammal, canine, sheepdog
-anthro, mammal, canine, shiba inu
-anthro, mammal, canine, shih tzu
-anthro, mammal, canine, siberian husky
-anthro, mammal, canine, sighthound
-anthro, mammal, canine, spaniel
-anthro, mammal, canine, swiss mountain dog
-anthro, mammal, canine, terrier
-anthro, mammal, canine, toy dog
-anthro, mammal, canine, welsh corgi
-anthro, mammal, caprine, caprine
-anthro, mammal, caprine, goat
-anthro, mammal, caviidae, capybara
-anthro, mammal, cercopithecidae, old world monkey
-anthro, mammal, cervid, capreoline
-anthro, mammal, cervid, cervine
-anthro, mammal, cervid, deer
-anthro, mammal, cervid, moose
-anthro, mammal, cervid, mule deer
-anthro, mammal, cervid, red deer
-anthro, mammal, cervid, reindeer
-anthro, mammal, cervid, white-tailed deer
-anthro, mammal, chiropteran, bat
-anthro, mammal, chiropteran, microbat
-anthro, mammal, chiropteran, pteropodid
-anthro, mammal, chiropteran, yangochiropteran
-anthro, mammal, cingulata, armadillo
-anthro, mammal, cricetidae, cricetid
-anthro, mammal, dasyuromorph, dasyurid
-anthro, mammal, dasyuromorph, dasyuromorph
-anthro, mammal, dasyuromorph, thylacine
-anthro, mammal, didelphidae, didelphid
-anthro, mammal, didelphidae, possum
-anthro, mammal, didelphidae, virginia opossum
-anthro, mammal, draconic, Furred Dragon
-anthro, mammal, equid, asinus
-anthro, mammal, equid, clydesdale
-anthro, mammal, equid, donkey
-anthro, mammal, equid, draft horse
-anthro, mammal, equid, earth pony
-anthro, mammal, equid, equine
-anthro, mammal, equid, horse
-anthro, mammal, equid, pony
-anthro, mammal, equid, zebra
-anthro, mammal, equine , unicorn 
-anthro, mammal, equine, Bat Pony
-anthro, mammal, equine, Kirin
-anthro, mammal, equine, Pegasus
-anthro, mammal, equine, humanoid, Centaur
-anthro, mammal, erinaceomorph, hedgehog
-anthro, mammal, eulipotyphlan, eulipotyphlan
-anthro, mammal, eupleridae, euplerid
-anthro, mammal, felid, bengal tiger
-anthro, mammal, felid, bobcat
-anthro, mammal, felid, calico cat
-anthro, mammal, felid, caracal
-anthro, mammal, felid, caracal \(genus\)
-anthro, mammal, felid, cheetah
-anthro, mammal, felid, clouded leopard
-anthro, mammal, felid, cougar
-anthro, mammal, felid, domestic cat
-anthro, mammal, felid, hairless cat
-anthro, mammal, felid, hyena
-anthro, mammal, felid, jaguar
-anthro, mammal, felid, leopard
-anthro, mammal, felid, leopardus
-anthro, mammal, felid, lion
-anthro, mammal, felid, lynx
-anthro, mammal, felid, machairodontine
-anthro, mammal, felid, maine coon
-anthro, mammal, felid, ocelot
-anthro, mammal, felid, pantherine
-anthro, mammal, felid, serval
-anthro, mammal, felid, siamese
-anthro, mammal, felid, snow leopard
-anthro, mammal, felid, spotted hyena
-anthro, mammal, felid, sprigatito
-anthro, mammal, felid, striped hyena
-anthro, mammal, felid, tabby cat
-anthro, mammal, felid, tiger
-anthro, mammal, felid, wildcat
-anthro, mammal, feline, Liger
-anthro, mammal, feline, cat
-anthro, mammal, feline, sphynx \(cat\)
-anthro, mammal, feline, tuxedo cat
-anthro, mammal, giraffid, okapi
-anthro, mammal, giraffidae, giraffe
-anthro, mammal, giraffidae, giraffid
-anthro, mammal, herpestidae, herpestid
-anthro, mammal, herpestidae, meerkat
-anthro, mammal, herpestidae, mongoose
-anthro, mammal, hippopotamidae, common hippopotamus
-anthro, mammal, hippopotamidae, hippopotamid
-anthro, mammal, hyenid, aardwolf
-anthro, mammal, lagomorph, domestic rabbit
-anthro, mammal, lagomorph, dwarf rabbit
-anthro, mammal, lagomorph, hare
-anthro, mammal, lagomorph, netherland dwarf rabbit
-anthro, mammal, lagomorph, oryctolagus
-anthro, mammal, lagomorph, rabbit
-anthro, mammal, macropod, kangaroo
-anthro, mammal, macropod, macropod
-anthro, mammal, macropod, wallaby
-anthro, mammal, marine, marine
-anthro, mammal, marsupial, bandicoot
-anthro, mammal, marsupial, koala
-anthro, mammal, marsupial, marsupial
-anthro, mammal, marsupial, vombatiform
-anthro, mammal, mephitid, skunk
-anthro, mammal, monotreme, echidna
-anthro, mammal, monotreme, monotreme
-anthro, mammal, murid, mouse
-anthro, mammal, murid, murid
-anthro, mammal, murid, murine
-anthro, mammal, murid, rat
-anthro, mammal, murid, rodent
-anthro, mammal, mustelid, badger
-anthro, mammal, mustelid, domestic ferret
-anthro, mammal, mustelid, gulonine
-anthro, mammal, mustelid, honey badger
-anthro, mammal, mustelid, marten
-anthro, mammal, mustelid, mephitid
-anthro, mammal, mustelid, mink
-anthro, mammal, mustelid, mustelid
-anthro, mammal, mustelid, musteline
-anthro, mammal, mustelid, otter
-anthro, mammal, mustelid, pine marten
-anthro, mammal, mustelid, river otter
-anthro, mammal, mustelid, stoat
-anthro, mammal, mustelid, striped skunk
-anthro, mammal, mustelid, true musteline
-anthro, mammal, mustelid, weasel
-anthro, mammal, mustelid, wolverine
-anthro, mammal, mustelid, zangoose
-anthro, mammal, ovine, domestic sheep
-anthro, mammal, ovine, sheep
-anthro, mammal, phyllostomidae, phyllostomid
-anthro, mammal, pilosa, pilosan
-anthro, mammal, pilosan, sloth
-anthro, mammal, pinniped, seal
-anthro, mammal, pinniped, walrus
-anthro, mammal, pinnipedia, pinniped
-anthro, mammal, primate, Kong
-anthro, mammal, primate, ape
-anthro, mammal, primate, gorilla
-anthro, mammal, primate, haplorhine
-anthro, mammal, primate, lemur
-anthro, mammal, primate, monkey
-anthro, mammal, primate, primate
-anthro, mammal, primate, ring-tailed lemur
-anthro, mammal, primate, strepsirrhine
-anthro, mammal, proboscidea, elephant
-anthro, mammal, proboscidea, elephantid
-anthro, mammal, proboscidea, proboscidean
-anthro, mammal, procyonid, procyonid
-anthro, mammal, procyonid, raccoon
-anthro, mammal, rabbit, antelope hybrid, Jackalope
-anthro, mammal, rhinocerotidae, rhinoceros
-anthro, mammal, rodent, beaver
-anthro, mammal, rodent, caviid
-anthro, mammal, rodent, chinchilla
-anthro, mammal, rodent, chinchillid
-anthro, mammal, rodent, dipodid
-anthro, mammal, rodent, eurasian red squirrel
-anthro, mammal, rodent, hamster
-anthro, mammal, rodent, jerboa
-anthro, mammal, rodent, porcupine
-anthro, mammal, sciurid, chipmunk
-anthro, mammal, sciurid, ground squirrel
-anthro, mammal, sciurid, rodent
-anthro, mammal, sciurid, sciurid
-anthro, mammal, sciurid, tree squirrel
-anthro, mammal, suidae, domestic pig
-anthro, mammal, suidae, suid
-anthro, mammal, suidae, suina
-anthro, mammal, suidae, sus \(pig\)
-anthro, mammal, suidae, wild boar
-anthro, mammal, talpidae, mole \(animal\)
-anthro, mammal, tenrecidae, tenrec
-anthro, mammal, tubulidentata, aardvark
-anthro, mammal, ursid, american black bear
-anthro, mammal, ursid, sloth bear
-anthro, mammal, ursidae, black bear
-anthro, mammal, ursidae, brown bear
-anthro, mammal, ursidae, grizzly bear
-anthro, mammal, ursidae, polar bear
-anthro, mammal, ursidae, ursine
-anthro, mammal, ursine, bear
-anthro, mammal, vermilingua, anteater
-anthro, mammal, viverrid, genet
-anthro, mammal, viverridae, viverrid
-anthro, mammal, vulpine, arctic fox
-anthro, mammal, vulpine, cross fox
-anthro, mammal, vulpine, fennec
-anthro, mammal, vulpine, fox
-anthro, mammal, vulpine, grey fox
-anthro, mammal, vulpine, red fox
-anthro, mammal, vulpine, silver fox
-anthro, mammal, xenarthra, xenarthran
-anthro, marine creatures, fish
-anthro, marine mammal, cetacean, cetacean
-anthro, marine mammal, cetacean, dolphin
-anthro, marine mammal, cetacean, oceanic dolphin
-anthro, marine mammal, cetacean, orca
-anthro, marine mammal, cetacean, toothed whale
-anthro, marine reptile, draconic, aquatic, Aquatic Dragon
-anthro, marine, arthropod, crustacean, crab
-anthro, marine, arthropod, crustacean, crustacean
-anthro, marine, arthropod, crustacean, decapoda
-anthro, marine, arthropod, crustacean, malacostracan
-anthro, marine, cnidarian, cnidarian
-anthro, marine, cnidarian, jellyfish
-anthro, marine, cnidarian, medusozoan
-anthro, marine, echinoderm, echinoderm
-anthro, marine, echinoderm, starfish
-anthro, marine, fish, actinopterygii, eel
-anthro, marine, fish, cyprinid, amur carp
-anthro, marine, fish, cyprinid, carp
-anthro, marine, fish, cyprinid, koi
-anthro, marine, fish, cyprinid, typical carp
-anthro, marine, fish, cypriniformes, cyprinid
-anthro, marine, fish, cypriniformes, cypriniform
-anthro, marine, fish, elasmobranchii, lamniform
-anthro, marine, fish, elasmobranchii, requiem shark
-anthro, marine, fish, elasmobranchii, tiger shark
-anthro, marine, fish, lamniformes, lamnid
-anthro, marine, fish, rajiformes, batoid
-anthro, marine, fish, selachimorpha, shark
-anthro, marine, gastropod, aquatic gastropod
-anthro, marine, invertebrate, mollusk, gastropod
-anthro, marine, invertebrate, mollusk, mollusk
-anthro, marine, invertebrate, star, Asterozoan
-anthro, marine, mollusk, cephalopod, cephalopod
-anthro, marine, mollusk, cephalopod, coleoid
-anthro, marine, mollusk, cephalopod, decapodiform
-anthro, marine, mollusk, cephalopod, octopodiform
-anthro, marine, mollusk, cephalopod, octopus
-anthro, marine, mollusk, cnidarian, anthozoan
-anthro, marine, nudibranch, sea slug
-anthro, marine, porifera, sea sponge
-anthro, mixed breed
-anthro, monstrous and varied, Monster
-anthro, reptile, chelonian, turtle
-anthro, reptile, crocodilian, crocodilian
-anthro, reptile, crocodylid, alligator
-anthro, reptile, crocodylid, alligatorid
-anthro, reptile, crocodylid, crocodile
-anthro, reptile, crocodylid, crocodylid
-anthro, reptile, dinosaur, avian, Feathered Dinosaur
-anthro, reptile, dinosaur, ceratopsian
-anthro, reptile, dinosaur, dinosaur
-anthro, reptile, dinosaur, diplodocid
-anthro, reptile, dinosaur, dromaeosaurid
-anthro, reptile, dinosaur, hadrosaurid
-anthro, reptile, dinosaur, ornithischian
-anthro, reptile, dinosaur, parasaurolophus
-anthro, reptile, dinosaur, pterodactylus
-anthro, reptile, dinosaur, pterosaur
-anthro, reptile, dinosaur, sauropod
-anthro, reptile, dinosaur, stegosaurian
-anthro, reptile, dinosaur, stegosaurus
-anthro, reptile, dinosaur, theropod
-anthro, reptile, dinosaur, thyreophoran
-anthro, reptile, dinosaur, triceratops
-anthro, reptile, dinosaur, tyrannosaurid
-anthro, reptile, dinosaur, tyrannosaurus
-anthro, reptile, dinosaur, tyrannosaurus rex
-anthro, reptile, dinosaur, velociraptor
-anthro, reptile, draco, dragon 
-anthro, reptile, draconic, Hydra
-anthro, reptile, draconic, Kobold
-anthro, reptile, draconic, Western Dragon
-anthro, reptile, draconic, Wingless Dragon
-anthro, reptile, draconic, avian, Feathered Dragon
-anthro, reptile, draconic, multi-legged, Draconcopode
-anthro, reptile, draconic, winged, Flying Wyvern
-anthro, reptile, draconic, winged, Wyvern
-anthro, reptile, mammal, draconic, Eastern Dragon
-anthro, reptile, mammal, furry, Furred Reptilian
-anthro, reptile, snake, cobra
-anthro, reptile, snake, pit viper
-anthro, reptile, snake, python
-anthro, reptile, snake, rattlesnake
-anthro, reptile, snake, snake
-anthro, reptile, snake, viper
-anthro, reptile, squamate, agamid
-anthro, reptile, squamate, chameleon
-anthro, reptile, squamate, gecko
-anthro, reptile, squamate, iguanid
-anthro, reptile, squamate, komodo dragon
-anthro, reptile, squamate, lizard
-anthro, reptile, squamate, monitor lizard
-anthro, undead, Vampire
-anthro, unknown species
-exoskeleton, arthropod, myriapod, myriapod
-fauna flora, fungus, animal hybrid, Fungi Fauna
-fauna flora, plant, Flower Creature
-humanoid, celestial being, Angel
-humanoid, deity, Asura
-humanoid, deity, Deity
-humanoid, extraterrestrial, Alien
-humanoid, hybrid, demon, Demon
-humanoid, hybrid, demon, Succubus
-humanoid, hybrid, demon, Yokai
-humanoid, hybrid, small demon, Imp
-humanoid, hybrid, spirit, Ghost
-humanoid, shape shifter, Changeling
-humanoid, shape shifter, Were
-humanoid, shape shifter, canine, Werecanid
-humanoid, shape shifter, canine, Werecanine
-humanoid, shape shifter, canine, Werewolf
-humanoid, shape shifter, eulipotyphlan Wereeulipotyphlan
-humanoid, spirit, Guardian Spirit
-humanoid, spiritual entity, Spirit
-humanoid, undead, Animated Skeleton
-humanoid, undead, Mummy
-insect, arthropod, arachnid, arachnid
-insect, arthropod, arachnid, spider
-insect, arthropod, coleoptera, elateroid
-insect, arthropod, coleoptera, firefly
-insect, arthropod, coleopteran, beetle
-insect, arthropod, dipteran, dipteran
-insect, arthropod, hymenopteran, ant
-insect, arthropod, hymenopteran, bee
-insect, arthropod, hymenopteran, hymenopteran
-insect, arthropod, hymenopteran, wasp
-insect, arthropod, lepidopteran, butterfly
-insect, arthropod, lepidopteran, lepidopteran
-insect, arthropod, lepidopteran, moth
-insect, arthropod, mantodea, mantis
-machine, robot, android
-machine, robot, animatronic
-machine, robot, cyborg
-machine, robot, mammal, Protogen
-machine, robot, reptile, Synth \(Vader-san\)
-otherworldly creature, horrifying, Eldritch Abomination
-serpentine, annelida, annelid
-serpentine, gastropod, slug
-serpentine, gastropod, snail
-serpentine, hybrid, marine, Merfolk
-serpentine, hybrid, serpent, Naga
-serpentine, hybrid, snake, Lamia
-serpentine, invertebrate, annelid, worm
-small humanoid, Fairy
-taur, hybrid, Mammal Taur
-taur, hybrid, Taur
-Elemental Creature
-amphibian, amphibian
-amphibian, anura, toad frog
-animate inanimate, Rock Creature
-animate inanimate, Tentacle Monster
-animate inanimate, flesh creature
-animate inanimate, machine, Digital Creature
-animate inanimate, machine, Living Aircraft
-animate inanimate, machine, Living Machine
-animate inanimate, machine, Living Vehicle
-arthropod, myriapod, myriapod
-avian, Mythological Avian
-avian, Mythological Firebird
-avian, Phoenix
-bird, accipitrid, accipitrid
-bird, accipitrid, old world vulture
-bird, accipitrid, philippine eagle
-bird, accipitriform, accipitriform
-bird, accipitriform, bald eagle
-bird, accipitriform, eagle
-bird, accipitriform, sea eagle
-bird, accipitriform, vulture
-bird, anatidae, anserinae
-bird, anseriform, anatid
-bird, anseriform, anseriform
-bird, anseriform, duck
-bird, avian, avian
-bird, cacatuidae, cockatoo
-bird, charadriiform, lari
-bird, columbiform, columbid
-bird, columbiform, pigeon
-bird, corvid, blue jay
-bird, corvid, corvid
-bird, corvid, corvus \(genus\)
-bird, corvid, crow
-bird, corvid, jay \(bird\)
-bird, corvid, new world jay
-bird, corvidae, magpie \(corvid\)
-bird, falconiform, falcon
-bird, falconiform, falconid
-bird, galliform, galliform
-bird, laridae, gull
-bird, laridae, larid
-bird, oscine, oscine
-bird, passerine, hirundinid
-bird, passerine, passerine
-bird, passerine, raven
-bird, passerine, swallow \(bird\)
-bird, pelecaniformes, pelecaniform
-bird, phasianid, chicken
-bird, phasianid, gallus \(genus\)
-bird, phasianid, peafowl
-bird, phasianid, phasianid
-bird, phasianid, turkey
-bird, phoenicopteridae, flamingo
-bird, psittacidae, macaw
-bird, psittacidae, neotropical parrot
-bird, psittacidae, parakeet
-bird, psittaciform, parrot
-bird, psittaciform, true parrot
-bird, ramphastidae, toucan
-bird, sagittariidae, secretary bird
-bird, spheniscidae, penguin
-bird, strigidae, bubo \(genus\)
-bird, strigidae, snowy owl
-bird, strigidae, true owl
-bird, strigiform, owl
-bird, turdidae, thrush \(bird\)
-canid, Wendigo
-celestial being, humanoid, Angel
-deity, Deity
-deity, humanoid, Asura
-equine, winged, Winged Unicorn
-extraterrestrial, Alien
-fire-associated, Fire Creature
-fish, actinopterygii, eel
-fish, cyprinid, amur carp
-fish, cyprinid, carp
-fish, cyprinid, koi
-fish, cyprinid, typical carp
-fish, cypriniformes, cyprinid
-fish, cypriniformes, cypriniform
-fish, elasmobranchii, lamniform
-fish, elasmobranchii, requiem shark
-fish, elasmobranchii, tiger shark
-fish, lamniformes, lamnid
-fish, rajiformes, batoid
-fish, selachimorpha, shark
-food-based, Food Creature
-fungus, animal hybrid, Fungi Fauna
-gelatinous, Goo Creature
-humanoid, Genie
-humanoid, Goblin
-humanoid, Undead
-humanoid, alien humanoid
-humanoid, angel humanoid
-humanoid, animal head
-humanoid, arachnid humanoid
-humanoid, arachnid taur
-humanoid, arthropod humanoid
-humanoid, arthropod taur
-humanoid, avian humanoid
-humanoid, avian, Harpy
-humanoid, bird humanoid
-humanoid, bovid humanoid
-humanoid, bovine humanoid
-humanoid, bovine, Minotaur
-humanoid, canid humanoid
-humanoid, canid taur
-humanoid, canine humanoid
-humanoid, canine taur
-humanoid, caprine humanoid
-humanoid, cat humanoid
-humanoid, cattle humanoid
-humanoid, cephalopod humanoid
-humanoid, chakat
-humanoid, dark elf
-humanoid, deer taur
-humanoid, demon humanoid
-humanoid, demon, Oni
-humanoid, dog humanoid
-humanoid, dragon humanoid
-humanoid, elemental humanoid
-humanoid, equid taur
-humanoid, equine humanoid
-humanoid, equine taur
-humanoid, felid humanoid
-humanoid, felid taur
-humanoid, feline humanoid
-humanoid, felineko
-humanoid, felkin
-humanoid, fish humanoid
-humanoid, food humanoid
-humanoid, fox humanoid
-humanoid, fox taur
-humanoid, giant, Cyclops
-humanoid, giant, Ogre
-humanoid, giant, Troll
-humanoid, goat humanoid
-humanoid, goat, Satyr
-humanoid, goo humanoid
-humanoid, horned humanoid
-humanoid, horse humanoid
-humanoid, humanoid taur
-humanoid, hyena-like, Gnoll
-humanoid, hymenopteran humanoid
-humanoid, insect humanoid
-humanoid, lagomorph humanoid
-humanoid, leporid humanoid
-humanoid, lizard humanoid
-humanoid, lizardman
-humanoid, lynian
-humanoid, marine humanoid
-humanoid, mollusk humanoid
-humanoid, monstrous humanoid
-humanoid, mouse humanoid
-humanoid, murid humanoid
-humanoid, murine humanoid
-humanoid, object head
-humanoid, pantherine humanoid
-humanoid, plant humanoid
-humanoid, primate humanoid
-humanoid, procyonid humanoid
-humanoid, rabbit humanoid
-humanoid, raccoon humanoid
-humanoid, reptile humanoid
-humanoid, robot humanoid
-humanoid, rodent humanoid
-humanoid, scalie humanoid
-humanoid, sciurid humanoid
-humanoid, shark humanoid
-humanoid, sheep humanoid
-humanoid, snake humanoid
-humanoid, spider humanoid
-humanoid, spider taur
-humanoid, tailed humanoid
-humanoid, tiger humanoid
-humanoid, tree squirrel humanoid
-humanoid, werefox
-humanoid, winged humanoid
-humanoid, wolf humanoid
-humanoid, yinglet
-hybrid, Chimera
-hybrid, Mammal Taur
-hybrid, Mythological Sphinx
-hybrid, Taur
-hybrid, avian, mammal, Gryphon
-hybrid, canid, demonic, Canid Demon
-hybrid, demon, Demon
-hybrid, demon, Succubus
-hybrid, demon, Yokai
-hybrid, demonic canine, Hellhound
-hybrid, equine, avian, Hippogriff
-hybrid, feline, Nekomata
-hybrid, goat, demonic, Caprine Demon
-hybrid, goat, demonic, Goat Demon
-hybrid, marine, Merfolk
-hybrid, owl, demonic, Owl Demon
-hybrid, plant, animal, Flora Fauna
-hybrid, serpent, Naga
-hybrid, small demon, Imp
-hybrid, snake, Lamia
-hybrid, spirit, Ghost
-insect, coleoptera, elateroid
-insect, coleoptera, firefly
-insect, coleopteran, beetle
-insect, dipteran, dipteran
-insect, hymenopteran, ant
-insect, hymenopteran, bee
-insect, hymenopteran, hymenopteran
-insect, hymenopteran, wasp
-insect, lepidopteran, butterfly
-insect, lepidopteran, lepidopteran
-insect, lepidopteran, moth
-insect, mantodea, mantis
-invertebrate, annelid, worm
-invertebrate, annelida, annelid
-invertebrate, arachnid, arachnid
-invertebrate, arachnid, spider
-invertebrate, arthropod, arthropod
-invertebrate, gastropod, slug
-invertebrate, gastropod, snail
-invertebrate, insect, insect
-invertebrate, mollusk, gastropod
-invertebrate, mollusk, mollusk
-invertebrate, star, Asterozoan
-machine, android
-machine, animatronic
-machine, cyborg
-machine, mammal, Protogen
-machine, reptile, Synth \(Vader-san\)
-mammal, afrosoricida, afrosoricid
-mammal, ailuridae, ailurid
-mammal, ailuridae, giant panda
-mammal, ailuridae, red panda
-mammal, bovid, antelope
-mammal, bovid, cape buffalo
-mammal, bovid, gazelle
-mammal, bovid, grazing antelope
-mammal, bovid, holstein friesian cattle
-mammal, bovid, miltank
-mammal, bovid, oryx
-mammal, bovid, true antelope
-mammal, bovid, yak
-mammal, bovine, bovid
-mammal, bovine, bovine
-mammal, bovine, cattle
-mammal, camelid, alpaca
-mammal, camelid, camelid
-mammal, camelid, llama
-mammal, canid, Cerberus
-mammal, canid, Dire Wolf
-mammal, canid, Sparkledog
-mammal, canid, african wild dog
-mammal, canid, anubian jackal
-mammal, canid, arctic wolf
-mammal, canid, coyote
-mammal, canid, domestic dog
-mammal, canid, jackal
-mammal, canid, maned wolf
-mammal, canid, raccoon dog
-mammal, canid, red wolf
-mammal, canid, sergal
-mammal, canid, small molosser
-mammal, canid, spitz
-mammal, canid, tanuki
-mammal, canid, urocyon
-mammal, canid, wolf
-mammal, canid, wolfdog
-mammal, canine, Foo Dog
-mammal, canine, akita
-mammal, canine, alaskan malamute
-mammal, canine, australian cattle dog
-mammal, canine, australian shepherd
-mammal, canine, basset hound
-mammal, canine, beagle
-mammal, canine, bernese mountain dog
-mammal, canine, bird dog
-mammal, canine, border collie
-mammal, canine, borzoi
-mammal, canine, bull terrier
-mammal, canine, cattledog
-mammal, canine, cavalier king charles spaniel
-mammal, canine, chihuahua
-mammal, canine, cocker spaniel
-mammal, canine, collie
-mammal, canine, dalmatian
-mammal, canine, dingo
-mammal, canine, dobermann
-mammal, canine, german shepherd
-mammal, canine, golden retriever
-mammal, canine, great dane
-mammal, canine, herding dog
-mammal, canine, hunting dog
-mammal, canine, husky
-mammal, canine, labrador
-mammal, canine, mastiff
-mammal, canine, molosser
-mammal, canine, mountain dog
-mammal, canine, nordic sled dog
-mammal, canine, pastoral dog
-mammal, canine, pinscher
-mammal, canine, pit bull
-mammal, canine, pomeranian
-mammal, canine, pomsky
-mammal, canine, poodle
-mammal, canine, retriever
-mammal, canine, rottweiler
-mammal, canine, rough collie
-mammal, canine, saluki
-mammal, canine, samoyed
-mammal, canine, scent hound
-mammal, canine, sheepdog
-mammal, canine, shiba inu
-mammal, canine, shih tzu
-mammal, canine, siberian husky
-mammal, canine, sighthound
-mammal, canine, spaniel
-mammal, canine, swiss mountain dog
-mammal, canine, terrier
-mammal, canine, toy dog
-mammal, canine, welsh corgi
-mammal, caprine, caprine
-mammal, caprine, goat
-mammal, caviidae, capybara
-mammal, cercopithecidae, old world monkey
-mammal, cervid, capreoline
-mammal, cervid, cervine
-mammal, cervid, deer
-mammal, cervid, moose
-mammal, cervid, mule deer
-mammal, cervid, red deer
-mammal, cervid, reindeer
-mammal, cervid, white-tailed deer
-mammal, chiropteran, bat
-mammal, chiropteran, microbat
-mammal, chiropteran, pteropodid
-mammal, chiropteran, yangochiropteran
-mammal, cingulata, armadillo
-mammal, cricetidae, cricetid
-mammal, dasyuromorph, dasyurid
-mammal, dasyuromorph, dasyuromorph
-mammal, dasyuromorph, thylacine
-mammal, didelphidae, didelphid
-mammal, didelphidae, possum
-mammal, didelphidae, virginia opossum
-mammal, draconic, Furred Dragon
-mammal, equid, asinus
-mammal, equid, clydesdale
-mammal, equid, donkey
-mammal, equid, draft horse
-mammal, equid, earth pony
-mammal, equid, equine
-mammal, equid, horse
-mammal, equid, pony
-mammal, equid, zebra
-mammal, equine , unicorn 
-mammal, equine, Bat Pony
-mammal, equine, Kirin
-mammal, equine, Pegasus
-mammal, equine, humanoid, Centaur
-mammal, erinaceomorph, hedgehog
-mammal, eulipotyphlan, eulipotyphlan
-mammal, eupleridae, euplerid
-mammal, felid, bengal tiger
-mammal, felid, bobcat
-mammal, felid, calico cat
-mammal, felid, caracal
-mammal, felid, caracal \(genus\)
-mammal, felid, cheetah
-mammal, felid, clouded leopard
-mammal, felid, cougar
-mammal, felid, domestic cat
-mammal, felid, hairless cat
-mammal, felid, hyena
-mammal, felid, jaguar
-mammal, felid, leopard
-mammal, felid, leopardus
-mammal, felid, lion
-mammal, felid, lynx
-mammal, felid, machairodontine
-mammal, felid, maine coon
-mammal, felid, ocelot
-mammal, felid, pantherine
-mammal, felid, serval
-mammal, felid, siamese
-mammal, felid, snow leopard
-mammal, felid, spotted hyena
-mammal, felid, sprigatito
-mammal, felid, striped hyena
-mammal, felid, tabby cat
-mammal, felid, tiger
-mammal, felid, wildcat
-mammal, feline, Liger
-mammal, feline, cat
-mammal, feline, sphynx \(cat\)
-mammal, feline, tuxedo cat
-mammal, giraffid, okapi
-mammal, giraffidae, giraffe
-mammal, giraffidae, giraffid
-mammal, herpestidae, herpestid
-mammal, herpestidae, meerkat
-mammal, herpestidae, mongoose
-mammal, hippopotamidae, common hippopotamus
-mammal, hippopotamidae, hippopotamid
-mammal, hyenid, aardwolf
-mammal, lagomorph, domestic rabbit
-mammal, lagomorph, dwarf rabbit
-mammal, lagomorph, hare
-mammal, lagomorph, netherland dwarf rabbit
-mammal, lagomorph, oryctolagus
-mammal, lagomorph, rabbit
-mammal, macropod, kangaroo
-mammal, macropod, macropod
-mammal, macropod, wallaby
-mammal, marine, marine
-mammal, marsupial, bandicoot
-mammal, marsupial, koala
-mammal, marsupial, marsupial
-mammal, marsupial, vombatiform
-mammal, mephitid, skunk
-mammal, monotreme, echidna
-mammal, monotreme, monotreme
-mammal, murid, mouse
-mammal, murid, murid
-mammal, murid, murine
-mammal, murid, rat
-mammal, murid, rodent
-mammal, mustelid, badger
-mammal, mustelid, domestic ferret
-mammal, mustelid, gulonine
-mammal, mustelid, honey badger
-mammal, mustelid, marten
-mammal, mustelid, mephitid
-mammal, mustelid, mink
-mammal, mustelid, mustelid
-mammal, mustelid, musteline
-mammal, mustelid, otter
-mammal, mustelid, pine marten
-mammal, mustelid, river otter
-mammal, mustelid, stoat
-mammal, mustelid, striped skunk
-mammal, mustelid, true musteline
-mammal, mustelid, weasel
-mammal, mustelid, wolverine
-mammal, mustelid, zangoose
-mammal, ovine, domestic sheep
-mammal, ovine, sheep
-mammal, phyllostomidae, phyllostomid
-mammal, pilosa, pilosan
-mammal, pilosan, sloth
-mammal, pinniped, seal
-mammal, pinniped, walrus
-mammal, pinnipedia, pinniped
-mammal, primate, Kong
-mammal, primate, ape
-mammal, primate, gorilla
-mammal, primate, haplorhine
-mammal, primate, lemur
-mammal, primate, monkey
-mammal, primate, primate
-mammal, primate, ring-tailed lemur
-mammal, primate, strepsirrhine
-mammal, proboscidea, elephant
-mammal, proboscidea, elephantid
-mammal, proboscidea, proboscidean
-mammal, procyonid, procyonid
-mammal, procyonid, raccoon
-mammal, rhinocerotidae, rhinoceros
-mammal, rodent, beaver
-mammal, rodent, caviid
-mammal, rodent, chinchilla
-mammal, rodent, chinchillid
-mammal, rodent, dipodid
-mammal, rodent, eurasian red squirrel
-mammal, rodent, hamster
-mammal, rodent, jerboa
-mammal, rodent, porcupine
-mammal, sciurid, chipmunk
-mammal, sciurid, ground squirrel
-mammal, sciurid, rodent
-mammal, sciurid, sciurid
-mammal, sciurid, tree squirrel
-mammal, suidae, domestic pig
-mammal, suidae, suid
-mammal, suidae, suina
-mammal, suidae, sus \(pig\)
-mammal, suidae, wild boar
-mammal, talpidae, mole \(animal\)
-mammal, tenrecidae, tenrec
-mammal, tubulidentata, aardvark
-mammal, ursid, american black bear
-mammal, ursid, sloth bear
-mammal, ursidae, black bear
-mammal, ursidae, brown bear
-mammal, ursidae, grizzly bear
-mammal, ursidae, polar bear
-mammal, ursidae, ursine
-mammal, ursine, bear
-mammal, vermilingua, anteater
-mammal, viverrid, genet
-mammal, viverridae, viverrid
-mammal, vulpine, arctic fox
-mammal, vulpine, cross fox
-mammal, vulpine, fennec
-mammal, vulpine, fox
-mammal, vulpine, grey fox
-mammal, vulpine, red fox
-mammal, vulpine, silver fox
-mammal, xenarthra, xenarthran
-marine creatures, fish
-marine invertebrate, cephalopod, cephalopod
-marine invertebrate, cephalopod, coleoid
-marine invertebrate, cephalopod, decapodiform
-marine invertebrate, cephalopod, octopodiform
-marine invertebrate, cephalopod, octopus
-marine invertebrate, cnidarian, anthozoan
-marine invertebrate, cnidarian, cnidarian
-marine invertebrate, cnidarian, jellyfish
-marine invertebrate, cnidarian, medusozoan
-marine invertebrate, crustacean, crab
-marine invertebrate, crustacean, crustacean
-marine invertebrate, crustacean, decapoda
-marine invertebrate, crustacean, malacostracan
-marine invertebrate, echinoderm, echinoderm
-marine invertebrate, echinoderm, starfish
-marine invertebrate, gastropod, aquatic gastropod
-marine invertebrate, nudibranch, sea slug
-marine invertebrate, porifera, sea sponge
-marine mammal, cetacean, cetacean
-marine mammal, cetacean, dolphin
-marine mammal, cetacean, oceanic dolphin
-marine mammal, cetacean, orca
-marine mammal, cetacean, toothed whale
-marine reptile, draconic, aquatic, Aquatic Dragon
-mineral, animal hybrid, Mineral Fauna
-monstrous and varied, Monster
-plant, Flower Creature
-rabbit, antelope hybrid, Jackalope
-reptile, chelonian, turtle
-reptile, crocodilian, crocodilian
-reptile, crocodylid, alligator
-reptile, crocodylid, alligatorid
-reptile, crocodylid, crocodile
-reptile, crocodylid, crocodylid
-reptile, dinosaur, avian, Feathered Dinosaur
-reptile, dinosaur, ceratopsian
-reptile, dinosaur, dinosaur
-reptile, dinosaur, diplodocid
-reptile, dinosaur, dromaeosaurid
-reptile, dinosaur, hadrosaurid
-reptile, dinosaur, ornithischian
-reptile, dinosaur, parasaurolophus
-reptile, dinosaur, pterodactylus
-reptile, dinosaur, pterosaur
-reptile, dinosaur, sauropod
-reptile, dinosaur, stegosaurian
-reptile, dinosaur, stegosaurus
-reptile, dinosaur, theropod
-reptile, dinosaur, thyreophoran
-reptile, dinosaur, triceratops
-reptile, dinosaur, tyrannosaurid
-reptile, dinosaur, tyrannosaurus
-reptile, dinosaur, tyrannosaurus rex
-reptile, dinosaur, velociraptor
-reptile, draco, dragon 
-reptile, draconic, Hydra
-reptile, draconic, Kobold
-reptile, draconic, Western Dragon
-reptile, draconic, Wingless Dragon
-reptile, draconic, avian, Feathered Dragon
-reptile, draconic, multi-legged, Draconcopode
-reptile, draconic, winged, Flying Wyvern
-reptile, draconic, winged, Wyvern
-reptile, mammal, draconic, Eastern Dragon
-reptile, mammal, furry, Furred Reptilian
-reptile, snake, cobra
-reptile, snake, pit viper
-reptile, snake, python
-reptile, snake, rattlesnake
-reptile, snake, snake
-reptile, snake, viper
-reptile, squamate, agamid
-reptile, squamate, chameleon
-reptile, squamate, gecko
-reptile, squamate, iguanid
-reptile, squamate, komodo dragon
-reptile, squamate, lizard
-reptile, squamate, monitor lizard
-shape shifter, Changeling
-shape shifter, Were
-shape shifter, canine, Werecanid
-shape shifter, canine, Werecanine
-shape shifter, canine, Werewolf
-shape shifter, eulipotyphlan Wereeulipotyphlan
-spirit, Guardian Spirit
-spiritual entity, Spirit
-undead, Vampire
-undead, humanoid, Animated Skeleton
-undead, humanoid, Mummy
-pokemon \(species\)
+nezumi \(magic  the gathering\)
+animal mammal
+canine canid
+domestic dog canine
+feline felid
+wolf canis
+generation 1 pokemon \(species\)
+horse equid
+humanoid humanoid
+reptile scalie
+horse equine
+domestic cat feline
+humanoid human
+vulpine fox
+dragon dragon
+canine domestic dog
+lupine wolf
+domestic cat felis
+feline domestic cat
+rabbit lagomorph
+scaly reptile
+rabbit leporid
+lagomorph rabbit
+equine horse
+feline pantherine
+bird avian
+goat bovid
+humanoid animal humanoid
+mixed hybrid
+pokemon generation 1 pokemon
+murid rodent
+equine pony
+fish marine
+avian bird
+equine unicorn
+ursine bear
+humanoid mammal humanoid
+pokemon generation 4 pokemon
+goat caprine
+demonic demon
+pantherine tiger
+pokemon generation 3 pokemon
+equine pegasus
+equine earth pony
+marine fish
+cervine deer
+extraterrestrial alien
+insect arthropod
+rodent murid
+rodent murine
+pokemon generation 2 pokemon
+cattle bovine
+weasel mustelid
+machine robot
+feline lion
+eevee eeveelution
+pokemon generation6 generation 6 pokemon
+pokemon generation5 generation 5 pokemon
+digital digimon \(species\)
+legendary legendary pokemon
+chiropteran bat
+reptile lizard
+canine spitz
+pegasus winged unicorn
+selachian shark
+insectivore eulipotyphlan
+caprine goat
+vulpine red fox
+serpent snake
+erinaceinae hedgehog
+murine mouse
+pouched marsupial
+catfolk felid humanoid
+raccoon procyonid
+prehistoric dinosaur
+pokemon generation7 generation 7 pokemon
+creature monster
+hyaenidae hyena
+procyonid raccoon
+insect insect
+squirrel sciurid
+husky nordic sled dog
+herding pastoral dog
+catfolk feline humanoid
+herding herding dog
+shapeshifter were
+dragon western dragon
+nordic sled dog husky
+catfolk cat humanoid
+shapeshifter werecanid
+dogfolk canid humanoid
+legendary bird mythological avian
+lutrine otter
+mustelid musteline
+dogfolk canine humanoid
+elemental elemental creature
+crocodile crocodilian
+pokemon lucario
+dragon furred dragon
+ovine sheep
+skunk mephitid
+murine rat
+mephitid skunk
+digimon renamon
+bear ursine
+pokemon generation8 generation 8 pokemon
+shapeshifter werecanine
+fox fennec
+pig suina
+red panda ailurid
+shapeshifter werewolf
+ailurid red panda
+monkey primate
+robotic animatronic
+pig suid
+mythical gryphon
+natural flora fauna
+hunter hunting dog
+pig sus \(pig\)
+squirrel tree squirrel
+canid raccoon dog
+hyena spotted hyena
+mythical kobold
+mythical tanuki
+unidentified unknown
+formidable boss monster
+canid jackal
+bear giant panda
+aquatic amphibian
+dinosaur theropod
+feline lynx
+humanoid elf
+feline snow leopard
+shellfish mollusk
+feline cheetah
+mythical horned humanoid
+supernatural spirit
+pokemon gardevoir
+demonic canid demon
+rare shiny pokemon
+amorphous goo creature
+kangaroo macropod
+fowl galliform
+demonic hellhound
+fowl phasianid
+mythical koopa
+dog german shepherd
+pokemon pikachu
+mustelid true musteline
+feline leopard
+anthropomorphic animate inanimate
+hybrid taur
+deer capreoline
+fox fox humanoid
+bird passerine
+bird oscine
+primate haplorhine
+macropod kangaroo
+merfolk marine humanoid
+mythical imp
+equine zebra
+pokemon umbreon
+supernatural ghost
+bear polar bear
+mollusk cephalopod
+pokemon eevee
+supernatural undead
+dog toy dog
+shapeshifter changeling
+crocodile crocodylid
+crocodylid crocodile
+aquatic cetacean
+chicken gallus \(genus\)
+gallus chicken
+mustelid weasel
+extraterrestrial alien humanoid
+mythical sergal
+canid coyote
+dragon eastern dragon
+pokemon lopunny
+alligator alligatorid
+cetacean toothed whale
+pokemon sylveon
+divine deity
+dog pinscher
+dog dobermann
+alligatorid alligator
+cetacean dolphin
+bird corvid
+dog bird dog
+pokemon braixen
+deer reindeer
+pokemon vaporeon
+bird owl
+dog sheepdog
+cetacean oceanic dolphin
+pig domestic pig
+spider arachnid
+mythical yordle
+variation regional form \(pokemon\)
+pokemon generation9 generation 9 pokemon
+dog shih tzu
+mythical draconcopode
+primate monkey
+pig wild boar
+bird accipitriform
+insect lepidopteran
+alien experiment \(lilo and stitch\)
+pokemon zoroark
+dragon wingless dragon
+pokemon charizard
+dinosaur dromaeosaurid
+pokemon glaceon
+squirrel ground squirrel
+robotic android
+robotic cyborg
+ungulate antelope
+evolution mega evolution
+hybrid mammal taur
+squirrel chipmunk
+mythical goblin
+donkey asinus
+marsupial bandicoot
+mythical bovid humanoid
+asinus donkey
+dog molosser
+mythical mollusk humanoid
+insect hymenopteran
+amphibian frog
+mythical lagomorph humanoid
+bird accipitrid
+mythical demon humanoid
+mythical cephalopod humanoid
+dog dalmatian
+mythical anubian jackal
+sheep domestic sheep
+mythical chimera
+arachnid spider
+mustelid badger
+dog retriever
+unknown ambiguous
+dog collie
+fox arctic fox
+deer cervine
+pokemon arcanine
+bird anseriform
+bird anatid
+mythical bat pony
+feline cougar
+dolphin orca
+giraffe giraffid
+mythical leporid humanoid
+mythical rabbit humanoid
+dog shiba inu
+pokemon lycanroc
+pokemon blaziken
+mythical machairodontine
+mythical dragon humanoid
+mythical yokai
+mammal monotreme
+marsupial didelphid
+pokemon espeon
+pokemon lugia
+mythical worgen
+humanoid orc
+humanoid hylian
+bird corvus \(genus\)
+bird duck
+pokemon zangoose
+reptile turtle
+mythical wyvern
+elephant proboscidean
+robotic robot humanoid
+mythical elemental humanoid
+mammal echidna
+pokemon cinderace
+mythical bovine humanoid
+ferret domestic ferret
+elephant elephantid
+mammal giraffe
+snake cobra
+pokemon goodra
+mythical inkling
+mythical naga
+mythical vampire
+dog border collie
+pokemon raichu
+mammal elephant
+unknown food creature
+pokemon leafeon
+insect bee
+dinosaur velociraptor
+pokemon typhlosion
+pokemon variation alolan form
+dinosaur tyrannosaurid
+mythical arthropod humanoid
+bird eagle
+mythical angel
+pokemon jolteon
+primate ape
+dinosaur tyrannosaurus
+mythical yoshi
+dog mastiff
+bear brown bear
+pokemon flareon
+pokemon absol
+mythical wolf humanoid
+mythical twili
+ungulate rhinoceros
+undead animated skeleton
+mythical fairy
+mythical lombax
+mammal pinniped
+dinosaur tyrannosaurus rex
+mythical cattle humanoid
+mythical scalie humanoid
+mythical protogen
+mythical merfolk
+mythical minotaur
+mythical argonian
+pokemon midnight lycanroc
+dinosaur ornithischian
+mythical winged humanoid
+ungulate gazelle
+robotic living machine
+pokemon mewtwo
+mythical fish humanoid
+pokemon riolu
+bird crow
+pokemon delphox
+mythical khajiit
+mollusk coleoid
+mythical keidran
+pokemon incineroar
+hybrid humanoid taur
+mythical feathered dragon
+insect butterfly
+insect moth
+amphibian salamander
+mythical plant humanoid
+cat calico cat
+mammal maned wolf
+mythical pandaren
+mythical waddling head
+mythical guilmon
+dog welsh corgi
+hybrid equid taur
+mythical rito
+dog golden retriever
+mythical dog humanoid
+dog african wild dog
+mythical lamia
+mollusk gastropod
+rabbit oryctolagus
+rabbit domestic rabbit
+mammal herpestid
+dog sighthound
+mammal gulonine
+reptile chameleon
+primate strepsirrhine
+hyena striped hyena
+primate lemur
+mythical draconequus
+mythical tauren
+pokemon vulpix
+pokemon mew \(pokemon\)
+mythical living inflatable
+mammal camelid
+mythical rodent humanoid
+mythical sangheili
+pokemon salazzle
+dog poodle
+feline jaguar
+mythical flying wyvern
+mythical draenei
+mythical tentacle monster
+pokemon latias
+mammal hare
+cat siamese
+bird penguin
+mythical centaur
+pokemon luxray
+dog labrador
+pokemon greninja
+mythical aquatic dragon
+bird parrot
+marsupial virginia opossum
+pokemon variation hisuian form
+mythical living vehicle
+mammal mink
+rodent beaver
+pokemon ninetales
+bird jay \(bird\)
+mythical avian humanoid
+bird new world jay
+primate gorilla
+mammal xenarthran
+rodent cricetid
+mythical octarian
+pokemon quilava
+mythical octoling
+pokemon zeraora
+mythical monstrous humanoid
+bear grizzly bear
+mythical charr
+pokemon snivy
+pokemon gengar
+bird blue jay
+mythical octopodiform
+pokemon kirlia
+pokemon zorua
+pokemon buizel
+mythical kaiju
+undead zombie
+mythical turian
+mythical genie
+mythical gatomon
+mythical miqote
+dog dingo
+pokemon mienshao
+rodent hamster
+mythical caprine demon
+mythical xenomorph
+mythical meowscarada
+aquatic crustacean
+pokemon weavile
+pokemon serperior
+pokemon floatzel
+mythical tem
+dog rottweiler
+mythical night fury
+pokemon charmander
+mythical living aircraft
+pokemon reshiram
+mythical succubus
+mythical equid humanoid
+mythical ambient arthropod
+dog spaniel
+pokemon scorbunny
+mythical gargoyle
+dinosaur ceratopsian
+unknown request
+dog scent hound
+dog mountain dog
+pokemon charmeleon
+mythical jackalope
+insect beetle
+deer red deer
+mythical oni
+dog terrier
+hippopotamus hippopotamid
+pokemon shinx
+mythical reptile humanoid
+reptile gecko
+mythical satyr
+mythical darkner
+pokemon mightyena
+mythical insect humanoid
+mythical owl demon
+mammal marten
+mythical sprigatito
+mythical ambient flier
+hybrid wolfdog
+pokemon fennekin
+mythical goat demon
+mythical green yoshi
+mythical living plushie
+mythical cyclops
+mythical mythological firebird
+mythical elder dragon
+mythical avali
+pokemon dragonite
+mythical mineral fauna
+mythical kirin
+pokemon garchomp
+mythical arachnid humanoid
+dinosaur triceratops
+pokemon shaymin
+mythical impmon
+hybrid mixed breed
+dog alaskan malamute
+mythical equine humanoid
+pokemon ampharos
+pokemon alolan vulpix
+horse draft horse
+cat hairless cat
+hippopotamus common hippopotamus
+mythical lizardman
+cat tabby cat
+mythical ambient insect
+pokemon primarina
+pokemon fossil pokemon
+bird falconid
+mythical night elf
+mammal serval
+mythical harpy
+mammal dasyuromorph
+mythical hippogriff
+bird falcon
+mythical malo
+pokemon nidoqueen
+mythical pantherine humanoid
+mythical deathclaw
+pokemon flygon
+aquatic echinoderm
+pokemon meowstic
+pokemon houndoom
+mythical sphynx \(cat\)
+mollusk slug
+bird sea eagle
+pokemon audino
+dog saluki
+mythical goo humanoid
+crustacean malacostracan
+mythical spider humanoid
+mythical caprine humanoid
+dinosaur pterosaur
+pokemon mawile
+pokemon feraligatr
+bird bald eagle
+mythical phoenix
+pokemon meowth
+pokemon latios
+mythical veemon
+mythical flamedramon
+shark requiem shark
+mythical burmecian
+bird raven
+dog australian shepherd
+dinosaur feathered dinosaur
+mammal mongoose
+mammal stoat
+pokemon inteleon
+pokemon pichu
+mythical gnoll
+mythical object head
+reptile monitor lizard
+pokemon samurott
+bird peafowl
+mythical zora
+pokemon machoke
+mythical ultra beast
+mammal alpaca
+pokemon sky forme shaymin
+mythical lynian
+mythical caracal \(genus\)
+mythical symbiote
+mythical felyne
+aquatic cnidarian
+mythical flower creature
+mammal meerkat
+mammal vombatiform
+mythical blood elf
+mythical duel monster
+bird columbid
+mythical sciurid humanoid
+pokemon furret
+crustacean decapoda
+mammal moose
+mythical pilosan
+mythical basitin
+mammal cape buffalo
+amphibian mole salamander
+wolf arctic wolf
+cat tuxedo cat
+mythical fanged wyvern
+aquatic asterozoan
+mythical caracal
+mythical chinchillid
+mythical leopardus
+pokemon bulbasaur
+bird true parrot
+pokemon scolipede
+aquatic decapodiform
+dog great dane
+mythical vulpera
+amphibian axolotl
+mythical murid humanoid
+mythical murine humanoid
+mythical ambient bird
+dog akita
+pokemon dewott
+aquatic starfish
+dog cattledog
+dog pomeranian
+mammal ring-tailed lemur
+mammal chinchilla
+mythical skaven
+mythical viverrid
+dog australian cattle dog
+mammal possum
+reptile komodo dragon
+mythical paradox pokemon
+mythical tree squirrel humanoid
+bear black bear
+pokemon noivern
+pokemon dragonair
+pokemon mega lopunny
+snake viper
+mythical eldritch abomination
+digital digital creature
+mythical felkin
+aquatic seal
+bird lari
+pokemon nidoking
+dog beagle
+mythical narehate
+mammal koala
+mythical piranha plant
+mythical troll
+mythical nargacuga
+pokemon scrafty
+crustacean crab
+pokemon midday lycanroc
+dog pit bull
+aquatic ambient sealife
+mammal wolverine
+mammal porcupine
+dog cocker spaniel
+dinosaur sauropod
+mammal holstein friesian cattle
+mythical furred reptilian
+robotic synth \(vader-san\)
+aquatic tiger shark
+cat ocelot
+deer white-tailed deer
+hybrid canid taur
+mythical hydra
+mammal striped skunk
+bird hirundinid
+unknown inanimate object
+mythical boo \(mario\)
+pokemon suicune
+mythical nimbat
+pokemon yveltal
+hybrid canine taur
+bird swallow \(bird\)
+mythical mythological sphinx
+pokemon litten
+pokemon milotic
+dinosaur pterodactylus
+mythical mouse humanoid
+mythical koopa troopa
+mythical moogle
+pokemon lapras
+mammal dwarf rabbit
+insect dipteran
+pokemon variation galarian form
+pokemon totodile
+mammal llama
+bat pteropodid
+mythical living fruit
+bird vulture
+mammal silver fox
+dog swiss mountain dog
+mammal armadillo
+pokemon jirachi
+mythical foo dog
+pokemon emolga
+hybrid felid taur
+mythical chao \(sonic\)
+dog bernese mountain dog
+pokemon sneasel
+pokemon grovyle
+pokemon poochyena
+mythical gabumon
+mythical cerberus
+pokemon salandit
+pokemon ditto \(pokemon\)
+mammal lop rabbit
+mythical kaka \(blazblue\)
+pokemon hypno \(pokemon\)
+mythical tenno
+mythical living clothing
+dog samoyed
+pokemon smeargle
+mythical kig-yar
+mythical faun \(spyro\)
+aquatic lamniform
+mythical fungi fauna
+reptile iguanid
+mythical inkblot
+mythical guardian spirit
+pokemon growlithe
+mythical minkmen \(one piece\)
+cat clouded leopard
+pokemon decidueye
+mythical worm
+pokemon hatterene
+insect mantis
+pokemon zebstrika
+aquatic octopus
+mythical wereeulipotyphlan
+mythical werehog
+pokemon mega charizard
+mythical sharpclaw \(star fox\)
+pokemon mudkip
+mammal eurasian red squirrel
+mammal afrosoricid
+mythical kremling
+hybrid liger
+mythical asari
+dinosaur hadrosaurid
+dog bull terrier
+mammal tenrec
+pokemon rattata
+mammal pine marten
+pokemon chespin
+mythical tiger humanoid
+mythical leomon
+insect ant
+wolf red wolf
+pokemon nidorina
+mythical vessel \(species\)
+dog borzoi
+pokemon giratina
+pokemon pheromosa
+pokemon miltank
+insect elateroid
+mammal thylacine
+mythical chocobo
+insect firefly
+mythical krogan
+rodent dipodid
+bird true owl
+insect wasp
+pokemon sandslash
+snake python
+pokemon pachirisu
+mammal jerboa
+mythical au ra
+fish cypriniform
+mythical food humanoid
+mythical gerudo
+mythical fire creature
+mythical yinglet
+mythical mummy
+bird larid
+fish cyprinid
+pokemon gallade
+mythical rath wyvern
+mammal wallaby
+snake pit viper
+dog siberian husky
+bird turkey
+mammal river otter
+pokemon ancient pokemon
+bird gull
+pokemon rockruff
+pokemon squirtle
+dinosaur thyreophoran
+pokemon arbok
+bird pigeon
+mythical ambient butterfly
+mythical gammamon
+pokemon snorlax
+pokemon raboot
+pokemon hisuian typhlosion
+mammal grazing antelope
+pokemon meloetta
+mythical neopet \(species\)
+mythical exveemon
+mythical leviathan \(mh\)
+bird anserinae
+mythical red pandaren
+mythical snake humanoid
+mythical troll \(homestuck\)
+mythical palico
+pokemon obstagoon
+pokemon mega lucario
+mythical yautja
+pokemon swampert
+pokemon aggron
+mythical asura
+insect myriapod
+mythical angel humanoid
+bird bubo \(genus\)
+pokemon sceptile
+mythical komainu
+mollusk snail
+mythical dragonborn \(dnd\)
+mythical bird humanoid
+pokemon alolan ninetales
+mythical animal head
+mythical pokemon humanoid
+pokemon mega absol
+mythical wendigo
+dinosaur parasaurolophus
+pokemon zekrom
+mammal oryx
+pokemon mismagius
+mythical dark elf
+snake rattlesnake
+mammal walrus
+amphibian newt
+pokemon luxio
+tiger bengal tiger
+pokemon blastoise
+horse clydesdale
+mythical shyguy
+mythical patamon
+mythical space dragon \(metroid\)
+pokemon minun
+mythical breegull
+mythical nekomata
+rodent caviid
+pokemon toxtricity
+pokemon hisuian zoroark
+bird cockatoo
+mythical urocyon
+robotic cybertronian
+mythical shark humanoid
+pokemon plusle
+pokemon arceus
+hybrid arthropod taur
+mythical sheep humanoid
+mammal mole \(animal\)
+pokemon tyranitar
+pokemon oshawott
+mythical viper \(x-com\)
+pokemon torracat
+pokemon haunter
+pokemon dusk lycanroc
+pokemon banette
+mammal netherland dwarf rabbit
+cat bobcat
+pokemon machamp
+mythical quarian
+dog chihuahua
+mythical ogre
+mythical weregarurumon
+hybrid fox taur
+mythical angoramon
+pokemon bayleef
+pokemon sableye
+mammal dasyurid
+mythical kong
+hybrid deer taur
+mythical viera
+pokemon wooloo
+pokemon infernape
+mythical medusozoan
+mythical mimiga
+bird secretary bird
+mythical goomba
+pokemon seviper
+mythical shadow pokemon
+bird toucan
+mythical gomamon
+pokemon victini
+mythical hrothgar
+cat maine coon
+pokemon flaaffy
+mammal sloth
+mythical x-digimon
+bear sloth bear
+pokemon skitty
+bear american black bear
+mammal grey fox
+pokemon wartortle
+mammal microbat
+bird old world vulture
+mythical birdo
+mammal anteater
+mythical toad \(mario\)
+mythical witch \(the owl house\)
+mythical sparkledog
+pokemon roserade
+deer mule deer
+amphibian toad \(frog\)
+pokemon jigglypuff
+cat wildcat
+pokemon minccino
+pokemon ivysaur
+mythical living doll
+pokemon mimikyu
+pokemon pangoro
+mammal cross fox
+pokemon mega charizard x
+pokemon rapidash
+pokemon brionne
+pokemon whimsicott
+mythical yangochiropteran
+bird neotropical parrot
+pokemon celebi
+mythical majin
+aquatic lamnid
+mythical agumon
+hybrid arachnid taur
+aquatic jellyfish
+dog basset hound
+mythical penis creature
+mythical light fury
+mythical alpha pokemon
+aquatic anthozoan
+pokemon treecko
+mammal true antelope
+mythical bird wyvern
+mythical goat humanoid
+mythical zinogre
+mammal aardwolf
+pokemon meloetta \(aria form\)
+pokemon ralts
+bird parakeet
+aquatic sea sponge
+fish carp
+mythical flesh creature
+mythical koraidon
+mythical chakat
+pokemon sobble
+bird philippine eagle
+mythical diamond dog \(mlp\)
+pokemon kecleon
+pokemon alolan meowth
+pokemon mega gardevoir
+pokemon mudsdale
+mammal phyllostomid
+bird macaw
+mythical procyonid humanoid
+pokemon cubone
+pokemon popplio
+mythical wargreymon
+mythical shadow lugia
+mythical raccoon humanoid
+mythical terriermon
+pokemon furfrou
+pokemon tsareena
+dinosaur stegosaurian
+mythical chua
+mammal euplerid
+mythical future pokemon
+mythical micro organism \(organism\)
+pokemon rayquaza
+reptile agamid
+mythical blin \(tloz\)
+pokemon alolan raichu
+mammal yak
+mythical slugcat \(rain world\)
+aquatic eel
+bird flamingo
+mythical felineko
+mammal old world monkey
+bird thrush \(bird\)
+mythical primate humanoid
+mythical annelid
+mythical lizard humanoid
+mythical cell \(organism\)
+bird snowy owl
+mythical enderman
+pokemon piplup
+mythical shadow creature
+pokemon nickit
+mammal aardvark
+pokemon cyndaquil
+pokemon chesnaught
+aquatic aquatic gastropod
+mythical rock creature
+pokemon chikorita
+dinosaur diplodocid
+dog rough collie
+mythical ecaflip
+pokemon rillaboom
+bird pelecaniform
+fish typical carp
+fish amur carp
+pokemon ursaring
+fish koi
+hybrid spider taur
+pokemon buneary
+mythical dorumon
+hybrid equine taur
+mythical caninu
+bird magpie \(corvid\)
+mammal genet
+dog cavalier king charles spaniel
+mythical irken
+mythical tvaoan
+mythical koopa humanoid
+mythical rotom
+mythical werefox
+aquatic sea slug
+mythical small molosser
+mythical gaomon
+mammal capybara
+dinosaur stegosaurus
+mythical rainicorn
+aquatic batoid
+mammal honey badger
+mythical pomsky
+mythical horse humanoid
+pokemon larvitar
+mythical hymenopteran humanoid
+mythical rathalos
+mythical tailed humanoid
+pokemon darkrai
+mythical living candy
+mythical living pinata
+mythical dire wolf
+mythical zonai
+mammal okapi
+dinosaur utahraptor
+mythical lizardman \(overlord\)
+mythical nergigante
+mythical creeper \(minecraft\)
+mythical lepidopteran humanoid
+bird swan
+mythical living sex doll
+fish syngnathiform
+insect dragonfly
+fish syngnathid
+mythical flemish giant
+mythical ottsel
+mythical mizutsune
+mammal elk
+bird bluebird
+mammal bison
+bird cardinal \(bird\)
+mammal platypus
+mythical mimic
+mythical tanuki humanoid
+mythical angel dragon
+mythical mygalomorph
+mythical tarantula
+reptile boa \(snake\)
+mythical martian
+mythical puwa
+mythical pan \(genus\)
+mythical faun
+mammal chimpanzee
+mythical ursid humanoid
+mythical gorgon
+fish seahorse
+mythical shadow siren
+mammal pangolin
+mammal prionailurus
+mythical togruta
+mythical amphibian humanoid
+mythical apex build koraidon
+mammal fossa
+mythical dwarf
+mythical avian \(starbound\)
+mythical tailed beast
+mythical monkey humanoid
+mythical gem \(species\)
+mythical flower humanoid
+dog saint bernard
+mammal black-backed jackal
+mammal tasmanian devil
+insect blattodea
+mythical rexouium
+mythical sneasler
+mythical rabbid
+mythical brute wyvern
+mythical caitian
+mammal leopard cat
+mythical tiefling
+dog livestock guardian dog
+mammal domestic goat
+mythical tabaxi
+mythical bamfear
+dog bulldog
+mythical zebroid
+mythical jackal humanoid
+mammal civet
+aquatic carpet shark
+mythical boinae
+aquatic coral
+mythical ambient firefly
+mythical ender dragon
+dinosaur allosaurid
+mythical twilek
+mythical ambient fish
+mythical bow experiment \(resident evil\)
+mammal king cheetah
+mythical vampire bat
+mythical omnic
+mythical fungi humanoid
+mythical lalafell
+mythical furred kobold
+reptile skink
+fish catfish
+fish great white shark
+bird tytonid
+bird masked owl
+mythical lion humanoid
+mythical blue yoshi
+bird ratite
+mythical chain chomp
+mythical floragato
+mythical scorpion
+bird gruiform
+mythical rathian
+mythical demigod
+mythical betelgeusian
+mythical sphere creature
+insect cockroach
+mythical werefelid
+bird barn owl
+mythical miraidon
+bird crane \(bird\)
+mythical cockapoo
+mythical mythological carbuncle
+mythical cryptid
+bird true eagle
+mythical cocotama
+mythical wickerbeast
+mythical aircraft humanoid
+dinosaur allosaurus
+mythical cucujoid
+mythical siren
+mythical moth humanoid
+mythical rubber creature
+mammal moon bear
+mythical mineral humanoid
+mythical prime \(las lindas\)
+insect ladybug
+mythical mustelid humanoid
+mythical dullahan
+mammal warthog
+mythical zeti
+mythical dire machine
+dog jack russell terrier
+bird golden eagle
+mythical pink yoshi
+dinosaur spinosaurid
+bird bearded vulture
+mythical bat humanoid
+mammal bighorn sheep
+aquatic manta ray
+mythical lepi
+mythical manticore
+mythical ruuhtian \(kig-yar\)
+mythical tobi-kadachi
+mythical behemoth \(ff\)
+mammal cacomistle
+mythical bee humanoid
+mythical rito humanoid
+mythical ventrexian
+mammal new world monkey
+mythical water creature
+mythical iradeon
+mythical saiyan
+mythical laquine
+mythical hoopa
+bird alcid
+mythical air creature
+mammal camel
+mythical dire vehicle
+aquatic whale shark
+mammal canadian lynx
+mythical salmonid \(splatoon\)
+mythical indominus rex
+mythical mobian hedgehog
+mammal hereford cattle
+mythical mobian bat
+mythical abyssal wolf
+mammal flying squirrel
+mythical roswell grey
+mythical dragon taur
+mythical mythological golem
+mythical frog humanoid
+mythical colubrid
+mammal hairless dog
+mythical ultimate mode miraidon
+mythical smilodon
+mythical magikoopa
+mythical dryad
+mythical bokoblin
+mythical zerg
+mythical kulve taroth
+mythical lampropeltini
+mythical night stalker \(fallout\)
+mythical tatzlpony
+mammal highland cattle
+mammal spiral-horned antelope
+mythical tarunah
+mythical crux
+dog dachshund
+mythical faraden
+bird puffin
+mammal heteromyid
+mammal dipodomyine
+mythical cyan yoshi
+mythical patchwork creature
+reptile tortoise
+mammal ring-tailed cat
+mythical bangaa
+bird goose
+mythical gremlin \(spiral knights\)
+mythical quaquaval
+mythical palamute
+mythical canyne
+mythical navi
+mammal north american river otter
+mammal lontra
+mythical mythological canine
+mythical seedrian
+mythical ambient bat
+bird cuculiform
+mythical gnome
+aquatic stingray
+mythical tinkaton
+mythical mythological fox
+mammal red kangaroo
+mythical fruit humanoid
+mythical zonkey
+floran mythical
+shrimp aquatic
+finch bird
+stand \(jjba\) mythical
+jakkai mythical
+metroid \(species\) mythical
+nightwing \(wof\) mythical
+kweltikwan mythical
+pooka mythical
+deinonychus dinosaur
+marble fox mammal
+dhole mammal
+swatchling mythical
+nardoragon mythical
+afghan hound mammal
+bovid taur mythical
+ground shark aquatic
+serrasalmid fish
+rat snake reptile
+nihallaks \(species\) mythical
+piranha \(fish\) aquatic
+draph mythical
+corsac fox mammal
+longma mythical
+beast \(bloodborne\) mythical
+petaurid mammal
+origin forme giratina mythical
+mimic chest mythical
+pteranodontid dinosaur
+common ferret mammal
+ambient crustacean mythical
+eastern bluebird bird
+cherub mythical
+blue macaw bird
+spinosaurus dinosaur
+cecaelia mythical
+octopus humanoid mythical
+corn snake reptile
+dall sheep mammal
+dodo bird
+picid bird
+hobkin mythical
+lamarian mythical
+mule mammal
+roadrunner bird
+tigrex mythical
+nevrean mythical
+new world ground cuckoo bird
+osprey bird
+sugar glider mammal
+orthopterid mythical
+tibetan mountain dog mammal
+eggerlander mythical
+anaconda reptile
+cockatiel bird
+musteline humanoid mythical
+primatius mythical
+pteranodon dinosaur
+squid humanoid mythical
+monodontid aquatic
+weredog mythical
+ctarl-ctarl mythical
+goldfish aquatic
+dove bird
+sunflower \(pvz\) mythical
+salmonid \(fish\) aquatic
+wingless bat mythical
+eublepharid mythical
+woodpecker bird
+lizardman \(warhammer\) mythical
+brown hyena mammal
+animate inanimate fire creature
+animate inanimate inanimate object
+animate inanimate inkblot
+animate inanimate living clothing
+animate inanimate living doll
+animate inanimate living fruit
+animate inanimate living inflatable
+animate inanimate living plushie
+animate inanimate mineral fauna
+animate inanimate penis creature
+animate inanimate shadow creature
+animate inanimate cell \(organism\)
+animate inanimate chua
+animate inanimate draconic gargoyle
+animate inanimate eldritch horror tentacle monster
+animate inanimate eldritch horror flesh creature
+animate inanimate food-based food creature
+animate inanimate gelatinous goo creature
+animate inanimate koraidon
+animate inanimate living candy
+animate inanimate living piñata
+animate inanimate machine robot digital creature
+animate inanimate machine robot living aircraft
+animate inanimate machine robot living machine
+animate inanimate machine robot living vehicle
+animate inanimate microorganism \(organism\)
+animate inanimate mineral fauna elemental creature
+animate inanimate mineral fauna rock creature
+anthro ambiguous species
+anthro amphibian amphibian
+anthro amphibian anura toad frog
+anthro amphibian axolotl
+anthro amphibian frog
+anthro amphibian mole salamander
+anthro amphibian newt
+anthro amphibian salamander
+anthro avian mythological avian
+anthro avian mythological firebird
+anthro avian phoenix
+anthro avian bird
+anthro avian bird accipitrid accipitrid
+anthro avian bird accipitrid old world vulture
+anthro avian bird accipitrid philippine eagle
+anthro avian bird accipitriform accipitriform
+anthro avian bird accipitriform bald eagle
+anthro avian bird accipitriform eagle
+anthro avian bird accipitriform sea eagle
+anthro avian bird accipitriform vulture
+anthro avian bird anatidae anserinae
+anthro avian bird anseriform anatid
+anthro avian bird anseriform anseriform
+anthro avian bird anseriform duck
+anthro avian bird avian avian
+anthro avian bird cacatuidae cockatoo
+anthro avian bird charadriiform lari
+anthro avian bird columbiform columbid
+anthro avian bird columbiform pigeon
+anthro avian bird corvid blue jay
+anthro avian bird corvid corvid
+anthro avian bird corvid corvus \(genus\)
+anthro avian bird corvid crow
+anthro avian bird corvid jay \(bird\)
+anthro avian bird corvid new world jay
+anthro avian bird corvidae magpie \(corvid\)
+anthro avian bird falconiform falcon
+anthro avian bird falconiform falconid
+anthro avian bird galliform galliform
+anthro avian bird laridae gull
+anthro avian bird laridae larid
+anthro avian bird oscine oscine
+anthro avian bird passerine hirundinid
+anthro avian bird passerine passerine
+anthro avian bird passerine raven
+anthro avian bird passerine swallow \(bird\)
+anthro avian bird pelecaniformes pelecaniform
+anthro avian bird phasianid chicken
+anthro avian bird phasianid gallus \(genus\)
+anthro avian bird phasianid peafowl
+anthro avian bird phasianid phasianid
+anthro avian bird phasianid turkey
+anthro avian bird phoenicopteridae flamingo
+anthro avian bird psittacidae macaw
+anthro avian bird psittacidae neotropical parrot
+anthro avian bird psittacidae parakeet
+anthro avian bird psittaciform parrot
+anthro avian bird psittaciform true parrot
+anthro avian bird ramphastidae toucan
+anthro avian bird sagittariidae secretary bird
+anthro avian bird spheniscidae penguin
+anthro avian bird strigidae bubo \(genus\)
+anthro avian bird strigidae snowy owl
+anthro avian bird strigidae true owl
+anthro avian bird strigiform owl
+anthro avian bird turdidae thrush \(bird\)
+anthro canid wendigo
+anthro equine winged winged unicorn
+anthro hybrid
+anthro hybrid chimera
+anthro hybrid mythological sphinx
+anthro hybrid avian mammal gryphon
+anthro hybrid canid demonic canid demon
+anthro hybrid demonic canine hellhound
+anthro hybrid equine avian hippogriff
+anthro hybrid feline nekomata
+anthro hybrid goat demonic caprine demon
+anthro hybrid goat demonic goat demon
+anthro hybrid owl demonic owl demon
+anthro hybrid plant animal flora fauna
+anthro mammal afrosoricida afrosoricid
+anthro mammal ailuridae ailurid
+anthro mammal ailuridae giant panda
+anthro mammal ailuridae red panda
+anthro mammal bovid antelope
+anthro mammal bovid cape buffalo
+anthro mammal bovid gazelle
+anthro mammal bovid grazing antelope
+anthro mammal bovid holstein friesian cattle
+anthro mammal bovid miltank
+anthro mammal bovid oryx
+anthro mammal bovid true antelope
+anthro mammal bovid yak
+anthro mammal bovine bovid
+anthro mammal bovine bovine
+anthro mammal bovine cattle
+anthro mammal camelid alpaca
+anthro mammal camelid camelid
+anthro mammal camelid llama
+anthro mammal canid cerberus
+anthro mammal canid dire wolf
+anthro mammal canid sparkledog
+anthro mammal canid african wild dog
+anthro mammal canid anubian jackal
+anthro mammal canid arctic wolf
+anthro mammal canid coyote
+anthro mammal canid domestic dog
+anthro mammal canid jackal
+anthro mammal canid maned wolf
+anthro mammal canid raccoon dog
+anthro mammal canid red wolf
+anthro mammal canid sergal
+anthro mammal canid small molosser
+anthro mammal canid spitz
+anthro mammal canid tanuki
+anthro mammal canid urocyon
+anthro mammal canid wolf
+anthro mammal canid wolfdog
+anthro mammal canine foo dog
+anthro mammal canine akita
+anthro mammal canine alaskan malamute
+anthro mammal canine australian cattle dog
+anthro mammal canine australian shepherd
+anthro mammal canine basset hound
+anthro mammal canine beagle
+anthro mammal canine bernese mountain dog
+anthro mammal canine bird dog
+anthro mammal canine border collie
+anthro mammal canine borzoi
+anthro mammal canine bull terrier
+anthro mammal canine cattledog
+anthro mammal canine cavalier king charles spaniel
+anthro mammal canine chihuahua
+anthro mammal canine cocker spaniel
+anthro mammal canine collie
+anthro mammal canine dalmatian
+anthro mammal canine dingo
+anthro mammal canine dobermann
+anthro mammal canine german shepherd
+anthro mammal canine golden retriever
+anthro mammal canine great dane
+anthro mammal canine herding dog
+anthro mammal canine hunting dog
+anthro mammal canine husky
+anthro mammal canine labrador
+anthro mammal canine mastiff
+anthro mammal canine molosser
+anthro mammal canine mountain dog
+anthro mammal canine nordic sled dog
+anthro mammal canine pastoral dog
+anthro mammal canine pinscher
+anthro mammal canine pit bull
+anthro mammal canine pomeranian
+anthro mammal canine pomsky
+anthro mammal canine poodle
+anthro mammal canine retriever
+anthro mammal canine rottweiler
+anthro mammal canine rough collie
+anthro mammal canine saluki
+anthro mammal canine samoyed
+anthro mammal canine scent hound
+anthro mammal canine sheepdog
+anthro mammal canine shiba inu
+anthro mammal canine shih tzu
+anthro mammal canine siberian husky
+anthro mammal canine sighthound
+anthro mammal canine spaniel
+anthro mammal canine swiss mountain dog
+anthro mammal canine terrier
+anthro mammal canine toy dog
+anthro mammal canine welsh corgi
+anthro mammal caprine caprine
+anthro mammal caprine goat
+anthro mammal caviidae capybara
+anthro mammal cercopithecidae old world monkey
+anthro mammal cervid capreoline
+anthro mammal cervid cervine
+anthro mammal cervid deer
+anthro mammal cervid moose
+anthro mammal cervid mule deer
+anthro mammal cervid red deer
+anthro mammal cervid reindeer
+anthro mammal cervid white-tailed deer
+anthro mammal chiropteran bat
+anthro mammal chiropteran microbat
+anthro mammal chiropteran pteropodid
+anthro mammal chiropteran yangochiropteran
+anthro mammal cingulata armadillo
+anthro mammal cricetidae cricetid
+anthro mammal dasyuromorph dasyurid
+anthro mammal dasyuromorph dasyuromorph
+anthro mammal dasyuromorph thylacine
+anthro mammal didelphidae didelphid
+anthro mammal didelphidae possum
+anthro mammal didelphidae virginia opossum
+anthro mammal draconic furred dragon
+anthro mammal equid asinus
+anthro mammal equid clydesdale
+anthro mammal equid donkey
+anthro mammal equid draft horse
+anthro mammal equid earth pony
+anthro mammal equid equine
+anthro mammal equid horse
+anthro mammal equid pony
+anthro mammal equid zebra
+anthro mammal equine unicorn 
+anthro mammal equine bat pony
+anthro mammal equine kirin
+anthro mammal equine pegasus
+anthro mammal equine humanoid centaur
+anthro mammal erinaceomorph hedgehog
+anthro mammal eulipotyphlan eulipotyphlan
+anthro mammal eupleridae euplerid
+anthro mammal felid bengal tiger
+anthro mammal felid bobcat
+anthro mammal felid calico cat
+anthro mammal felid caracal
+anthro mammal felid caracal \(genus\)
+anthro mammal felid cheetah
+anthro mammal felid clouded leopard
+anthro mammal felid cougar
+anthro mammal felid domestic cat
+anthro mammal felid hairless cat
+anthro mammal felid hyena
+anthro mammal felid jaguar
+anthro mammal felid leopard
+anthro mammal felid leopardus
+anthro mammal felid lion
+anthro mammal felid lynx
+anthro mammal felid machairodontine
+anthro mammal felid maine coon
+anthro mammal felid ocelot
+anthro mammal felid pantherine
+anthro mammal felid serval
+anthro mammal felid siamese
+anthro mammal felid snow leopard
+anthro mammal felid spotted hyena
+anthro mammal felid sprigatito
+anthro mammal felid striped hyena
+anthro mammal felid tabby cat
+anthro mammal felid tiger
+anthro mammal felid wildcat
+anthro mammal feline liger
+anthro mammal feline cat
+anthro mammal feline sphynx \(cat\)
+anthro mammal feline tuxedo cat
+anthro mammal giraffid okapi
+anthro mammal giraffidae giraffe
+anthro mammal giraffidae giraffid
+anthro mammal herpestidae herpestid
+anthro mammal herpestidae meerkat
+anthro mammal herpestidae mongoose
+anthro mammal hippopotamidae common hippopotamus
+anthro mammal hippopotamidae hippopotamid
+anthro mammal hyenid aardwolf
+anthro mammal lagomorph domestic rabbit
+anthro mammal lagomorph dwarf rabbit
+anthro mammal lagomorph hare
+anthro mammal lagomorph netherland dwarf rabbit
+anthro mammal lagomorph oryctolagus
+anthro mammal lagomorph rabbit
+anthro mammal macropod kangaroo
+anthro mammal macropod macropod
+anthro mammal macropod wallaby
+anthro mammal marine marine
+anthro mammal marsupial bandicoot
+anthro mammal marsupial koala
+anthro mammal marsupial marsupial
+anthro mammal marsupial vombatiform
+anthro mammal mephitid skunk
+anthro mammal monotreme echidna
+anthro mammal monotreme monotreme
+anthro mammal murid mouse
+anthro mammal murid murid
+anthro mammal murid murine
+anthro mammal murid rat
+anthro mammal murid rodent
+anthro mammal mustelid badger
+anthro mammal mustelid domestic ferret
+anthro mammal mustelid gulonine
+anthro mammal mustelid honey badger
+anthro mammal mustelid marten
+anthro mammal mustelid mephitid
+anthro mammal mustelid mink
+anthro mammal mustelid mustelid
+anthro mammal mustelid musteline
+anthro mammal mustelid otter
+anthro mammal mustelid pine marten
+anthro mammal mustelid river otter
+anthro mammal mustelid stoat
+anthro mammal mustelid striped skunk
+anthro mammal mustelid true musteline
+anthro mammal mustelid weasel
+anthro mammal mustelid wolverine
+anthro mammal mustelid zangoose
+anthro mammal ovine domestic sheep
+anthro mammal ovine sheep
+anthro mammal phyllostomidae phyllostomid
+anthro mammal pilosa pilosan
+anthro mammal pilosan sloth
+anthro mammal pinniped seal
+anthro mammal pinniped walrus
+anthro mammal pinnipedia pinniped
+anthro mammal primate kong
+anthro mammal primate ape
+anthro mammal primate gorilla
+anthro mammal primate haplorhine
+anthro mammal primate lemur
+anthro mammal primate monkey
+anthro mammal primate primate
+anthro mammal primate ring-tailed lemur
+anthro mammal primate strepsirrhine
+anthro mammal proboscidea elephant
+anthro mammal proboscidea elephantid
+anthro mammal proboscidea proboscidean
+anthro mammal procyonid procyonid
+anthro mammal procyonid raccoon
+anthro mammal rabbit antelope hybrid jackalope
+anthro mammal rhinocerotidae rhinoceros
+anthro mammal rodent beaver
+anthro mammal rodent caviid
+anthro mammal rodent chinchilla
+anthro mammal rodent chinchillid
+anthro mammal rodent dipodid
+anthro mammal rodent eurasian red squirrel
+anthro mammal rodent hamster
+anthro mammal rodent jerboa
+anthro mammal rodent porcupine
+anthro mammal sciurid chipmunk
+anthro mammal sciurid ground squirrel
+anthro mammal sciurid rodent
+anthro mammal sciurid sciurid
+anthro mammal sciurid tree squirrel
+anthro mammal suidae domestic pig
+anthro mammal suidae suid
+anthro mammal suidae suina
+anthro mammal suidae sus \(pig\)
+anthro mammal suidae wild boar
+anthro mammal talpidae mole \(animal\)
+anthro mammal tenrecidae tenrec
+anthro mammal tubulidentata aardvark
+anthro mammal ursid american black bear
+anthro mammal ursid sloth bear
+anthro mammal ursidae black bear
+anthro mammal ursidae brown bear
+anthro mammal ursidae grizzly bear
+anthro mammal ursidae polar bear
+anthro mammal ursidae ursine
+anthro mammal ursine bear
+anthro mammal vermilingua anteater
+anthro mammal viverrid genet
+anthro mammal viverridae viverrid
+anthro mammal vulpine arctic fox
+anthro mammal vulpine cross fox
+anthro mammal vulpine fennec
+anthro mammal vulpine fox
+anthro mammal vulpine grey fox
+anthro mammal vulpine red fox
+anthro mammal vulpine silver fox
+anthro mammal xenarthra xenarthran
+anthro marine creatures fish
+anthro marine mammal cetacean cetacean
+anthro marine mammal cetacean dolphin
+anthro marine mammal cetacean oceanic dolphin
+anthro marine mammal cetacean orca
+anthro marine mammal cetacean toothed whale
+anthro marine reptile draconic aquatic aquatic dragon
+anthro marine arthropod crustacean crab
+anthro marine arthropod crustacean crustacean
+anthro marine arthropod crustacean decapoda
+anthro marine arthropod crustacean malacostracan
+anthro marine cnidarian cnidarian
+anthro marine cnidarian jellyfish
+anthro marine cnidarian medusozoan
+anthro marine echinoderm echinoderm
+anthro marine echinoderm starfish
+anthro marine fish actinopterygii eel
+anthro marine fish cyprinid amur carp
+anthro marine fish cyprinid carp
+anthro marine fish cyprinid koi
+anthro marine fish cyprinid typical carp
+anthro marine fish cypriniformes cyprinid
+anthro marine fish cypriniformes cypriniform
+anthro marine fish elasmobranchii lamniform
+anthro marine fish elasmobranchii requiem shark
+anthro marine fish elasmobranchii tiger shark
+anthro marine fish lamniformes lamnid
+anthro marine fish rajiformes batoid
+anthro marine fish selachimorpha shark
+anthro marine gastropod aquatic gastropod
+anthro marine invertebrate mollusk gastropod
+anthro marine invertebrate mollusk mollusk
+anthro marine invertebrate star asterozoan
+anthro marine mollusk cephalopod cephalopod
+anthro marine mollusk cephalopod coleoid
+anthro marine mollusk cephalopod decapodiform
+anthro marine mollusk cephalopod octopodiform
+anthro marine mollusk cephalopod octopus
+anthro marine mollusk cnidarian anthozoan
+anthro marine nudibranch sea slug
+anthro marine porifera sea sponge
+anthro mixed breed
+anthro monstrous and varied monster
+anthro reptile chelonian turtle
+anthro reptile crocodilian crocodilian
+anthro reptile crocodylid alligator
+anthro reptile crocodylid alligatorid
+anthro reptile crocodylid crocodile
+anthro reptile crocodylid crocodylid
+anthro reptile dinosaur avian feathered dinosaur
+anthro reptile dinosaur ceratopsian
+anthro reptile dinosaur dinosaur
+anthro reptile dinosaur diplodocid
+anthro reptile dinosaur dromaeosaurid
+anthro reptile dinosaur hadrosaurid
+anthro reptile dinosaur ornithischian
+anthro reptile dinosaur parasaurolophus
+anthro reptile dinosaur pterodactylus
+anthro reptile dinosaur pterosaur
+anthro reptile dinosaur sauropod
+anthro reptile dinosaur stegosaurian
+anthro reptile dinosaur stegosaurus
+anthro reptile dinosaur theropod
+anthro reptile dinosaur thyreophoran
+anthro reptile dinosaur triceratops
+anthro reptile dinosaur tyrannosaurid
+anthro reptile dinosaur tyrannosaurus
+anthro reptile dinosaur tyrannosaurus rex
+anthro reptile dinosaur velociraptor
+anthro reptile draco dragon 
+anthro reptile draconic hydra
+anthro reptile draconic kobold
+anthro reptile draconic western dragon
+anthro reptile draconic wingless dragon
+anthro reptile draconic avian feathered dragon
+anthro reptile draconic multi-legged draconcopode
+anthro reptile draconic winged flying wyvern
+anthro reptile draconic winged wyvern
+anthro reptile mammal draconic eastern dragon
+anthro reptile mammal furry furred reptilian
+anthro reptile snake cobra
+anthro reptile snake pit viper
+anthro reptile snake python
+anthro reptile snake rattlesnake
+anthro reptile snake snake
+anthro reptile snake viper
+anthro reptile squamate agamid
+anthro reptile squamate chameleon
+anthro reptile squamate gecko
+anthro reptile squamate iguanid
+anthro reptile squamate komodo dragon
+anthro reptile squamate lizard
+anthro reptile squamate monitor lizard
+anthro undead vampire
+anthro unknown species
+exoskeleton arthropod myriapod myriapod
+fauna flora fungus animal hybrid fungi fauna
+fauna flora plant flower creature
+humanoid celestial being angel
+humanoid deity asura
+humanoid deity deity
+humanoid extraterrestrial alien
+humanoid hybrid demon demon
+humanoid hybrid demon succubus
+humanoid hybrid demon yokai
+humanoid hybrid small demon imp
+humanoid hybrid spirit ghost
+humanoid shape shifter changeling
+humanoid shape shifter were
+humanoid shape shifter canine werecanid
+humanoid shape shifter canine werecanine
+humanoid shape shifter canine werewolf
+humanoid shape shifter eulipotyphlan wereeulipotyphlan
+humanoid spirit guardian spirit
+humanoid spiritual entity spirit
+humanoid undead animated skeleton
+humanoid undead mummy
+insect arthropod arachnid arachnid
+insect arthropod arachnid spider
+insect arthropod coleoptera elateroid
+insect arthropod coleoptera firefly
+insect arthropod coleopteran beetle
+insect arthropod dipteran dipteran
+insect arthropod hymenopteran ant
+insect arthropod hymenopteran bee
+insect arthropod hymenopteran hymenopteran
+insect arthropod hymenopteran wasp
+insect arthropod lepidopteran butterfly
+insect arthropod lepidopteran lepidopteran
+insect arthropod lepidopteran moth
+insect arthropod mantodea mantis
+machine robot android
+machine robot animatronic
+machine robot cyborg
+machine robot mammal protogen
+machine robot reptile synth \(vader-san\)
+otherworldly creature horrifying eldritch abomination
+serpentine annelida annelid
+serpentine gastropod slug
+serpentine gastropod snail
+serpentine hybrid marine merfolk
+serpentine hybrid serpent naga
+serpentine hybrid snake lamia
+serpentine invertebrate annelid worm
+small humanoid fairy
+taur hybrid mammal taur
+taur hybrid taur
+amphibian amphibian
+amphibian anura toad frog
+animate inanimate rock creature
+animate inanimate tentacle monster
+animate inanimate flesh creature
+animate inanimate machine digital creature
+animate inanimate machine living aircraft
+animate inanimate machine living machine
+animate inanimate machine living vehicle
+arthropod myriapod myriapod
+avian mythological avian
+avian mythological firebird
+avian phoenix
+bird accipitrid accipitrid
+bird accipitrid old world vulture
+bird accipitrid philippine eagle
+bird accipitriform accipitriform
+bird accipitriform bald eagle
+bird accipitriform eagle
+bird accipitriform sea eagle
+bird accipitriform vulture
+bird anatidae anserinae
+bird anseriform anatid
+bird anseriform anseriform
+bird anseriform duck
+bird avian avian
+bird cacatuidae cockatoo
+bird charadriiform lari
+bird columbiform columbid
+bird columbiform pigeon
+bird corvid blue jay
+bird corvid corvid
+bird corvid corvus \(genus\)
+bird corvid crow
+bird corvid jay \(bird\)
+bird corvid new world jay
+bird corvidae magpie \(corvid\)
+bird falconiform falcon
+bird falconiform falconid
+bird galliform galliform
+bird laridae gull
+bird laridae larid
+bird oscine oscine
+bird passerine hirundinid
+bird passerine passerine
+bird passerine raven
+bird passerine swallow \(bird\)
+bird pelecaniformes pelecaniform
+bird phasianid chicken
+bird phasianid gallus \(genus\)
+bird phasianid peafowl
+bird phasianid phasianid
+bird phasianid turkey
+bird phoenicopteridae flamingo
+bird psittacidae macaw
+bird psittacidae neotropical parrot
+bird psittacidae parakeet
+bird psittaciform parrot
+bird psittaciform true parrot
+bird ramphastidae toucan
+bird sagittariidae secretary bird
+bird spheniscidae penguin
+bird strigidae bubo \(genus\)
+bird strigidae snowy owl
+bird strigidae true owl
+bird strigiform owl
+bird turdidae thrush \(bird\)
+canid wendigo
+celestial being humanoid angel
+deity deity
+deity humanoid asura
+equine winged winged unicorn
+fire-associated fire creature
+fish actinopterygii eel
+fish cyprinid amur carp
+fish cyprinid carp
+fish cyprinid koi
+fish cyprinid typical carp
+fish cypriniformes cyprinid
+fish cypriniformes cypriniform
+fish elasmobranchii lamniform
+fish elasmobranchii requiem shark
+fish elasmobranchii tiger shark
+fish lamniformes lamnid
+fish rajiformes batoid
+fish selachimorpha shark
+food-based food creature
+fungus animal hybrid fungi fauna
+gelatinous goo creature
+humanoid genie
+humanoid goblin
+humanoid undead
+humanoid alien humanoid
+humanoid angel humanoid
+humanoid animal head
+humanoid arachnid humanoid
+humanoid arachnid taur
+humanoid arthropod humanoid
+humanoid arthropod taur
+humanoid avian humanoid
+humanoid avian harpy
+humanoid bird humanoid
+humanoid bovid humanoid
+humanoid bovine humanoid
+humanoid bovine minotaur
+humanoid canid humanoid
+humanoid canid taur
+humanoid canine humanoid
+humanoid canine taur
+humanoid caprine humanoid
+humanoid cat humanoid
+humanoid cattle humanoid
+humanoid cephalopod humanoid
+humanoid chakat
+humanoid dark elf
+humanoid deer taur
+humanoid demon humanoid
+humanoid demon oni
+humanoid dog humanoid
+humanoid dragon humanoid
+humanoid elemental humanoid
+humanoid equid taur
+humanoid equine humanoid
+humanoid equine taur
+humanoid felid humanoid
+humanoid felid taur
+humanoid feline humanoid
+humanoid felineko
+humanoid felkin
+humanoid fish humanoid
+humanoid food humanoid
+humanoid fox humanoid
+humanoid fox taur
+humanoid giant cyclops
+humanoid giant ogre
+humanoid giant troll
+humanoid goat humanoid
+humanoid goat satyr
+humanoid goo humanoid
+humanoid horned humanoid
+humanoid horse humanoid
+humanoid humanoid taur
+humanoid hyena-like gnoll
+humanoid hymenopteran humanoid
+humanoid insect humanoid
+humanoid lagomorph humanoid
+humanoid leporid humanoid
+humanoid lizard humanoid
+humanoid lizardman
+humanoid lynian
+humanoid marine humanoid
+humanoid mollusk humanoid
+humanoid monstrous humanoid
+humanoid mouse humanoid
+humanoid murid humanoid
+humanoid murine humanoid
+humanoid object head
+humanoid pantherine humanoid
+humanoid plant humanoid
+humanoid primate humanoid
+humanoid procyonid humanoid
+humanoid rabbit humanoid
+humanoid raccoon humanoid
+humanoid reptile humanoid
+humanoid robot humanoid
+humanoid rodent humanoid
+humanoid scalie humanoid
+humanoid sciurid humanoid
+humanoid shark humanoid
+humanoid sheep humanoid
+humanoid snake humanoid
+humanoid spider humanoid
+humanoid spider taur
+humanoid tailed humanoid
+humanoid tiger humanoid
+humanoid tree squirrel humanoid
+humanoid werefox
+humanoid winged humanoid
+humanoid wolf humanoid
+humanoid yinglet
+hybrid chimera
+hybrid mythological sphinx
+hybrid avian mammal gryphon
+hybrid canid demonic canid demon
+hybrid demon demon
+hybrid demon succubus
+hybrid demon yokai
+hybrid demonic canine hellhound
+hybrid equine avian hippogriff
+hybrid feline nekomata
+hybrid goat demonic caprine demon
+hybrid goat demonic goat demon
+hybrid marine merfolk
+hybrid owl demonic owl demon
+hybrid plant animal flora fauna
+hybrid serpent naga
+hybrid small demon imp
+hybrid snake lamia
+hybrid spirit ghost
+insect coleoptera elateroid
+insect coleoptera firefly
+insect coleopteran beetle
+insect dipteran dipteran
+insect hymenopteran ant
+insect hymenopteran bee
+insect hymenopteran hymenopteran
+insect hymenopteran wasp
+insect lepidopteran butterfly
+insect lepidopteran lepidopteran
+insect lepidopteran moth
+insect mantodea mantis
+invertebrate annelid worm
+invertebrate annelida annelid
+invertebrate arachnid arachnid
+invertebrate arachnid spider
+invertebrate arthropod arthropod
+invertebrate gastropod slug
+invertebrate gastropod snail
+invertebrate insect insect
+invertebrate mollusk gastropod
+invertebrate mollusk mollusk
+invertebrate star asterozoan
+machine android
+machine animatronic
+machine cyborg
+machine mammal protogen
+machine reptile synth \(vader-san\)
+mammal afrosoricida afrosoricid
+mammal ailuridae ailurid
+mammal ailuridae giant panda
+mammal ailuridae red panda
+mammal bovid antelope
+mammal bovid cape buffalo
+mammal bovid gazelle
+mammal bovid grazing antelope
+mammal bovid holstein friesian cattle
+mammal bovid miltank
+mammal bovid oryx
+mammal bovid true antelope
+mammal bovid yak
+mammal bovine bovid
+mammal bovine bovine
+mammal bovine cattle
+mammal camelid alpaca
+mammal camelid camelid
+mammal camelid llama
+mammal canid cerberus
+mammal canid dire wolf
+mammal canid sparkledog
+mammal canid african wild dog
+mammal canid anubian jackal
+mammal canid arctic wolf
+mammal canid coyote
+mammal canid domestic dog
+mammal canid jackal
+mammal canid maned wolf
+mammal canid raccoon dog
+mammal canid red wolf
+mammal canid sergal
+mammal canid small molosser
+mammal canid spitz
+mammal canid tanuki
+mammal canid urocyon
+mammal canid wolf
+mammal canid wolfdog
+mammal canine foo dog
+mammal canine akita
+mammal canine alaskan malamute
+mammal canine australian cattle dog
+mammal canine australian shepherd
+mammal canine basset hound
+mammal canine beagle
+mammal canine bernese mountain dog
+mammal canine bird dog
+mammal canine border collie
+mammal canine borzoi
+mammal canine bull terrier
+mammal canine cattledog
+mammal canine cavalier king charles spaniel
+mammal canine chihuahua
+mammal canine cocker spaniel
+mammal canine collie
+mammal canine dalmatian
+mammal canine dingo
+mammal canine dobermann
+mammal canine german shepherd
+mammal canine golden retriever
+mammal canine great dane
+mammal canine herding dog
+mammal canine hunting dog
+mammal canine husky
+mammal canine labrador
+mammal canine mastiff
+mammal canine molosser
+mammal canine mountain dog
+mammal canine nordic sled dog
+mammal canine pastoral dog
+mammal canine pinscher
+mammal canine pit bull
+mammal canine pomeranian
+mammal canine pomsky
+mammal canine poodle
+mammal canine retriever
+mammal canine rottweiler
+mammal canine rough collie
+mammal canine saluki
+mammal canine samoyed
+mammal canine scent hound
+mammal canine sheepdog
+mammal canine shiba inu
+mammal canine shih tzu
+mammal canine siberian husky
+mammal canine sighthound
+mammal canine spaniel
+mammal canine swiss mountain dog
+mammal canine terrier
+mammal canine toy dog
+mammal canine welsh corgi
+mammal caprine caprine
+mammal caprine goat
+mammal caviidae capybara
+mammal cercopithecidae old world monkey
+mammal cervid capreoline
+mammal cervid cervine
+mammal cervid deer
+mammal cervid moose
+mammal cervid mule deer
+mammal cervid red deer
+mammal cervid reindeer
+mammal cervid white-tailed deer
+mammal chiropteran bat
+mammal chiropteran microbat
+mammal chiropteran pteropodid
+mammal chiropteran yangochiropteran
+mammal cingulata armadillo
+mammal cricetidae cricetid
+mammal dasyuromorph dasyurid
+mammal dasyuromorph dasyuromorph
+mammal dasyuromorph thylacine
+mammal didelphidae didelphid
+mammal didelphidae possum
+mammal didelphidae virginia opossum
+mammal draconic furred dragon
+mammal equid asinus
+mammal equid clydesdale
+mammal equid donkey
+mammal equid draft horse
+mammal equid earth pony
+mammal equid equine
+mammal equid horse
+mammal equid pony
+mammal equid zebra
+mammal equine unicorn 
+mammal equine bat pony
+mammal equine kirin
+mammal equine pegasus
+mammal equine humanoid centaur
+mammal erinaceomorph hedgehog
+mammal eulipotyphlan eulipotyphlan
+mammal eupleridae euplerid
+mammal felid bengal tiger
+mammal felid bobcat
+mammal felid calico cat
+mammal felid caracal
+mammal felid caracal \(genus\)
+mammal felid cheetah
+mammal felid clouded leopard
+mammal felid cougar
+mammal felid domestic cat
+mammal felid hairless cat
+mammal felid hyena
+mammal felid jaguar
+mammal felid leopard
+mammal felid leopardus
+mammal felid lion
+mammal felid lynx
+mammal felid machairodontine
+mammal felid maine coon
+mammal felid ocelot
+mammal felid pantherine
+mammal felid serval
+mammal felid siamese
+mammal felid snow leopard
+mammal felid spotted hyena
+mammal felid sprigatito
+mammal felid striped hyena
+mammal felid tabby cat
+mammal felid tiger
+mammal felid wildcat
+mammal feline liger
+mammal feline cat
+mammal feline sphynx \(cat\)
+mammal feline tuxedo cat
+mammal giraffid okapi
+mammal giraffidae giraffe
+mammal giraffidae giraffid
+mammal herpestidae herpestid
+mammal herpestidae meerkat
+mammal herpestidae mongoose
+mammal hippopotamidae common hippopotamus
+mammal hippopotamidae hippopotamid
+mammal hyenid aardwolf
+mammal lagomorph domestic rabbit
+mammal lagomorph dwarf rabbit
+mammal lagomorph hare
+mammal lagomorph netherland dwarf rabbit
+mammal lagomorph oryctolagus
+mammal lagomorph rabbit
+mammal macropod kangaroo
+mammal macropod macropod
+mammal macropod wallaby
+mammal marine marine
+mammal marsupial bandicoot
+mammal marsupial koala
+mammal marsupial marsupial
+mammal marsupial vombatiform
+mammal mephitid skunk
+mammal monotreme echidna
+mammal monotreme monotreme
+mammal murid mouse
+mammal murid murid
+mammal murid murine
+mammal murid rat
+mammal murid rodent
+mammal mustelid badger
+mammal mustelid domestic ferret
+mammal mustelid gulonine
+mammal mustelid honey badger
+mammal mustelid marten
+mammal mustelid mephitid
+mammal mustelid mink
+mammal mustelid mustelid
+mammal mustelid musteline
+mammal mustelid otter
+mammal mustelid pine marten
+mammal mustelid river otter
+mammal mustelid stoat
+mammal mustelid striped skunk
+mammal mustelid true musteline
+mammal mustelid weasel
+mammal mustelid wolverine
+mammal mustelid zangoose
+mammal ovine domestic sheep
+mammal ovine sheep
+mammal phyllostomidae phyllostomid
+mammal pilosa pilosan
+mammal pilosan sloth
+mammal pinniped seal
+mammal pinniped walrus
+mammal pinnipedia pinniped
+mammal primate kong
+mammal primate ape
+mammal primate gorilla
+mammal primate haplorhine
+mammal primate lemur
+mammal primate monkey
+mammal primate primate
+mammal primate ring-tailed lemur
+mammal primate strepsirrhine
+mammal proboscidea elephant
+mammal proboscidea elephantid
+mammal proboscidea proboscidean
+mammal procyonid procyonid
+mammal procyonid raccoon
+mammal rhinocerotidae rhinoceros
+mammal rodent beaver
+mammal rodent caviid
+mammal rodent chinchilla
+mammal rodent chinchillid
+mammal rodent dipodid
+mammal rodent eurasian red squirrel
+mammal rodent hamster
+mammal rodent jerboa
+mammal rodent porcupine
+mammal sciurid chipmunk
+mammal sciurid ground squirrel
+mammal sciurid rodent
+mammal sciurid sciurid
+mammal sciurid tree squirrel
+mammal suidae domestic pig
+mammal suidae suid
+mammal suidae suina
+mammal suidae sus \(pig\)
+mammal suidae wild boar
+mammal talpidae mole \(animal\)
+mammal tenrecidae tenrec
+mammal tubulidentata aardvark
+mammal ursid american black bear
+mammal ursid sloth bear
+mammal ursidae black bear
+mammal ursidae brown bear
+mammal ursidae grizzly bear
+mammal ursidae polar bear
+mammal ursidae ursine
+mammal ursine bear
+mammal vermilingua anteater
+mammal viverrid genet
+mammal viverridae viverrid
+mammal vulpine arctic fox
+mammal vulpine cross fox
+mammal vulpine fennec
+mammal vulpine fox
+mammal vulpine grey fox
+mammal vulpine red fox
+mammal vulpine silver fox
+mammal xenarthra xenarthran
+marine creatures fish
+marine invertebrate cephalopod cephalopod
+marine invertebrate cephalopod coleoid
+marine invertebrate cephalopod decapodiform
+marine invertebrate cephalopod octopodiform
+marine invertebrate cephalopod octopus
+marine invertebrate cnidarian anthozoan
+marine invertebrate cnidarian cnidarian
+marine invertebrate cnidarian jellyfish
+marine invertebrate cnidarian medusozoan
+marine invertebrate crustacean crab
+marine invertebrate crustacean crustacean
+marine invertebrate crustacean decapoda
+marine invertebrate crustacean malacostracan
+marine invertebrate echinoderm echinoderm
+marine invertebrate echinoderm starfish
+marine invertebrate gastropod aquatic gastropod
+marine invertebrate nudibranch sea slug
+marine invertebrate porifera sea sponge
+marine mammal cetacean cetacean
+marine mammal cetacean dolphin
+marine mammal cetacean oceanic dolphin
+marine mammal cetacean orca
+marine mammal cetacean toothed whale
+marine reptile draconic aquatic aquatic dragon
+mineral animal hybrid mineral fauna
+monstrous and varied monster
+plant flower creature
+rabbit antelope hybrid jackalope
+reptile chelonian turtle
+reptile crocodilian crocodilian
+reptile crocodylid alligator
+reptile crocodylid alligatorid
+reptile crocodylid crocodile
+reptile crocodylid crocodylid
+reptile dinosaur avian feathered dinosaur
+reptile dinosaur ceratopsian
+reptile dinosaur dinosaur
+reptile dinosaur diplodocid
+reptile dinosaur dromaeosaurid
+reptile dinosaur hadrosaurid
+reptile dinosaur ornithischian
+reptile dinosaur parasaurolophus
+reptile dinosaur pterodactylus
+reptile dinosaur pterosaur
+reptile dinosaur sauropod
+reptile dinosaur stegosaurian
+reptile dinosaur stegosaurus
+reptile dinosaur theropod
+reptile dinosaur thyreophoran
+reptile dinosaur triceratops
+reptile dinosaur tyrannosaurid
+reptile dinosaur tyrannosaurus
+reptile dinosaur tyrannosaurus rex
+reptile dinosaur velociraptor
+reptile draco dragon 
+reptile draconic hydra
+reptile draconic kobold
+reptile draconic western dragon
+reptile draconic wingless dragon
+reptile draconic avian feathered dragon
+reptile draconic multi-legged draconcopode
+reptile draconic winged flying wyvern
+reptile draconic winged wyvern
+reptile mammal draconic eastern dragon
+reptile mammal furry furred reptilian
+reptile snake cobra
+reptile snake pit viper
+reptile snake python
+reptile snake rattlesnake
+reptile snake snake
+reptile snake viper
+reptile squamate agamid
+reptile squamate chameleon
+reptile squamate gecko
+reptile squamate iguanid
+reptile squamate komodo dragon
+reptile squamate lizard
+reptile squamate monitor lizard
+shape shifter changeling
+shape shifter were
+shape shifter canine werecanid
+shape shifter canine werecanine
+shape shifter canine werewolf
+shape shifter eulipotyphlan wereeulipotyphlan
+spirit guardian spirit
+spiritual entity spirit
+undead vampire
+undead humanoid animated skeleton
+undead humanoid mummy
 bear
 deer
-digimon \(species\)
 bat
 hyena
 otter
-sus \(pig\)
-gallus \(genus\)
 weasel
 dolphin
-regional form \(pokemon\)
-experiment \(lilo and stitch\)
-corvus \(genus\)
 rhinoceros
 salamander
 mew \(pokemon\)
-jay \(bird\)
 meowscarada
 ambient flier
-fossil pokemon
-sphynx \(cat\)
-caracal \(genus\)
 possum
 paradox pokemon
 furred reptilian
-synth \(vader-san\)
-boo \(mario\)
-swallow \(bird\)
 silver fox
-chao \(sonic\)
-ditto \(pokemon\)
-kaka \(blazblue\)
-hypno \(pokemon\)
-faun \(spyro\)
-minkmen \(one piece\)
 sharpclaw \(star fox\)
 rattata
-vessel \(species\)
 mummy
 ancient pokemon
-neopet \(species\)
-leviathan \(mh\)
-troll \(homestuck\)
-bubo \(genus\)
-dragonborn \(dnd\)
-space dragon \(metroid\)
-mole \(animal\)
-viper \(x-com\)
 netherland dwarf rabbit
 deer taur
-shadow pokemon
 sloth bear
 microbat
-toad \(mario\)
-witch \(the owl house\)
-toad \(frog\)
 cross fox
-alpha pokemon
-meloetta \(aria form\)
-diamond dog \(mlp\)
 future pokemon
-micro organism \(organism\)
-blin \(tloz\)
-slugcat \(rain world\)
-thrush \(bird\)
-cell \(organism\)
-magpie \(corvid\)
 pomsky
 living pinata
 zonai
-lizardman \(overlord\)
-creeper \(minecraft\)
 flemish giant
-cardinal \(bird\)
-boa \(snake\)
 pan \(genus\)
 apex build koraidon
-avian \(starbound\)
-gem \(species\)
-persian \(pokemon\)
-bow experiment \(resident evil\)
 floragato
-crane \(bird\)
-prime \(las lindas\)
 bat humanoid
-beta pokemon \(species\)
-ruuhtian \(kig-yar\)
-behemoth \(ff\)
-salmonid \(splatoon\)
 mobian hedgehog
 mobian bat
 ultimate mode miraidon
-night stalker \(fallout\)
-gremlin \(spiral knights\)
 quaquaval
 north american river otter
 lontra
 tinkaton
-stand \(jjba\)
-metroid \(species\)
-nightwing \(wof\)
 marble fox
-nihallaks \(species\)
-piranha \(fish\)
 longma
-beast \(bloodborne\)
 eastern bluebird
-sunflower \(pvz\)
-salmonid \(fish\)
 wingless bat
 lizardman \(warhammer\)
-keldeo \(ordinary form\)
-will-o'-the-wisp
+will-o-the-wisp
 furred shark
 fluffy pony \(species\)
-dragon \(dnd\)
-tailclops \(species\)
-elapid \(snake\)
-sable \(marten\)
-timberwolf \(mlp\)
-orc \(dragon quest\)
 old english sheepdog
 furred marine
 void monster
-peashooter \(pvz\)
-set \(species\)
 altaria
-ara \(genus\)
-assaultron \(fallout\)
 mamagen
-unown \(pokemon\)
-icewing \(wof\)
 weasel humanoid
-skulldog \(species\)
-sandwing \(wof\)
-imp \(doom\)
 raikou
-fish-men \(one piece\)
-t-virus mutant \(resident evil\)
 avian demon
-crystal pony \(mlp\)
-rainwing \(wof\)
-seawing \(wof\)
 candy people \(at\)
-pikmin \(species\)
-lizard \(divinity\)
-deku \(tloz\)
-robin \(bird\)
 hammer bro
 farigiraf
 aquilops
 bellabot
 beluga
-skywing \(wof\)
 feathered reptilian
 kit fox
 cat demon
-slime \(blob\)
 skink \(warhammer fantasy\)
-xerneas \(active mode\)
 cacatua
-hoopa \(confined\)
 erune
 living balloon
 appletun
-bacteria \(organism\)
-appmon \(species\)
 primitive dog
 titan \(the owl house\)
 toonkind
 brachiosaurus
 kishu inu
 demogorgon
-incubator \(puella magi\)
 pelican
 abyssinian cat
 chrysolophus
 golden pheasant
 european badger
-rinrin \(pokemon gold beta\)
 swadloon
 gastropod humanoid
-amoeba \(organism\)
 monster \(moshi monsters\)
 hisuian samurott
 flabebe
@@ -5240,7 +4443,7 @@ macaque
 toco toucan
 feathered raptor
 velkhana
-ibie'shan
+ibieshan
 dracthyr
 black-footed ferret
 chupadore
@@ -5253,11 +4456,8 @@ blowjob beast
 ranamon
 gremlin
 meicrackmon
-computer virus \(species\)
 meicrackmon vicious mode
 fire humanoid
-faceless \(species\)
-unicellular organism \(organism\)
 honey bee
 fire salamander
 jiralhanae
@@ -5266,26 +4466,22 @@ living train
 blacktip reef shark
 pig humanoid
 pachycephalosaurid
-grimm \(rwby\)
 owl humanoid
 seyloid
 bottlenose dolphin
 harpy eagle
 thievul
 polecat \(mustelid\)
-cadou host \(resident evil\)
 mosquito
 bearded dragon
 friesian
-t'au \(warhammer\)
+tau \(warhammer\)
 dunsparce
 slaking
 ariados
 cynocephalus
-dragonoid \(dark souls\)
 class zero
 bio-android \(dragon ball\)
-meloetta \(pirouette form\)
 nezumi \(magic: the gathering\)
 lakitu
 frogadier
@@ -5301,9 +4497,7 @@ zorse
 dark chao
 mudwing \(wof\)
 lizard \(rain world\)
-emoji \(race\)
 ambient fly
-blade \(xenoblade\)
 tyranid
 raticate
 mobian fox
@@ -5342,7 +4536,6 @@ mr. mime
 pachycephalosaurus
 bunnelby
 draako
-tailclops \(race\)
 hystricid
 pomacentrid
 chupacabra
@@ -5356,17 +4549,16 @@ gore magala
 bonneter
 trogonid
 machgaogamon
-pallas's cat
+pallass cat
 diggersby
 scombriform
 tree frog
 archaeopteryx
-parasprite \(mlp\)
 aegislash
 tamaranean
 crustacean humanoid
 morpeko
-sirfetch'd
+sirfetchd
 dragonmaid \(yu-gi-oh!\)
 ledian
 wobbuffet
@@ -5443,7 +4635,7 @@ jumpluff
 tiger \(monster rancher\)
 belgian shepherd
 great horned owl
-queen's stallion
+queens stallion
 ursaluna
 cricket
 ethiopian wolf
@@ -5645,7 +4837,7 @@ maximal
 kiwi \(bird\)
 muntjac
 caprine taur
-spix's macaw
+spixs macaw
 berger blanc suisse
 herbivore \(mh\)
 kritter \(kremling\)
@@ -5679,7 +4871,7 @@ ratteguhn
 unown i
 american pit bull terrier
 millennium dragon
-amalj'aa
+amaljaa
 frilled petal dragon
 blob creature
 lycalopex
@@ -5696,7 +4888,7 @@ teletubby
 japanese bobtail
 primal groudon
 african grey
-si'itiae
+siitiae
 mobian cat
 red panda humanoid
 living vegetable
@@ -5769,7 +4961,7 @@ sahash
 hedgehog humanoid
 butterfly humanoid
 lutra
-ki'rinaes
+kirinaes
 mitachurl
 blank humanoid
 green flu mutant \(left 4 dead\)
@@ -5817,7 +5009,7 @@ exeggutor
 thwomp
 lillymon
 kodiak bear
-thomson's gazelle
+thomsons gazelle
 woozle
 falconid humanoid
 porygon2
@@ -6375,7 +5567,7 @@ alolan muk
 galarian slowpoke
 galarian slowbro
 galarian slowking
-galarian farfetch'd
+galarian farfetchd
 galarian weezing
 galarian mr. mime
 galarian articuno
@@ -6520,7 +5712,7 @@ hoopa \(confined \)
 hoopa \(unbound \)
 baile oricorio
 pom-pom oricorio
-pa'u oricorio
+pau oricorio
 sensu oricorio
 wishiwashi \(solo form \)
 wishiwashi \(school form \)
@@ -6594,27 +5786,27 @@ draph humanoid
 harvin humanoid
 kor \(magic: the gathering\) humanoid
 orc humanoid
-fungus/animal hybrid, Fungi Fauna
-hybrid, avian/mammal, Gryphon
-hybrid, canid/demonic, Canid Demon
-hybrid, equine/avian, Hippogriff
-hybrid, goat/demonic, Caprine Demon
-hybrid, goat/demonic, Goat Demon
-hybrid, owl/demonic, Owl Demon
-hybrid, plant/animal, Flora Fauna
-mammal, equine/humanoid, Centaur
-mineral/animal hybrid, Mineral Fauna
-rabbit/antelope hybrid, Jackalope
-anthro, hybrid, avian/mammal, Gryphon
-anthro, hybrid, canid/demonic, Canid Demon
-anthro, hybrid, equine/avian, Hippogriff
-anthro, hybrid, goat/demonic, Caprine Demon
-anthro, hybrid, goat/demonic, Goat Demon
-anthro, hybrid, owl/demonic, Owl Demon
-anthro, hybrid, plant/animal, Flora Fauna
-anthro, mammal, equine/humanoid, Centaur
-anthro, mammal, rabbit/antelope hybrid, Jackalope
-fauna flora, fungus/animal hybrid, Fungi Fauna
+fungus/animal hybrid fungi fauna
+hybrid avian/mammal gryphon
+hybrid canid/demonic canid demon
+hybrid equine/avian hippogriff
+hybrid goat/demonic caprine demon
+hybrid goat/demonic goat demon
+hybrid owl/demonic owl demon
+hybrid plant/animal flora fauna
+mammal equine/humanoid centaur
+mineral/animal hybrid mineral fauna
+rabbit/antelope hybrid jackalope
+anthro hybrid avian/mammal gryphon
+anthro hybrid canid/demonic canid demon
+anthro hybrid equine/avian hippogriff
+anthro hybrid goat/demonic caprine demon
+anthro hybrid goat/demonic goat demon
+anthro hybrid owl/demonic owl demon
+anthro hybrid plant/animal flora fauna
+anthro mammal equine/humanoid centaur
+anthro mammal rabbit/antelope hybrid jackalope
+fauna flora fungus/animal hybrid fungi fauna
 floran: mythical
 shrimp: aquatic
 finch: bird
@@ -6686,51 +5878,50 @@ eublepharid: mythical
 woodpecker: bird
 lizardman \(warhammer\): mythical
 brown hyena: mammal
-humanoid, half-elf
-humanoid, half-orc
-humanoid, gnome, \(short:1.2\)
-humanoid, halfing, hobbit, \(short:1.2\)
-humanoid, dwarf, \(short:1.2\)
-humanoid, changeling, shapeshifter
-humanoid, vampire, dhampir
-humanoid, elf, drow
-humanoid, dwarf, duergar
-humanoid, fetchling, shadow creature
-humanoid, fey
-humanoid, fauna flora, leshy
-humanoid, goblin
-humanoid, hobgoblin
-humanoid, tiefling, (demon|devil|daemon)
-humanoid, aasimar, angel
-humanoid, elemental, fire creature, ifrit
-humanoid, elemental, water creature, undine
-humanoid, elemental, rock creature, oread
-humanoid, elemental, air creature, sylph
-anthro, reptilian, draconic, kobold
-anthro, reptilian, draconic, dragonborn
-anthro, reptilian, lizard, lizardfolk
-anthro, reptilian, snake, yuan-ti, vishkanya
-anthro, mammal, hyena, gnoll
-anthro, mammal, vulpine, kitsune
-anthro, mammal, feline, catfolk
-anthro, mammal, rodent, ratfolk
-anthro, amphibian, frog, grippli
-anthro, avian, bird, tengu, aarakocra
-anthro, mammal, simian, vanara
-humanoid, gnome, \(short:1.3\)
-humanoid, halfing, hobbit, \(short:1.4\)
-serpentine, humanoid, marine, triton
-serpentine, humanoid, marine, mermaid
-serpentine, humanoid, snake, naga
-machine, robot, humanoid, golem
-anthro, humanoid, mammal, werewolf
-humanoid, giant
-humanoid, troll
-humanoid, hairless, vedalken
-humanoid, fetchling, shadow elemental
-humanoid, elemental, fire elemental, ifrit
-humanoid, elemental, water elemental, undine
-humanoid, elemental, rock elemental, oread
-humanoid, elemental, air elemental, sylph
-anthro, reptilian, snake, (yuan-ti|vishkanya)
-anthro, avian, raven, tengu
+humanoid half-elf
+humanoid half-orc
+humanoid gnome \(short:1.2\)
+humanoid halfing hobbit \(short:1.2\)
+humanoid dwarf \(short:1.2\)
+humanoid changeling shapeshifter
+humanoid vampire dhampir
+humanoid elf drow
+humanoid dwarf duergar
+humanoid fetchling shadow creature
+humanoid fey
+humanoid fauna flora leshy
+humanoid hobgoblin
+humanoid tiefling (demon|devil|daemon)
+humanoid aasimar angel
+humanoid elemental fire creature ifrit
+humanoid elemental water creature undine
+humanoid elemental rock creature oread
+humanoid elemental air creature sylph
+anthro reptilian draconic kobold
+anthro reptilian draconic dragonborn
+anthro reptilian lizard lizardfolk
+anthro reptilian snake yuan-ti vishkanya
+anthro mammal hyena gnoll
+anthro mammal vulpine kitsune
+anthro mammal feline catfolk
+anthro mammal rodent ratfolk
+anthro amphibian frog grippli
+anthro avian bird tengu aarakocra
+anthro mammal simian vanara
+humanoid gnome \(short:1.3\)
+humanoid halfing hobbit \(short:1.4\)
+serpentine humanoid marine triton
+serpentine humanoid marine mermaid
+serpentine humanoid snake naga
+machine robot humanoid golem
+anthro humanoid mammal werewolf
+humanoid giant
+humanoid troll
+humanoid hairless vedalken
+humanoid fetchling shadow elemental
+humanoid elemental fire elemental ifrit
+humanoid elemental water elemental undine
+humanoid elemental rock elemental oread
+humanoid elemental air elemental sylph
+anthro reptilian snake (yuan-ti|vishkanya)
+anthro avian raven tengu
