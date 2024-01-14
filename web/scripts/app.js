@@ -1,5 +1,5 @@
 import { ComfyLogging } from "./logging.js";
-import { ComfyWidgets } from "./widgets.js";
+import { ComfyWidgets, initWidgets } from "./widgets.js";
 import { ComfyUI, $el } from "./ui.js";
 import { api } from "./api.js";
 import { defaultGraph } from "./defaultGraph.js";
@@ -1420,6 +1420,7 @@ export class ComfyApp {
 
 		await this.#invokeExtensionsAsync("init");
 		await this.registerNodes();
+		initWidgets(this);
 
 		// Load previous workflow
 		let restored = false;
@@ -1779,6 +1780,14 @@ export class ComfyApp {
 	 */
 	async graphToPrompt() {
 		for (const outerNode of this.graph.computeExecutionOrder(false)) {
+			if (outerNode.widgets) {
+				for (const widget of outerNode.widgets) {
+					// Allow widgets to run callbacks before a prompt has been queued
+					// e.g. random seed before every gen
+					widget.beforeQueued?.();
+				}
+			}
+
 			const innerNodes = outerNode.getInnerNodes ? outerNode.getInnerNodes() : [outerNode];
 			for (const node of innerNodes) {
 				if (node.isVirtualNode) {
