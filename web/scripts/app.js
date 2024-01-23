@@ -2217,6 +2217,8 @@ export class ComfyApp {
 				}
 			}
 		}
+
+		await this.#invokeExtensionsAsync("refreshComboInNodes", defs);
 	}
 
 	/**
