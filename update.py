@@ -11,10 +11,6 @@ def update_repo(fullpath):
         print(fullpath)
         subprocess.run("git pull", shell=True, cwd=fullpath)
 
-    if os.path.exists(requirements_path):
-        print(fullpath)
-        subprocess.run("pip install -r requirements.txt", shell=True, cwd=fullpath)
-
 def update_custom_nodes():
     for filename in sorted(os.listdir(os.path.join(BASE_PATH, "custom_nodes"))):
         fullpath = os.path.join(BASE_PATH, "custom_nodes", filename)
