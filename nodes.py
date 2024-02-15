@@ -1974,6 +1974,7 @@ def init_custom_nodes():
         "nodes_stable3d.py",
         "nodes_sdupscale.py",
         "nodes_photomaker.py",
+        "nodes_cond.py",
     ]
 
     for node_file in extras_files:
