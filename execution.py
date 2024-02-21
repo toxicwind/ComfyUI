@@ -10,6 +10,8 @@ import re
 import torch
 import nodes
 
+import re
+
 import comfy.model_management
 from comfy.utils import wait_cooldown
 
