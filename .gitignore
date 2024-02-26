@@ -10,7 +10,7 @@ __pycache__/
 *.ckpt
 *.safetensors
 *.pt
-custom_nodes/
+/custom_nodes/
 !custom_nodes/example_node.py.example
 extra_model_paths.yaml
 /.vs
