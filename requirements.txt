@@ -11,3 +11,4 @@ scipy
 tqdm
 psutil
 gputil
+kornia>=0.7.1
