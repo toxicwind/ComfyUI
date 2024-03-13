@@ -7,6 +7,7 @@ from comfy.taesd.taesd import TAESD
 import folder_paths
 import comfy.utils
 from comfy import model_management
+import logging
 
 MAX_PREVIEW_RESOLUTION = 512
 
@@ -74,7 +75,7 @@ def get_previewer(device, latent_format):
                 taesd = TAESD(None, taesd_decoder_path).to(device)
                 previewer = TAESDPreviewerImpl(taesd, device)
             else:
-                print("Warning: TAESD previews enabled, but could not find models/vae_approx/{}".format(latent_format.taesd_decoder_name))
+                logging.warning("Warning: TAESD previews enabled, but could not find models/vae_approx/{}".format(latent_format.taesd_decoder_name))
 
         if previewer is None:
             if latent_format.latent_rgb_factors is not None:
