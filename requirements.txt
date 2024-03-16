@@ -12,3 +12,4 @@ tqdm
 psutil
 gputil
 spandrel==0.1.7
+kornia>=0.7.1
