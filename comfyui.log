@@ -1,0 +1,74 @@
+** ComfyUI startup time: 2024-03-20 21:22:26.135582
+[2024-03-20 21:22] ** Platform: Linux
+[2024-03-20 21:22] ** Python version: 3.11.8 | packaged by conda-forge | (main, Feb 16 2024, 20:53:32) [GCC 12.3.0]
+[2024-03-20 21:22] ** Python executable: /home/toxic/micromamba/envs/cu121/bin/python
+[2024-03-20 21:22] ** Log path: /mnt/d/sd/ComfyUI/comfyui.log
+[2024-03-20 21:22] 
+Prestartup times for custom nodes:
+[2024-03-20 21:22]    0.0 seconds: /mnt/d/sd/ComfyUI/custom_nodes/rgthree-comfy
+[2024-03-20 21:22]    0.1 seconds: /mnt/d/sd/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-20 21:22] 
+Total VRAM 24576 MB, total RAM 98576 MB
+[2024-03-20 21:22] xformers version: 0.0.26.dev768
+[2024-03-20 21:22] Set vram state to: HIGH_VRAM
+[2024-03-20 21:22] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
+[2024-03-20 21:22] VAE dtype: torch.bfloat16
+[2024-03-20 21:22] Using pytorch cross attention
+[2024-03-20 21:22] Traceback (most recent call last):
+[2024-03-20 21:22]   File "/mnt/d/sd/ComfyUI/main.py", line 216, in <module>
+[2024-03-20 21:22]     init_custom_nodes()
+[2024-03-20 21:22]   File "/mnt/d/sd/ComfyUI/nodes.py", line 1983, in init_custom_nodes
+[2024-03-20 21:22]     load_custom_nodes()
+[2024-03-20 21:22]   File "/mnt/d/sd/ComfyUI/nodes.py", line 1933, in load_custom_nodes
+[2024-03-20 21:22]     success = load_custom_node(module_path, base_node_names)
+[2024-03-20 21:22]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-03-20 21:22]   File "/mnt/d/sd/ComfyUI/nodes.py", line 1897, in load_custom_node
+[2024-03-20 21:22]     module_spec.loader.exec_module(module)
+[2024-03-20 21:22]   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+[2024-03-20 21:22]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[2024-03-20 21:22]   File "/mnt/d/sd/ComfyUI/custom_nodes/a-person-mask-generator/__init__.py", line 1, in <module>
+[2024-03-20 21:22]     from .a_person_mask_generator_comfyui import APersonMaskGenerator
+[2024-03-20 21:22]   File "/mnt/d/sd/ComfyUI/custom_nodes/a-person-mask-generator/a_person_mask_generator_comfyui.py", line 14, in <module>
+[2024-03-20 21:22]     import mediapipe as mp
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/mediapipe/__init__.py", line 17, in <module>
+[2024-03-20 21:22]     import mediapipe.tasks.python as tasks
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/mediapipe/tasks/python/__init__.py", line 17, in <module>
+[2024-03-20 21:22]     from . import audio
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/mediapipe/tasks/python/audio/__init__.py", line 18, in <module>
+[2024-03-20 21:22]     import mediapipe.tasks.python.audio.audio_classifier
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/mediapipe/tasks/python/audio/audio_classifier.py", line 26, in <module>
+[2024-03-20 21:22]     from mediapipe.tasks.python.audio.core import base_audio_task_api
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/mediapipe/tasks/python/audio/core/base_audio_task_api.py", line 25, in <module>
+[2024-03-20 21:22]     from mediapipe.tasks.python.core.optional_dependencies import doc_controls
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/mediapipe/tasks/python/core/optional_dependencies.py", line 20, in <module>
+[2024-03-20 21:22]     from tensorflow.tools.docs import doc_controls
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/__init__.py", line 48, in <module>
+[2024-03-20 21:22]     from tensorflow._api.v2 import __internal__
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/_api/v2/__internal__/__init__.py", line 11, in <module>
+[2024-03-20 21:22]     from tensorflow._api.v2.__internal__ import distribute
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/_api/v2/__internal__/distribute/__init__.py", line 8, in <module>
+[2024-03-20 21:22]     from tensorflow._api.v2.__internal__.distribute import combinations
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/_api/v2/__internal__/distribute/combinations/__init__.py", line 8, in <module>
+[2024-03-20 21:22]     from tensorflow.python.distribute.combinations import env # line: 456
+[2024-03-20 21:22]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/distribute/combinations.py", line 33, in <module>
+[2024-03-20 21:22]     from tensorflow.python.distribute import collective_all_reduce_strategy
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/distribute/collective_all_reduce_strategy.py", line 25, in <module>
+[2024-03-20 21:22]     from tensorflow.python.distribute import cross_device_ops as cross_device_ops_lib
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/distribute/cross_device_ops.py", line 28, in <module>
+[2024-03-20 21:22]     from tensorflow.python.distribute import cross_device_utils
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/distribute/cross_device_utils.py", line 22, in <module>
+[2024-03-20 21:22]     from tensorflow.python.distribute import values as value_lib
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/distribute/values.py", line 23, in <module>
+[2024-03-20 21:22]     from tensorflow.python.distribute import distribute_lib
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/distribute/distribute_lib.py", line 206, in <module>
+[2024-03-20 21:22]     from tensorflow.python.data.ops import dataset_ops
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/data/__init__.py", line 21, in <module>
+[2024-03-20 21:22]     from tensorflow.python.data import experimental
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/data/experimental/__init__.py", line 125, in <module>
+[2024-03-20 21:22]     from tensorflow.python.data.experimental.ops.lookup_ops import DatasetInitializer
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/data/experimental/ops/lookup_ops.py", line 22, in <module>
+[2024-03-20 21:22]     from tensorflow.python.ops import lookup_ops
+[2024-03-20 21:22]   File "/home/toxic/micromamba/envs/cu121/lib/python3.11/site-packages/tensorflow/python/ops/lookup_ops.py", line 1189, in <module>
+[2024-03-20 21:22]     class StaticVocabularyTable(LookupInterface):
+[2024-03-20 21:22] KeyboardInterrupt

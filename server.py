@@ -619,9 +619,9 @@ class PromptServer():
         while True:
             try:
                 try:
-                    msg = await asyncio.wait_for(self.messages.get(), timeout=60)
+                    msg = await asyncio.wait_for(self.messages.get(), timeout=10)
                 except asyncio.TimeoutError:
-                    print("Queue idle for 60 seconds. Loop is still active.")
+                    print("*boop*")
                     continue
                 try:
                     await self.send(*msg)

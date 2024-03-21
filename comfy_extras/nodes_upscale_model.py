@@ -17,7 +17,7 @@ class UpscaleModelLoader:
 
     def load_model(self, model_name):
         model_path = folder_paths.get_full_path("upscale_models", model_name)
-        sd = comfy.utils.load_torch_file(model_path, safe_load=True)
+        sd = comfy.utils.load_torch_file(model_path, safe_load=False)
         if "module.layers.0.residual_group.blocks.0.norm1.weight" in sd:
             sd = comfy.utils.state_dict_prefix_replace(sd, {"module.":""})
         out = ModelLoader().load_from_state_dict(sd).eval()

@@ -1,0 +1,29 @@
+** ComfyUI startup time: 2024-03-20 21:19:54.740258
+[2024-03-20 21:19] ** Platform: Linux
+[2024-03-20 21:19] ** Python version: 3.11.8 | packaged by conda-forge | (main, Feb 16 2024, 20:53:32) [GCC 12.3.0]
+[2024-03-20 21:19] ** Python executable: /home/toxic/micromamba/envs/cu121/bin/python
+[2024-03-20 21:19] ** Log path: /mnt/d/sd/ComfyUI/comfyui.log
+[2024-03-20 21:19] 
+Prestartup times for custom nodes:
+[2024-03-20 21:19]    0.0 seconds: /mnt/d/sd/ComfyUI/custom_nodes/rgthree-comfy
+[2024-03-20 21:19]    0.1 seconds: /mnt/d/sd/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-20 21:19] 
+usage: main.py [-h] [--listen [IP]] [--port PORT] [--enable-cors-header [ORIGIN]] [--max-upload-size MAX_UPLOAD_SIZE]
+               [--extra-model-paths-config PATH [PATH ...]] [--output-directory OUTPUT_DIRECTORY]
+               [--temp-directory TEMP_DIRECTORY] [--input-directory INPUT_DIRECTORY] [--auto-launch]
+               [--disable-auto-launch] [--cuda-device DEVICE_ID] [--extension-device EXTENSION_DEVICE]
+               [--cuda-malloc | --disable-cuda-malloc] [--dont-upcast-attention] [--force-fp32 | --force-fp16]
+               [--bf16-unet | --fp16-unet | --fp8_e4m3fn-unet | --fp8_e5m2-unet]
+               [--fp16-vae | --fp32-vae | --bf16-vae] [--cpu-vae]
+               [--fp8_e4m3fn-text-enc | --fp8_e5m2-text-enc | --fp16-text-enc | --fp32-text-enc]
+               [--directml [DIRECTML_DEVICE]] [--disable-ipex-optimize]
+               [--preview-method [none,auto,latent2rgb,taesd]] [--preview-cpu]
+               [--use-split-cross-attention | --use-quad-cross-attention | --use-pytorch-cross-attention]
+               [--disable-xformers] [--gpu-only | --highvram | --normalvram | --lowvram | --novram | --cpu]
+               [--disable-smart-memory] [--deterministic]
+               [--memory-estimation-multiplier MEMORY_ESTIMATION_MULTIPLIER] [--max-temperature MAX_TEMPERATURE]
+               [--safe-temperature SAFE_TEMPERATURE] [--safe-progress-temperature SAFE_PROGRESS_TEMPERATURE]
+               [--max-cool-down-seconds MAX_COOL_DOWN_SECONDS] [--each-cool-down-seconds EACH_COOL_DOWN_SECONDS]
+               [--dont-print-server] [--quick-test-for-ci] [--windows-standalone-build] [--disable-metadata]
+               [--multi-user] [--verbose]
+[2024-03-20 21:19] main.py: error: unrecognized arguments: --disable-safe-unpickle --opt-channelslast --enable-insecure-extension-access --force-enable-xformers
