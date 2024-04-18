@@ -195,28 +195,50 @@ class ResidualAttentionBlock(nn.Module):
 
 
 class StyleAdapter(nn.Module):
-
-    def __init__(self, width=1024, context_dim=768, num_head=8, n_layes=3, num_token=4):
+    def __init__(self, width=1280, context_dim=768, num_head=8, n_layes=3, num_token=4):
         super().__init__()
-
-        scale = width ** -0.5
-        self.transformer_layes = nn.Sequential(*[ResidualAttentionBlock(width, num_head) for _ in range(n_layes)])
+        self.width = width
+        self.context_dim = context_dim
         self.num_token = num_token
-        self.style_embedding = nn.Parameter(torch.randn(1, num_token, width) * scale)
-        self.ln_post = LayerNorm(width)
-        self.ln_pre = LayerNorm(width)
-        self.proj = nn.Parameter(scale * torch.randn(width, context_dim))
+        scale = self.width ** -0.5
+
+        # Initialize layers and parameters based on given specifications
+        self.transformer_layes = nn.Sequential(
+            *[ResidualAttentionBlock(self.width, num_head) for _ in range(n_layes)])
+        self.style_embedding = nn.Parameter(
+            torch.randn(1, self.num_token, self.width) * scale)
+        self.ln_post = nn.LayerNorm(self.width)
+        self.ln_pre = nn.LayerNorm(self.width)
+        self.proj = nn.Parameter(
+            scale * torch.randn(self.width, self.context_dim))
+
+    def correct_tensor_dimensions(self, x):
+        # Ensure the last dimension of x matches 'width'
+        if x.shape[-1] != self.width:
+            print(
+                f"Correcting the shape of x from {x.shape} to [{x.shape[0]}, {x.shape[1]}, {self.width}]")
+            if x.shape[-1] < self.width:
+                # Pad if smaller
+                padding = self.width - x.shape[-1]
+                x = torch.nn.functional.pad(x, (0, padding), "constant", 0)
+            elif x.shape[-1] > self.width:
+                # Slice if larger
+                x = x[:, :, :self.width]
+        return x
 
     def forward(self, x):
-        # x shape [N, HW+1, C]
-        style_embedding = self.style_embedding + torch.zeros(
-            (x.shape[0], self.num_token, self.style_embedding.shape[-1]), device=x.device)
+        # Correct the dimensions of x if necessary
+        x = self.correct_tensor_dimensions(x)
+
+        # Process as per the original forward method logic
+        style_embedding = self.style_embedding + \
+            torch.zeros((x.shape[0], self.num_token,
+                        self.width), device=x.device)
         x = torch.cat([x, style_embedding], dim=1)
         x = self.ln_pre(x)
         x = x.permute(1, 0, 2)  # NLD -> LND
         x = self.transformer_layes(x)
         x = x.permute(1, 0, 2)  # LND -> NLD
-
         x = self.ln_post(x[:, -self.num_token:, :])
         x = x @ self.proj
 
