@@ -1,8 +1,7 @@
 __pycache__/
 *.py[cod]
 /output/
-*workflows*/*.json
-/wildcards/*
+/workflows*/*.json
 /input/
 !/input/example.png
 /models/
