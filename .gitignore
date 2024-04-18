@@ -10,8 +10,15 @@ __pycache__/
 *.ckpt
 *.safetensors
 *.pt
-/custom_nodes/
-!custom_nodes/example_node.py.example
+*.pth
+*.h5
+*.onnx
+*.pb
+*.pbtxt
+*.tflite
+*.mlmodel
+*.pkl
+*.joblib
 extra_model_paths.yaml
 /.vs
 .idea/
@@ -21,4 +28,5 @@ venv/
 !/web/extensions/core/
 /tests-ui/data/object_info.json
 *.png
+*.webp
 /user/
