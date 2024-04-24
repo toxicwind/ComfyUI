@@ -30,3 +30,4 @@ venv/
 *.webp
 /user/
 custom_nodes/
+workspace*/
