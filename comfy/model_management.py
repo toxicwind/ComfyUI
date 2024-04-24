@@ -1,3 +1,6 @@
+import concurrent.futures
+from functools import lru_cache
+import os
 import psutil
 import logging
 from enum import Enum
@@ -275,13 +278,86 @@ logging.info("VAE dtype: {}".format(VAE_DTYPE))
 
 current_loaded_models = []
 
+
+# Decorator to cache results to prevent recomputation
+
+@lru_cache(maxsize=128)
 def module_size(module):
-    module_mem = 0
-    sd = module.state_dict()
-    for k in sd:
-        t = sd[k]
-        module_mem += t.nelement() * t.element_size()
-    return module_mem
+    """
+    Calculate the memory size of an upscale module, optimized for performance.
+    Handles both in-memory PyTorch models and disk-based .pth files efficiently.
+    """
+    try:
+        # Handle the case where the module is a direct PyTorch model with state_dict
+        if hasattr(module, 'state_dict'):
+            return sum(t.nelement() * t.element_size() for t in module.state_dict().values())
+
+        # Handle the case where the module is a path to a .pth file
+        elif isinstance(module, str) and module.endswith('.pth'):
+            if os.path.exists(module):
+                model_dict = torch.load(
+                    module, map_location=torch.device('cpu'))
+                if isinstance(model_dict, dict):
+                    state_dict = model_dict.get('state_dict', model_dict)
+                    return sum(t.nelement() * t.element_size() for t in state_dict.values())
+                else:
+                    raise ValueError(
+                        "The .pth file does not contain a recognizable model format.")
+            else:
+                raise FileNotFoundError(
+                    "The specified .pth file does not exist.")
+
+        # Fallback method for non-standard objects
+        else:
+            return heuristic_size_estimate(module)
+
+    except Exception as e:
+        print(f"Error calculating module size: {str(e)}")
+        return 0
+
+
+def heuristic_size_estimate(module):
+    """
+    A heuristic method to estimate the size of a module that does not conform to standard PyTorch models.
+    """
+    estimated_size = 0
+    for attr in dir(module):
+        attr_value = getattr(module, attr)
+        if torch.is_tensor(attr_value):
+            estimated_size += attr_value.nelement() * attr_value.element_size()
+        elif isinstance(attr_value, dict):
+            # Recursively handle dictionary items if they contain tensors
+            for key, value in attr_value.items():
+                if torch.is_tensor(value):
+                    estimated_size += value.nelement() * value.element_size()
+    return estimated_size
+
+
+def load_and_compute_size(file_path):
+    """
+    Load a .pth file and compute its size using the state dictionary.
+    """
+    model_dict = torch.load(file_path, map_location=torch.device('cpu'))
+    return sum(t.nelement() * t.element_size() for t in model_dict.values())
+
+
+def parallel_module_size(modules):
+    """
+    Compute the sizes of multiple modules in parallel, specifically optimized for disk-based .pth files.
+    """
+    sizes = {}
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        future_to_module = {executor.submit(
+            load_and_compute_size, mod): mod for mod in modules if mod.endswith('.pth')}
+        for future in concurrent.futures.as_completed(future_to_module):
+            module = future_to_module[future]
+            try:
+                size = future.result()
+                sizes[module] = size
+            except Exception as exc:
+                print(f'{module} generated an exception: {exc}')
+    return sizes
+
 
 class LoadedModel:
     def __init__(self, model):
