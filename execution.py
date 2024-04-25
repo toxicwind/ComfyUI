@@ -9,7 +9,7 @@ from typing import List, Literal, NamedTuple, Optional
 import re
 import torch
 import nodes
-
+from spandrel import ModelLoader, ImageModelDescriptor
 import re
 
 import comfy.model_management
@@ -114,16 +114,22 @@ def get_output_data(obj, input_data_all):
     output = []
     if len(results) > 0:
         # check which outputs need concatenating
-        output_is_list = [False] * len(results[0])
-        if hasattr(obj, "OUTPUT_IS_LIST"):
-            output_is_list = obj.OUTPUT_IS_LIST
+        if isinstance(results[0], ImageModelDescriptor):
+            output_is_list = [False]
+        else:
+            output_is_list = [False] * len(results[0])
+            if hasattr(obj, "OUTPUT_IS_LIST"):
+                output_is_list = obj.OUTPUT_IS_LIST
 
         # merge node execution results
-        for i, is_list in zip(range(len(results[0])), output_is_list):
-            if is_list:
-                output.append([x for o in results for x in o[i]])
-            else:
-                output.append([o[i] for o in results])
+        if isinstance(results[0], ImageModelDescriptor):
+            output.append(results[0])
+        else:
+            for i, is_list in zip(range(len(results[0])), output_is_list):
+                if is_list:
+                    output.append([x for o in results for x in o[i]])
+                else:
+                    output.append([o[i] for o in results])
 
     ui = dict()    
     if len(uis) > 0:
