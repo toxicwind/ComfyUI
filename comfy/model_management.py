@@ -278,10 +278,6 @@ logging.info("VAE dtype: {}".format(VAE_DTYPE))
 
 current_loaded_models = []
 
-
-# Decorator to cache results to prevent recomputation
-
-@lru_cache(maxsize=128)
 def module_size(module):
     """
     Calculate the memory size of an upscale module, optimized for performance.

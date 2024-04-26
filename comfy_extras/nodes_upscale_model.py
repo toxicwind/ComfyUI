@@ -1,3 +1,4 @@
+import gc
 import os
 from spandrel import ModelLoader, ImageModelDescriptor
 from comfy import model_management
@@ -5,10 +6,11 @@ import torch
 import comfy.utils
 import folder_paths
 
+
 class UpscaleModelLoader:
     @classmethod
     def INPUT_TYPES(s):
-        return {"required": { "model_name": (folder_paths.get_filename_list("upscale_models"), ),
+        return {"required": {"model_name": (folder_paths.get_filename_list("upscale_models"), ),
                              }}
     RETURN_TYPES = ("UPSCALE_MODEL",)
     FUNCTION = "load_model"
@@ -18,8 +20,8 @@ class UpscaleModelLoader:
     def load_model(self, model_name):
         model_path = folder_paths.get_full_path("upscale_models", model_name)
         sd = comfy.utils.load_torch_file(model_path, safe_load=False)
-        if "module.layers.0.residual_group.blocks.0.norm1.weight" in sd:
-            sd = comfy.utils.state_dict_prefix_replace(sd, {"module.":""})
+        #if "module.layers.0.residual_group.blocks.0.norm1.weight" in sd:
+        #    sd = comfy.utils.state_dict_prefix_replace(sd, {"module.": ""})
         out = ModelLoader().load_from_state_dict(sd).eval()
 
         if not isinstance(out, ImageModelDescriptor):
@@ -27,14 +29,13 @@ class UpscaleModelLoader:
 
         return (out, )
 
-import gc
 
 class ImageUpscaleWithModel:
     @classmethod
     def INPUT_TYPES(s):
-        return {"required": { "upscale_model": ("UPSCALE_MODEL",),
-                              "image": ("IMAGE",),
-                              }}
+        return {"required": {"upscale_model": ("UPSCALE_MODEL",),
+                             "image": ("IMAGE",),
+                             }}
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "upscale"
 
@@ -42,25 +43,29 @@ class ImageUpscaleWithModel:
 
     def upscale(self, upscale_model, image):
         device = model_management.get_torch_device()
+        torch.cuda.empty_cache()  # Clear PyTorch's GPU cache
+        print("Cleared PyTorch's GPU cache.")
+        free_memory = model_management.get_free_memory(device)
+        print(f"Free memory after clearing cache: {free_memory}")
         upscale_model.to(device)
-        in_img = image.movedim(-1,-3).to(device)
-
+        in_img = image.movedim(-1, -3).to(device)
+        free_memory = model_management.get_free_memory(device)
+        tile = 1024
         overlap = 32
 
         oom = True
         while oom:
             try:
                 free_memory = model_management.get_free_memory(device)
-                tile = min(512, free_memory // 1024)  # Adjust tile size based on free memory
 
-                steps = in_img.shape[0] * comfy.utils.get_tiled_scale_steps(in_img.shape[3], in_img.shape[2], tile_x=tile, tile_y=tile, overlap=overlap)
+                steps = in_img.shape[0] * comfy.utils.get_tiled_scale_steps(
+                    in_img.shape[3], in_img.shape[2], tile_x=tile, tile_y=tile, overlap=overlap)
                 pbar = comfy.utils.ProgressBar(steps)
-                s = comfy.utils.tiled_scale(in_img, lambda a: upscale_model(a), tile_x=tile, tile_y=tile, overlap=overlap, upscale_amount=upscale_model.scale, pbar=pbar)
+                s = comfy.utils.tiled_scale(in_img, lambda a: upscale_model(
+                    a), tile_x=tile, tile_y=tile, overlap=overlap, upscale_amount=upscale_model.scale, pbar=pbar)
                 oom = False
             except model_management.OOM_EXCEPTION as e:
                 tile //= 2
-                if tile < 64:
-                    raise e
                 # Try to free up some memory
                 print("Out of memory exception occurred. Trying to free up some memory.")
                 del s
@@ -71,10 +76,13 @@ class ImageUpscaleWithModel:
                 # Adjust tile size based on free memory
                 tile = min(tile, free_memory // 1024)
                 print(f"Adjusted tile size: {tile}")
+                if tile < 64:
+                    raise e
 
-        upscale_model.to("cpu")
-        s = torch.clamp(s.movedim(-3,-1), min=0, max=1.0)
+        upscale_model.to(device)
+        s = torch.clamp(s.movedim(-3, -1), min=0, max=1.0)
         return (s,)
+
 
 NODE_CLASS_MAPPINGS = {
     "UpscaleModelLoader": UpscaleModelLoader,
