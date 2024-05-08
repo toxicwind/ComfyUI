@@ -10,8 +10,9 @@ import time
 import random
 import logging
 
-from PIL import Image, ImageOps, ImageSequence
+from PIL import Image, ImageOps, ImageSequence, ImageFile
 from PIL.PngImagePlugin import PngInfo
+
 import numpy as np
 import safetensors.torch
 
@@ -20,7 +21,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn as nn
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "comfy"))
-
 
 import comfy.diffusers_load
 import comfy.samplers
@@ -1477,11 +1477,23 @@ class LoadImage:
     FUNCTION = "load_image"
     def load_image(self, image):
         image_path = folder_paths.get_annotated_filepath(image)
-        img = Image.open(image_path)
+        
+        img = node_helpers.open_image(image_path)
+        
         output_images = []
         output_masks = []
         for i in ImageSequence.Iterator(img):
-            i = ImageOps.exif_transpose(i)
+            prev_value = None
+            try:
+                i = ImageOps.exif_transpose(i)
+            except OSError:
+                prev_value = ImageFile.LOAD_TRUNCATED_IMAGES
+                ImageFile.LOAD_TRUNCATED_IMAGES = True
+                i = ImageOps.exif_transpose(i)
+            finally:
+                if prev_value is not None:
+                    ImageFile.LOAD_TRUNCATED_IMAGES = prev_value
+
             if i.mode == 'I':
                 i = i.point(lambda i: i * (1 / 255))
             image = i.convert("RGB")
