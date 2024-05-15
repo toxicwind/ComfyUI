@@ -10,6 +10,7 @@ logging.basicConfig(level=logging.INFO,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 def run_command(command, capture_output=False):
     logging.info(f'Running command: {" ".join(command)}')
     if capture_output:
@@ -21,6 +22,8 @@ def run_command(command, capture_output=False):
     else:
         return subprocess.run(command)
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -64,6 +67,9 @@ def handle_git_errors(output, command):
         )
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -85,6 +91,7 @@ def fork_repository(owner, repo):
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     """Fork a repository using the GitHub CLI."""
     try:
         run_command(["gh", "repo", "fork", f"{owner}/{repo}", "--clone=false", "--remote=true"], check=True)
@@ -99,6 +106,12 @@ def update_repo(fullpath):
     Fork a repository using the GitHub CLI.
     """
     try:
+=======
+    """
+    Fork a repository using the GitHub CLI.
+    """
+    try:
+>>>>>>> Stashed changes
 =======
     """
     Fork a repository using the GitHub CLI.
@@ -153,6 +166,9 @@ def update_repo(fullpath, is_main_directory=False):
             os.path.join(fullpath, '.git')):
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -165,7 +181,12 @@ def update_repo(fullpath, is_main_directory=False):
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     for remote in ["origin", "upstream"]:
+=======
+        branch_name = run_command(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                                  capture_output=True)
+>>>>>>> Stashed changes
 =======
         branch_name = run_command(["git", "rev-parse", "--abbrev-ref", "HEAD"],
                                   capture_output=True)
@@ -254,6 +275,9 @@ def main():
     update_repo(base_path, is_main_directory=True)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
