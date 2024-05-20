@@ -6,7 +6,7 @@ from einops import rearrange, repeat
 from typing import Optional, Any
 import logging
 
-from .diffusionmodules.util import checkpoint, AlphaBlender, timestep_embedding
+from .diffusionmodules.util import AlphaBlender, timestep_embedding
 from .sub_quadratic_attention import efficient_dot_product_attention
 
 from comfy import model_management
@@ -18,6 +18,14 @@ if model_management.xformers_enabled():
 from comfy.cli_args import args
 import comfy.ops
 ops = comfy.ops.disable_weight_init
+
+
+def get_attn_precision(attn_precision):
+    if args.dont_upcast_attention:
+        return None
+    if attn_precision is None and args.force_upcast_attention:
+        return torch.float32
+    return attn_precision
 
 def exists(val):
     return val is not None
@@ -78,6 +86,8 @@ def Normalize(in_channels, dtype=None, device=None):
     return torch.nn.GroupNorm(num_groups=32, num_channels=in_channels, eps=1e-6, affine=True, dtype=dtype, device=device)
 
 def attention_basic(q, k, v, heads, mask=None, attn_precision=None):
+    attn_precision = get_attn_precision(attn_precision)
+
     b, _, dim_head = q.shape
     dim_head //= heads
     scale = dim_head ** -0.5
@@ -128,6 +138,8 @@ def attention_basic(q, k, v, heads, mask=None, attn_precision=None):
 
 
 def attention_sub_quad(query, key, value, heads, mask=None, attn_precision=None):
+    attn_precision = get_attn_precision(attn_precision)
+
     b, _, dim_head = query.shape
     dim_head //= heads
 
@@ -188,6 +200,8 @@ def attention_sub_quad(query, key, value, heads, mask=None, attn_precision=None)
     return hidden_states
 
 def attention_split(q, k, v, heads, mask=None, attn_precision=None):
+    attn_precision = get_attn_precision(attn_precision)
+
     b, _, dim_head = q.shape
     dim_head //= heads
     scale = dim_head ** -0.5
@@ -311,11 +325,7 @@ def attention_xformers(q, k, v, heads, mask=None, attn_precision=None):
             return attention_pytorch(q, k, v, heads, mask)
 
     q, k, v = map(
-        lambda t: t.unsqueeze(3)
-        .reshape(b, -1, heads, dim_head)
-        .permute(0, 2, 1, 3)
-        .reshape(b * heads, -1, dim_head)
-        .contiguous(),
+        lambda t: t.reshape(b, -1, heads, dim_head),
         (q, k, v),
     )
 
@@ -328,10 +338,7 @@ def attention_xformers(q, k, v, heads, mask=None, attn_precision=None):
     out = xformers.ops.memory_efficient_attention(q, k, v, attn_bias=mask)
 
     out = (
-        out.unsqueeze(0)
-        .reshape(b, heads, -1, dim_head)
-        .permute(0, 2, 1, 3)
-        .reshape(b, -1, heads * dim_head)
+        out.reshape(b, -1, heads * dim_head)
     )
     return out
 
@@ -454,15 +461,11 @@ class BasicTransformerBlock(nn.Module):
 
         self.norm1 = operations.LayerNorm(inner_dim, dtype=dtype, device=device)
         self.norm3 = operations.LayerNorm(inner_dim, dtype=dtype, device=device)
-        self.checkpoint = checkpoint
         self.n_heads = n_heads
         self.d_head = d_head
         self.switch_temporal_ca_to_sa = switch_temporal_ca_to_sa
 
     def forward(self, x, context=None, transformer_options={}):
-        return checkpoint(self._forward, (x, context, transformer_options), self.parameters(), self.checkpoint)
-
-    def _forward(self, x, context=None, transformer_options={}):
         extra_options = {}
         block = transformer_options.get("block", None)
         block_index = transformer_options.get("block_index", 0)
@@ -629,7 +632,7 @@ class SpatialTransformer(nn.Module):
         x = self.norm(x)
         if not self.use_linear:
             x = self.proj_in(x)
-        x = rearrange(x, 'b c h w -> b (h w) c').contiguous()
+        x = x.movedim(1, 3).flatten(1, 2).contiguous()
         if self.use_linear:
             x = self.proj_in(x)
         for i, block in enumerate(self.transformer_blocks):
@@ -637,7 +640,7 @@ class SpatialTransformer(nn.Module):
             x = block(x, context=context[i], transformer_options=transformer_options)
         if self.use_linear:
             x = self.proj_out(x)
-        x = rearrange(x, 'b (h w) c -> b c h w', h=h, w=w).contiguous()
+        x = x.reshape(x.shape[0], h, w, x.shape[-1]).movedim(3, 1).contiguous()
         if not self.use_linear:
             x = self.proj_out(x)
         return x + x_in
