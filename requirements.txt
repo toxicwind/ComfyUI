@@ -11,5 +11,7 @@ scipy
 tqdm
 psutil
 gputil
-spandrel==0.1.7
+
+#non essential dependencies:
 kornia>=0.7.1
+spandrel
