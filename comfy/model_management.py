@@ -5,6 +5,7 @@ import psutil
 import logging
 from enum import Enum
 from comfy.cli_args import args
+import comfy
 import torch
 import sys
 import platform
