@@ -11,10 +11,9 @@ function intersect(a, b) {
 	else return null;
 }
 
-function getClipPath(node, element) {
+function getClipPath(node, element, elRect) {
 	const selectedNode = Object.values(app.canvas.selected_nodes)[0];
 	if (selectedNode && selectedNode !== node) {
-		const elRect = element.getBoundingClientRect();
 		const MARGIN = 7;
 		const scale = app.canvas.ds.scale;
 
@@ -266,11 +265,11 @@ LGraphNode.prototype.addDOMWidget = function (name, type, element, options) {
 				width: `${widgetWidth - margin * 2}px`,
 				height: `${(widget.computedHeight ?? 50) - margin * 2}px`,
 				position: "absolute",
-				zIndex: ctx.canvas.style.zIndex,
+				zIndex: app.graph._nodes.indexOf(node),
 			});
 
 			if (enableDomClipping) {
-				element.style.clipPath = getClipPath(node, element);
+				element.style.clipPath = getClipPath(node, element, elRect);
 				element.style.willChange = "clip-path";
 			}
 
