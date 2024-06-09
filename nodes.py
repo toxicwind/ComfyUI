@@ -16,10 +16,6 @@ from PIL.PngImagePlugin import PngInfo
 import numpy as np
 import safetensors.torch
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.nn as nn
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "comfy"))
 
 import comfy.diffusers_load
@@ -912,21 +908,13 @@ class StyleModelApply:
 
     CATEGORY = "conditioning/style_model"
 
-
-
-    import torch
-
-
     def apply_stylemodel(self, clip_vision_output, style_model, conditioning):
-        cond = style_model.get_cond(clip_vision_output).view(-1).unsqueeze(0)
-        conditioned_tensors = []
-        for tensors, params in conditioning:
-            cond_resized = cond.expand(-1, tensors[0].shape[1]) if cond.shape[
-                1] < tensors[0].shape[1] else cond[:, :tensors[0].shape[1]]
-            combined_tensor = torch.cat((tensors[0], cond_resized), dim=1)
-            conditioned_tensors.append((combined_tensor, params.copy()))
-        return conditioned_tensors
-
+        cond = style_model.get_cond(clip_vision_output).flatten(start_dim=0, end_dim=1).unsqueeze(dim=0)
+        c = []
+        for t in conditioning:
+            n = [torch.cat((t[0], cond), dim=1), t[1].copy()]
+            c.append(n)
+        return (c, )
 
 class unCLIPConditioning:
     @classmethod
@@ -1053,7 +1041,7 @@ class LatentFromBatch:
         else:
             s["batch_index"] = samples["batch_index"][batch_index:batch_index + length]
         return (s,)
-
+    
 class RepeatLatentBatch:
     @classmethod
     def INPUT_TYPES(s):
@@ -1068,7 +1056,7 @@ class RepeatLatentBatch:
     def repeat(self, samples, amount):
         s = samples.copy()
         s_in = samples["samples"]
-
+        
         s["samples"] = s_in.repeat((amount, 1,1,1))
         if "noise_mask" in samples and samples["noise_mask"].shape[0] > 1:
             masks = samples["noise_mask"]
@@ -1400,7 +1388,7 @@ class SaveImage:
 
     @classmethod
     def INPUT_TYPES(s):
-        return {"required":
+        return {"required": 
                     {"images": ("IMAGE", ),
                      "filename_prefix": ("STRING", {"default": "ComfyUI"})},
                 "hidden": {"prompt": "PROMPT", "extra_pnginfo": "EXTRA_PNGINFO"},
@@ -1423,20 +1411,11 @@ class SaveImage:
             metadata = None
             if not args.disable_metadata:
                 metadata = PngInfo()
-                def is_json_serializable(obj):
-                    try:
-                        json.dumps(obj)
-                        return True
-                    except TypeError:
-                        return False
-
-                if prompt is not None and is_json_serializable(prompt):
+                if prompt is not None:
                     metadata.add_text("prompt", json.dumps(prompt))
-
                 if extra_pnginfo is not None:
                     for x in extra_pnginfo:
-                        if is_json_serializable(extra_pnginfo[x]):
-                            metadata.add_text(x, json.dumps(extra_pnginfo[x]))
+                        metadata.add_text(x, json.dumps(extra_pnginfo[x]))
 
             filename_with_batch_num = filename.replace("%batch_num%", str(batch_number))
             file = f"{filename_with_batch_num}_{counter:05}_.png"

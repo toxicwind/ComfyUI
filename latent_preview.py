@@ -7,7 +7,6 @@ from comfy.taesd.taesd import TAESD
 import comfy.model_management
 import folder_paths
 import comfy.utils
-from comfy import model_management
 import logging
 
 MAX_PREVIEW_RESOLUTION = 512
@@ -28,12 +27,11 @@ class LatentPreviewer:
         return ("JPEG", preview_image, MAX_PREVIEW_RESOLUTION)
 
 class TAESDPreviewerImpl(LatentPreviewer):
-    def __init__(self, taesd, device):
+    def __init__(self, taesd):
         self.taesd = taesd
-        self.device = device
 
     def decode_latent_to_preview(self, x0):
-        x_sample = self.taesd.decode(x0[:1].to(self.device))[0].movedim(0, 2)
+        x_sample = self.taesd.decode(x0[:1])[0].movedim(0, 2)
         return preview_to_image(x_sample)
 
 
@@ -50,8 +48,6 @@ class Latent2RGBPreviewer(LatentPreviewer):
 def get_previewer(device, latent_format):
     previewer = None
     method = args.preview_method
-    if args.preview_cpu:
-        device = torch.device("cpu")
     if method != LatentPreviewMethod.NoPreviews:
         # TODO previewer methods
         taesd_decoder_path = None
@@ -69,7 +65,7 @@ def get_previewer(device, latent_format):
         if method == LatentPreviewMethod.TAESD:
             if taesd_decoder_path:
                 taesd = TAESD(None, taesd_decoder_path).to(device)
-                previewer = TAESDPreviewerImpl(taesd, device)
+                previewer = TAESDPreviewerImpl(taesd)
             else:
                 logging.warning("Warning: TAESD previews enabled, but could not find models/vae_approx/{}".format(latent_format.taesd_decoder_name))
 
@@ -92,10 +88,7 @@ def prepare_callback(model, steps, x0_output_dict=None):
 
         preview_bytes = None
         if previewer:
-            try:
-                preview_bytes = previewer.decode_latent_to_preview_image(preview_format, x0)
-            except model_management.OOM_EXCEPTION as e:
-                pass
+            preview_bytes = previewer.decode_latent_to_preview_image(preview_format, x0)
         pbar.update_absolute(step + 1, total_steps, preview_bytes)
     return callback
 

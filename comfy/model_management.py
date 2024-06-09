@@ -1,11 +1,7 @@
-import concurrent.futures
-from functools import lru_cache
-import os
 import psutil
 import logging
 from enum import Enum
 from comfy.cli_args import args
-import comfy
 import torch
 import sys
 import platform
@@ -50,12 +46,6 @@ if args.directml is not None:
     # torch_directml.disable_tiled_resources(True)
     lowvram_available = False #TODO: need to find a way to get free memory in directml before this can be enabled by default.
 
-extensions_devices = {}
-if args.extension_device is not None:
-    for ext_dev in args.extension_device.split(";"):
-        ext, dev = ext_dev.split(":")
-        extensions_devices[ext] = dev
-
 try:
     import intel_extension_for_pytorch as ipex
     if torch.xpu.is_available():
@@ -84,14 +74,6 @@ def is_intel_xpu():
 def get_torch_device():
     global directml_enabled
     global cpu_state
-    global extensions_devices
-
-    extension_stack = comfy.utils.get_extension_calling()
-    if extension_stack is not None:
-        for extension in extension_stack:
-            if extension in extensions_devices:
-                return torch.device(extensions_devices[extension])
-
     if directml_enabled:
         global directml_device
         return directml_device
@@ -281,36 +263,12 @@ logging.info("VAE dtype: {}".format(VAE_DTYPE))
 current_loaded_models = []
 
 def module_size(module):
-    """
-    Calculate the memory size of an upscale module, optimized for performance.
-    Handles both in-memory PyTorch models and disk-based .pth files efficiently.
-    """
-    try:
-        # Handle the case where the module is a direct PyTorch model with state_dict
-        if hasattr(module, 'state_dict'):
-            return sum(t.nelement() * t.element_size() for t in module.state_dict().values())
-
-        # Handle the case where the module is a path to a .pth file
-        elif isinstance(module, str) and module.endswith('.pth'):
-            if os.path.exists(module):
-                model_dict = torch.load(module, map_location=torch.device('cpu'))
-                if isinstance(model_dict, dict):
-                    state_dict = model_dict.get('state_dict', model_dict)
-                    size = sum(t.nelement() * t.element_size() for t in state_dict.values())
-                    del model_dict  # Delete the model dictionary after calculating its size
-                    return size
-                else:
-                    raise ValueError("The .pth file does not contain a recognizable model format.")
-            else:
-                raise FileNotFoundError("The specified .pth file does not exist.")
-
-    except Exception as e:
-        print(f"Error calculating module size: {str(e)}")
-
-    # Return a default size of 256MB (in bytes) if the module size cannot be calculated
-    return 256 * 1024 * 1024
-
-
+    module_mem = 0
+    sd = module.state_dict()
+    for k in sd:
+        t = sd[k]
+        module_mem += t.nelement() * t.element_size()
+    return module_mem
 
 class LoadedModel:
     def __init__(self, model):

@@ -618,18 +618,8 @@ class PromptServer():
 
     async def publish_loop(self):
         while True:
-            try:
-                try:
-                    msg = await asyncio.wait_for(self.messages.get(), timeout=10)
-                except asyncio.TimeoutError:
-                    print("*boop*")
-                    continue
-                try:
-                    await self.send(*msg)
-                except Exception as e:
-                    print(f"Error during message processing: {e}")
-            except Exception as e:
-                print(f"Unexpected error in publish_loop: {e}")
+            msg = await self.messages.get()
+            await self.send(*msg)
 
     async def start(self, address, port, verbose=True, call_on_start=None):
         runner = web.AppRunner(self.app, access_log=None)

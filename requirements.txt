@@ -1,4 +1,4 @@
-torch<=2.4.1+cu121
+torch
 torchsde
 torchvision
 einops
@@ -10,7 +10,6 @@ Pillow
 scipy
 tqdm
 psutil
-gputil
 
 #non essential dependencies:
 kornia>=0.7.1

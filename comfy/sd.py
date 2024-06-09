@@ -289,8 +289,6 @@ class VAE:
         return samples
 
     def decode(self, samples_in):
-        pixel_samples = None
-
         try:
             memory_used = self.memory_used_decode(samples_in.shape, self.vae_dtype)
             model_management.load_models_gpu([self.patcher], memory_required=memory_used)
@@ -303,21 +301,8 @@ class VAE:
                 samples = samples_in[x:x+batch_number].to(self.vae_dtype).to(self.device)
                 pixel_samples[x:x+batch_number] = self.process_output(self.first_stage_model.decode(samples).to(self.output_device).float())
         except model_management.OOM_EXCEPTION as e:
-            pixel_samples = None
-
-            tile_size = 64
-            while tile_size >= 8:
-                overlap = tile_size // 4
-                logging.warning(f"Warning: Ran out of memory when regular VAE decoding, retrying with tiled VAE decoding with tile size {tile_size} and overlap {overlap}.")
-                try:
-                    pixel_samples = self.decode_tiled_(samples_in, tile_x=tile_size, tile_y=tile_size, overlap=overlap)
-                    break
-                except model_management.OOM_EXCEPTION as e:
-                    pass
-                tile_size -= 8
-
-            if pixel_samples is None:
-                raise e
+            logging.warning("Warning: Ran out of memory when regular VAE decoding, retrying with tiled VAE decoding.")
+            pixel_samples = self.decode_tiled_(samples_in)
 
         pixel_samples = pixel_samples.to(self.output_device).movedim(1,-1)
         return pixel_samples
@@ -330,8 +315,6 @@ class VAE:
     def encode(self, pixel_samples):
         pixel_samples = self.vae_encode_crop_pixels(pixel_samples)
         pixel_samples = pixel_samples.movedim(-1,1)
-        samples = None
-
         try:
             memory_used = self.memory_used_encode(pixel_samples.shape, self.vae_dtype)
             model_management.load_models_gpu([self.patcher], memory_required=memory_used)
@@ -344,21 +327,8 @@ class VAE:
                 samples[x:x+batch_number] = self.first_stage_model.encode(pixels_in).to(self.output_device).float()
 
         except model_management.OOM_EXCEPTION as e:
-            samples = None
-
-            tile_size = 512
-            while tile_size >= 64:
-                overlap = tile_size // 8
-                logging.warning(f"Warning: Ran out of memory when regular VAE encoding, retrying with tiled VAE encoding with tile size {tile_size} and overlap {overlap}.")
-                try:
-                    samples = self.encode_tiled_(pixel_samples, tile_x=tile_size, tile_y=tile_size, overlap=overlap)
-                    break
-                except model_management.OOM_EXCEPTION as e:
-                    pass
-                tile_size -= 64
-
-            if samples is None:
-                raise e
+            logging.warning("Warning: Ran out of memory when regular VAE encoding, retrying with tiled VAE encoding.")
+            samples = self.encode_tiled_(pixel_samples)
 
         return samples
 

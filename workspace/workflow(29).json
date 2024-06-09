@@ -1,0 +1,2197 @@
+{
+  "last_node_id": 66,
+  "last_link_id": 135,
+  "nodes": [
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        -60,
+        80
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 7,
+          "label": "samples"
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 27,
+          "slot_index": 1,
+          "label": "vae"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            9
+          ],
+          "slot_index": 0,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 21,
+      "type": "FooocusPromptExpansion",
+      "pos": [
+        -1660,
+        440
+      ],
+      "size": {
+        "0": 390,
+        "1": 100
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 127,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            37
+          ],
+          "shape": 6,
+          "slot_index": 0,
+          "label": "STRING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FooocusPromptExpansion"
+      },
+      "widgets_values": [
+        "",
+        892688612589897,
+        "randomize"
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 41,
+      "type": "FooocusPromptExpansion",
+      "pos": [
+        -1660,
+        600
+      ],
+      "size": {
+        "0": 390,
+        "1": 110
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 128,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            83
+          ],
+          "shape": 6,
+          "slot_index": 0,
+          "label": "STRING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FooocusPromptExpansion"
+      },
+      "widgets_values": [
+        "",
+        518160088435715,
+        "randomize"
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 42,
+      "type": "FooocusPromptExpansion",
+      "pos": [
+        -1660,
+        770
+      ],
+      "size": {
+        "0": 390,
+        "1": 110
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 129,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            84
+          ],
+          "shape": 6,
+          "slot_index": 0,
+          "label": "STRING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FooocusPromptExpansion"
+      },
+      "widgets_values": [
+        "",
+        30584559562088,
+        "randomize"
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 43,
+      "type": "FooocusPromptExpansion",
+      "pos": [
+        -1650,
+        950
+      ],
+      "size": {
+        "0": 370,
+        "1": 110
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 130,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            85
+          ],
+          "shape": 6,
+          "slot_index": 0,
+          "label": "STRING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FooocusPromptExpansion"
+      },
+      "widgets_values": [
+        "",
+        263793037210347,
+        "randomize"
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        320
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 77,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 32,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            6
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "Negative Prompt1",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "serialize_values": [
+        ""
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        220
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 76,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 34,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            4
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "PositivePrompt1",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ],
+      "serialize_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        200,
+        80
+      ],
+      "size": {
+        "0": 370,
+        "1": 310
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9,
+          "label": "images"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "serialize_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        670
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 90,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 104,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            92
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "NegativePrompt2",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ],
+      "serialize_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        560
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 88,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 103,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            91
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "PositivePrompt2",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ],
+      "serialize_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        800
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 111,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 105,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            113
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "PositivePrompt3",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ],
+      "serialize_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        910
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 112,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 106,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            114
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "NegativePrompt3",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ],
+      "serialize_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        1040
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 109,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 107,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            115
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "PositivePrompt4",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ],
+      "serialize_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -760,
+        1140
+      ],
+      "size": {
+        "0": 230,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 110,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 108,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            116
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "title": "NegativePrompt4",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ],
+      "serialize_values": [
+        "(A female wizard is flying in the air on a broomstick:1.2), extremely detailed face, beautiful face!!, pretty face!!, fantasy art, in the style of Artgerm, illustration, epic, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "KSampler",
+      "pos": [
+        -430,
+        60
+      ],
+      "size": {
+        "0": 350,
+        "1": 262
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 75,
+          "label": "model"
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 4,
+          "label": "positive"
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 6,
+          "label": "negative"
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 2,
+          "label": "latent_image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            7
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        731521729877394,
+        "randomize",
+        8,
+        2.5,
+        "euler_ancestral",
+        "normal",
+        1
+      ],
+      "serialize_values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 47,
+      "type": "KSampler",
+      "pos": [
+        -420,
+        380
+      ],
+      "size": {
+        "0": 340,
+        "1": 262
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 86,
+          "label": "model"
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 91,
+          "label": "positive"
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 92,
+          "label": "negative"
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 96,
+          "label": "latent_image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            93
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        201040934782433,
+        "randomize",
+        8,
+        2.5,
+        "euler_ancestral",
+        "normal",
+        1
+      ],
+      "serialize_values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 48,
+      "type": "KSampler",
+      "pos": [
+        -420,
+        700
+      ],
+      "size": {
+        "0": 340,
+        "1": 262
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 99,
+          "label": "model"
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 113,
+          "label": "positive"
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 114,
+          "label": "negative"
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 97,
+          "label": "latent_image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            118
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        17009618314037,
+        "randomize",
+        8,
+        2.5,
+        "euler_ancestral",
+        "normal",
+        1
+      ],
+      "serialize_values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 44,
+      "type": "SDXLPromptStyler",
+      "pos": [
+        -1230,
+        640
+      ],
+      "size": {
+        "0": 380,
+        "1": 192
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 83,
+          "widget": {
+            "name": "text_positive"
+          },
+          "label": "text_positive"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "links": [
+            103
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "text_positive"
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "links": [
+            104
+          ],
+          "shape": 3,
+          "slot_index": 1,
+          "label": "text_negative"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStyler"
+      },
+      "widgets_values": [
+        "",
+        "deformed, bad anatomy, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, worst quality, low quality, mutation, poorly drawn, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, missing fingers, fused fingers, abnormal eye proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal fingers, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch",
+        "sai-enhance",
+        true,
+        true,
+        true
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 45,
+      "type": "SDXLPromptStyler",
+      "pos": [
+        -1240,
+        840
+      ],
+      "size": {
+        "0": 380,
+        "1": 192
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 84,
+          "widget": {
+            "name": "text_positive"
+          },
+          "label": "text_positive"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "links": [
+            105
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "text_positive"
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "links": [
+            106
+          ],
+          "shape": 3,
+          "slot_index": 1,
+          "label": "text_negative"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStyler"
+      },
+      "widgets_values": [
+        "",
+        "deformed, bad anatomy, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, worst quality, low quality, mutation, poorly drawn, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, missing fingers, fused fingers, abnormal eye proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal fingers, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch",
+        "sai-enhance",
+        true,
+        true,
+        true
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 46,
+      "type": "SDXLPromptStyler",
+      "pos": [
+        -1240,
+        1070
+      ],
+      "size": {
+        "0": 380,
+        "1": 192
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 85,
+          "widget": {
+            "name": "text_positive"
+          },
+          "label": "text_positive"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "links": [
+            107
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "text_positive"
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "links": [
+            108
+          ],
+          "shape": 3,
+          "slot_index": 1,
+          "label": "text_negative"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStyler"
+      },
+      "widgets_values": [
+        "",
+        "deformed, bad anatomy, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, worst quality, low quality, mutation, poorly drawn, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, missing fingers, fused fingers, abnormal eye proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal fingers, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch",
+        "sai-enhance",
+        true,
+        true,
+        true
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 49,
+      "type": "KSampler",
+      "pos": [
+        -430,
+        1020
+      ],
+      "size": {
+        "0": 350,
+        "1": 330
+      },
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 100,
+          "label": "model"
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 115,
+          "label": "positive"
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 116,
+          "label": "negative"
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 98,
+          "label": "latent_image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            121
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        183340749438538,
+        "randomize",
+        8,
+        2.5,
+        "euler_ancestral",
+        "normal",
+        1
+      ],
+      "serialize_values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 5,
+      "type": "EmptyLatentImage",
+      "pos": [
+        -800,
+        60
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            2,
+            96,
+            97,
+            98
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ],
+      "serialize_values": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -1240,
+        41
+      ],
+      "size": {
+        "0": 400,
+        "1": 110
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            131
+          ],
+          "slot_index": 0,
+          "label": "MODEL"
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            132
+          ],
+          "slot_index": 1,
+          "label": "CLIP"
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "slot_index": 2,
+          "label": "VAE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "1540_2949_3459@31e35c80fc.safetensors"
+      ],
+      "serialize_values": [
+        null
+      ]
+    },
+    {
+      "id": 63,
+      "type": "TranslateNode",
+      "pos": [
+        -1675,
+        49
+      ],
+      "size": {
+        "0": 405.4109191894531,
+        "1": 293.3949890136719
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            127,
+            128,
+            129,
+            130
+          ],
+          "shape": 6,
+          "label": "STRING",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TranslateNode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "serialize_values": [
+        null
+      ]
+    },
+    {
+      "id": 20,
+      "type": "SDXLPromptStyler",
+      "pos": [
+        -1230,
+        430
+      ],
+      "size": {
+        "0": 380,
+        "1": 192
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 37,
+          "widget": {
+            "name": "text_positive"
+          },
+          "label": "text_positive"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "links": [
+            34
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "text_positive"
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "links": [
+            32
+          ],
+          "shape": 3,
+          "slot_index": 1,
+          "label": "text_negative"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStyler"
+      },
+      "widgets_values": [
+        "",
+        "deformed, bad anatomy, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, worst quality, low quality, mutation, poorly drawn, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, missing fingers, fused fingers, abnormal eye proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal fingers, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch",
+        "sai-enhance",
+        true,
+        true,
+        true
+      ],
+      "serialize_values": [
+        "",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 40,
+      "type": "LoraLoader",
+      "pos": [
+        -1230,
+        240
+      ],
+      "size": {
+        "0": 390,
+        "1": 130
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 131,
+          "label": "model"
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 132,
+          "label": "clip"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            75,
+            86,
+            99,
+            100
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "MODEL"
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            76,
+            77,
+            88,
+            90,
+            109,
+            110,
+            111,
+            112
+          ],
+          "shape": 3,
+          "slot_index": 1,
+          "label": "CLIP"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "2415_3945_4641@d7a59bae72",
+        1,
+        1
+      ],
+      "serialize_values": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 15,
+      "type": "VAELoader",
+      "pos": [
+        -410,
+        -50
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            27,
+            94,
+            117,
+            120
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "VAE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "sdxl_vae@63aeecb90f.safetensors"
+      ],
+      "serialize_values": [
+        null
+      ]
+    },
+    {
+      "id": 52,
+      "type": "VAEDecode",
+      "pos": [
+        -60,
+        440
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 93,
+          "label": "samples"
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 94,
+          "label": "vae"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            133
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 64,
+      "type": "SaveImage",
+      "pos": [
+        206,
+        472
+      ],
+      "size": {
+        "0": 372.18182373046875,
+        "1": 239.1837158203125
+      },
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 133,
+          "label": "images"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "serialize_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "VAEDecode",
+      "pos": [
+        -50,
+        830
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 118,
+          "label": "samples"
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 117,
+          "label": "vae"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            134
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 65,
+      "type": "SaveImage",
+      "pos": [
+        203.63641357421875,
+        795.4260864257812
+      ],
+      "size": {
+        "0": 376.3636474609375,
+        "1": 272.1212158203125
+      },
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 134,
+          "label": "images"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "serialize_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "VAEDecode",
+      "pos": [
+        -40,
+        1120
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 121,
+          "label": "samples"
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 120,
+          "label": "vae"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            135
+          ],
+          "shape": 3,
+          "slot_index": 0,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 66,
+      "type": "SaveImage",
+      "pos": [
+        199,
+        1131
+      ],
+      "size": {
+        "0": 384.03033447265625,
+        "1": 285.6383056640625
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 135,
+          "label": "images"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "serialize_values": [
+        "ComfyUI"
+      ]
+    }
+  ],
+  "links": [
+    [
+      2,
+      5,
+      0,
+      3,
+      3,
+      "LATENT"
+    ],
+    [
+      4,
+      6,
+      0,
+      3,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      6,
+      7,
+      0,
+      3,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      7,
+      3,
+      0,
+      8,
+      0,
+      "LATENT"
+    ],
+    [
+      9,
+      8,
+      0,
+      9,
+      0,
+      "IMAGE"
+    ],
+    [
+      27,
+      15,
+      0,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      32,
+      20,
+      1,
+      7,
+      1,
+      "STRING"
+    ],
+    [
+      34,
+      20,
+      0,
+      6,
+      1,
+      "STRING"
+    ],
+    [
+      37,
+      21,
+      0,
+      20,
+      0,
+      "STRING"
+    ],
+    [
+      75,
+      40,
+      0,
+      3,
+      0,
+      "MODEL"
+    ],
+    [
+      76,
+      40,
+      1,
+      6,
+      0,
+      "CLIP"
+    ],
+    [
+      77,
+      40,
+      1,
+      7,
+      0,
+      "CLIP"
+    ],
+    [
+      83,
+      41,
+      0,
+      44,
+      0,
+      "STRING"
+    ],
+    [
+      84,
+      42,
+      0,
+      45,
+      0,
+      "STRING"
+    ],
+    [
+      85,
+      43,
+      0,
+      46,
+      0,
+      "STRING"
+    ],
+    [
+      86,
+      40,
+      0,
+      47,
+      0,
+      "MODEL"
+    ],
+    [
+      88,
+      40,
+      1,
+      50,
+      0,
+      "CLIP"
+    ],
+    [
+      90,
+      40,
+      1,
+      51,
+      0,
+      "CLIP"
+    ],
+    [
+      91,
+      50,
+      0,
+      47,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      92,
+      51,
+      0,
+      47,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      93,
+      47,
+      0,
+      52,
+      0,
+      "LATENT"
+    ],
+    [
+      94,
+      15,
+      0,
+      52,
+      1,
+      "VAE"
+    ],
+    [
+      96,
+      5,
+      0,
+      47,
+      3,
+      "LATENT"
+    ],
+    [
+      97,
+      5,
+      0,
+      48,
+      3,
+      "LATENT"
+    ],
+    [
+      98,
+      5,
+      0,
+      49,
+      3,
+      "LATENT"
+    ],
+    [
+      99,
+      40,
+      0,
+      48,
+      0,
+      "MODEL"
+    ],
+    [
+      100,
+      40,
+      0,
+      49,
+      0,
+      "MODEL"
+    ],
+    [
+      103,
+      44,
+      0,
+      50,
+      1,
+      "STRING"
+    ],
+    [
+      104,
+      44,
+      1,
+      51,
+      1,
+      "STRING"
+    ],
+    [
+      105,
+      45,
+      0,
+      54,
+      1,
+      "STRING"
+    ],
+    [
+      106,
+      45,
+      1,
+      55,
+      1,
+      "STRING"
+    ],
+    [
+      107,
+      46,
+      0,
+      56,
+      1,
+      "STRING"
+    ],
+    [
+      108,
+      46,
+      1,
+      57,
+      1,
+      "STRING"
+    ],
+    [
+      109,
+      40,
+      1,
+      56,
+      0,
+      "CLIP"
+    ],
+    [
+      110,
+      40,
+      1,
+      57,
+      0,
+      "CLIP"
+    ],
+    [
+      111,
+      40,
+      1,
+      54,
+      0,
+      "CLIP"
+    ],
+    [
+      112,
+      40,
+      1,
+      55,
+      0,
+      "CLIP"
+    ],
+    [
+      113,
+      54,
+      0,
+      48,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      114,
+      55,
+      0,
+      48,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      115,
+      56,
+      0,
+      49,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      116,
+      57,
+      0,
+      49,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      117,
+      15,
+      0,
+      58,
+      1,
+      "VAE"
+    ],
+    [
+      118,
+      48,
+      0,
+      58,
+      0,
+      "LATENT"
+    ],
+    [
+      120,
+      15,
+      0,
+      60,
+      1,
+      "VAE"
+    ],
+    [
+      121,
+      49,
+      0,
+      60,
+      0,
+      "LATENT"
+    ],
+    [
+      127,
+      63,
+      0,
+      21,
+      0,
+      "STRING"
+    ],
+    [
+      128,
+      63,
+      0,
+      41,
+      0,
+      "STRING"
+    ],
+    [
+      129,
+      63,
+      0,
+      42,
+      0,
+      "STRING"
+    ],
+    [
+      130,
+      63,
+      0,
+      43,
+      0,
+      "STRING"
+    ],
+    [
+      131,
+      4,
+      0,
+      40,
+      0,
+      "MODEL"
+    ],
+    [
+      132,
+      4,
+      1,
+      40,
+      1,
+      "CLIP"
+    ],
+    [
+      133,
+      52,
+      0,
+      64,
+      0,
+      "IMAGE"
+    ],
+    [
+      134,
+      58,
+      0,
+      65,
+      0,
+      "IMAGE"
+    ],
+    [
+      135,
+      60,
+      0,
+      66,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
